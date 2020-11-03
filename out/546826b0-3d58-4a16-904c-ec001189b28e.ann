@@ -1,0 +1,21 @@
+T1	Organization 41 64	Jonathan’s inauguration
+T2	Organization 67 84	Security Agencies
+T3	Title_Role 353 372	Chief of Army Staff
+T4	Rank 374 392	Lieutenant-General
+T5	Person 393 407	A.O. Ihejirika
+T6	Organization 1090 1118	Diamond Crest Hospital, Zuba
+T7	Organization 1406 1431	Federal Capital Territory
+T8	Title_Role 1464 1484	FCT Police Spokesman
+T9	Rank 1486 1510	Superintendent of Police
+T10	Person 1511 1524	Jimoh Moshood
+T11	Person 2408 2427	Abdulkadir Indabawa
+T12	Title_Role 2490 2508	Barracks Commander
+T13	Rank 2510 2528	Brigadier- General
+T14	Person 2529 2542	Agbo Robinson
+T15	Title_Role 2654 2673	Chief of Army Staff
+R1	has_title_or_role Arg1:T5 Arg2:T3
+R2	has_rank Arg1:T5 Arg2:T4
+R3	has_title_or_role Arg1:T10 Arg2:T8
+R4	has_rank Arg1:T10 Arg2:T9
+R5	has_title_or_role Arg1:T14 Arg2:T12
+R6	has_rank Arg1:T14 Arg2:T13

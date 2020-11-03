@@ -1,0 +1,124 @@
+T1	Organization 50 57	Onitsha
+T2	Organization 627 664	Lagos State Kick Against Indiscipline
+T3	Organization 899 925	Nigerian Red Cross Society
+T4	Person 976 993	Peter Emeka Katcy
+T5	Organization 1313 1322	Deportees
+T6	Person 1379 1397	Rosemary Nathaniel
+T7	Organization 2002 2013	Alausa area
+T8	Location 2017 2022	Lagos
+T9	Location 2564 2569	Lagos
+T10	Organization 2615 2627	Osondu Mbuto
+T11	Organization 4145 4155	Ijebu Ode”
+T12	Organization 4610 4629	Upper Iweka Flyover
+T13	Organization 4882 4891	Red Cross
+T14	Location 4976 4983	Stadium
+T15	Location 5561 5567	Monday
+T16	Person 5684 5703	Nneoma Judith Nwora
+T17	Organization 6496 6517	Madonna Mercy Convent
+T18	Organization 7476 7503	Federal Republic of Nigeria
+T19	Organization 8082 8112	NNENNA OGBONNA AND ESAU IGBANI
+T20	Organization 8200 8213	Ogirishi Igbo
+T21	Rank 8215 8220	Chief
+T22	Person 8221 8246	Rommy Ezeonwuka; Chairman
+T23	Title_Role 8248 8265	Board of Trustees
+T24	Organization 8267 8285	Nigerian Importers
+T25	Rank 8299 8304	Chief
+T26	Person 8305 8348	Gilbert Bravo Obi; Barrister Obiora Muojeke
+T27	Person 8440 8450	N. Muojeke
+T28	Rank 8455 8464	Barrister
+T29	Person 8465 8477	Chris Ajugwe
+T30	Organization 8579 8607	Nigerian Bar Association NBA
+T31	Rank 8960 8968	Governor
+T32	Person 8969 8991	Babatunde Raji Fashola
+T33	Rank 9594 9602	Governor
+T34	Person 9603 9612	Peter Obi
+T35	Person 9656 9673	Goodluck Jonathan
+T36	Location 9971 9981	South-East
+T37	Organization 10491 10522	OSONDU MBUTO ANSWERING QUESTION
+T38	Title_Role 10528 10537	Commander
+T39	Organization 10545 10567	302 Artillery Regiment
+T40	Rank 10578 10581	Col
+T41	Person 10583 10602	Taritimiye Gagariga
+T42	Title_Role 10722 10743	police Area Commander
+T43	Person 10761 10775	Benjamin Wordu
+T44	Title_Role 10780 10812	Assistant Commissioner of Police
+T45	Title_Role 11108 11133	Divisional Police Officer
+T46	Rank 11150 11153	CSP
+T47	Person 11154 11169	Rowland Omatoje
+T48	Rank 11473 11481	Governor
+T49	Person 11482 11491	Peter Obi
+T50	Person 11495 11508	Anambra State
+T51	Organization 12242 12273	UGACARI TUTUA FROM WARRI ,DELTA
+T52	Organization 13039 13069	Nigerian Bar Association (NBA)
+T53	Title_Role 13175 13197	Chairman and Secretary
+T54	Rank 13218 13227	Barrister
+T55	Person 13228 13244	D. C. Maduechesi
+T56	Rank 13249 13254	Steve
+T57	Person 13255 13269	Onyechi Ononye
+T58	Organization 14096 14116	Zonal Chairman, Dede
+T59	Rank 14117 14121	Uzor
+T60	Person 14122 14129	A. Uzor
+T61	Rank 14361 14364	Gov
+T62	Person 14366 14383	Babatunde Fashola
+T63	Organization 14680 14702	Lagos State Government
+T64	Person 15099 15105	Ezeani
+T65	Organization 15529 15553	Ogirishi Igbo, Ezeonwuka
+T66	Location 16129 16136	Nigeria
+T67	Rank 16204 16215	Association
+T68	Person 16217 16226	Bravo Obi
+T69	Rank 16629 16637	Governor
+T70	Person 16638 16647	Peter Obi
+T71	Person 16754 16757	Obi
+T72	Location 16946 16956	East, West
+T73	Person 17028 17044	Barrister Ajugwe
+T74	Misclass 17582 17590	Nigerian
+T75	Location 17868 17878	South East
+T76	Location 18293 18309	Northern Nigeria
+T77	Organization 18426 18436	Joint Call
+T78	Organization 18871 18892	MASSOB’s Uchenna Madu
+T79	Person 18909 18926	Emeka Umeagbalasi
+T80	Rank 18931 18936	CLO’s
+T81	Person 18937 18951	Aloysius Attah
+T82	Person 20447 20460	Thomas Hobbes
+T83	Organization 21080 21106	Destitute Social Welfare,”
+T84	Person 21112 21129	Emeka Umeagbalasi
+T85	Location 21901 21906	China
+T86	Location 21990 21997	Nigeria
+T87	Organization 22763 22776	US Government
+T88	Misclass 22861 22869	American
+T89	Organization 23023 23039	Destitute Class”
+T90	Organization 23090 23123	Catholic Destitute Rehabilitation
+T91	Organization 23423 23440	African Continent
+T92	Organization 24198 24222	Gulf Cooperation Council
+T93	Organization 24669 24694	Akanu Ibiam International
+T94	Organization 25171 25204	Enugu-Port Harcourt Dual Carriage
+T95	Organization 25378 25401	States of the Southeast
+T96	Organization 25497 25526	Federal Government of Nigeria
+R1	is_posted Arg1:T4 Arg2:T3
+R2	is_posted Arg1:T22 Arg2:T20
+R3	has_rank Arg1:T22 Arg2:T21
+R4	has_title_or_role Arg1:T22 Arg2:T23
+R5	is_posted Arg1:T22 Arg2:T24
+R6	has_rank Arg1:T22 Arg2:T25
+R7	has_rank Arg1:T29 Arg2:T28
+R8	has_rank Arg1:T32 Arg2:T31
+R9	has_rank Arg1:T34 Arg2:T33
+R10	has_title_or_role Arg1:T41 Arg2:T38
+R11	is_posted Arg1:T41 Arg2:T39
+R12	has_rank Arg1:T41 Arg2:T40
+R13	has_title_or_role Arg1:T43 Arg2:T42
+R14	has_title_or_role Arg1:T43 Arg2:T44
+R15	has_title_or_role Arg1:T47 Arg2:T45
+R16	has_rank Arg1:T47 Arg2:T46
+R17	has_rank Arg1:T49 Arg2:T48
+R18	has_title_or_role Arg1:T55 Arg2:T53
+R19	has_rank Arg1:T55 Arg2:T54
+R20	has_rank Arg1:T57 Arg2:T56
+R21	is_posted Arg1:T60 Arg2:T58
+R22	has_rank Arg1:T60 Arg2:T59
+R23	has_rank Arg1:T62 Arg2:T61
+R24	has_rank Arg1:T68 Arg2:T67
+R25	has_rank Arg1:T70 Arg2:T69
+R26	is_posted Arg1:T79 Arg2:T78
+R27	has_rank Arg1:T81 Arg2:T80
+R28	is_posted Arg1:T84 Arg2:T83

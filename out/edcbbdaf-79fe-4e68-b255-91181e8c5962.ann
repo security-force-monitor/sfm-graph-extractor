@@ -1,0 +1,34 @@
+T1	Person 9 39	Insurgents Seize Gulak Village
+T2	Person 532 537	Gulak
+T3	Location 576 584	Madagali
+T4	Organization 704 719	Task Force Mike
+T5	Organization 736 763	Special Operation Battalion
+T6	Organization 772 784	3rd Division
+T7	Organization 792 805	Nigerian Army
+T8	Person 928 946	LEADERSHIP Weekend
+T9	Organization 1351 1363	Toyota Hilux
+T10	Location 1533 1538	Shuwa
+T11	Person 2045 2063	LEADERSHIP Weekend
+T12	Title_Role 2206 2225	Chief of Army Staff
+T13	Rank 2227 2237	Lt General
+T14	Person 2238 2250	OA Ihejirika
+T15	Organization 2291 2294	DHQ
+T16	Organization 2517 2537	Defence Headquarters
+T17	Title_Role 2556 2579	director of information
+T18	Rank 2581 2594	Major General
+T19	Person 2595 2610	Chris Olukolade
+T20	Organization 3027 3044	National Assembly
+T21	Organization 4622 4660	FG Denies Hiring Australian Negotiator
+T22	Rank 4720 4722	Dr
+T23	Person 4723 4736	Stephen Davis
+T24	Organization 4789 4817	Department of State Services
+T25	Rank 4876 4879	Gen
+T26	Person 4881 4899	Azubuike Ihejirika
+R1	has_title_or_role Arg1:T14 Arg2:T12
+R2	has_rank Arg1:T14 Arg2:T13
+R3	is_posted Arg1:T19 Arg2:T16
+R4	has_title_or_role Arg1:T19 Arg2:T17
+R5	has_rank Arg1:T19 Arg2:T18
+R6	has_rank Arg1:T23 Arg2:T22
+R7	is_posted Arg1:T26 Arg2:T24
+R8	has_rank Arg1:T26 Arg2:T25

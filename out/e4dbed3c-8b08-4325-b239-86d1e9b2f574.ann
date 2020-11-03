@@ -1,0 +1,28 @@
+T1	Organization 0 70	Nigeria: Soldiers Seize Leadership, Daily Trust, the Nation Newspapers
+T2	Rank 114 127	Major-General
+T3	Person 128 143	Chris Olukolade
+T4	Organization 332 351	Media Trust Limited
+T5	Organization 569 580	Daily Trust
+T6	Organization 584 595	Niger State
+T7	Rank 1046 1059	Major General
+T8	Person 1060 1075	Chris Olukolade
+T9	Organization 1366 1392	31 Field Artillery Brigade
+T10	Location 1879 1885	Suleja
+T11	Location 2055 2060	Minna
+T12	Organization 2131 2142	Niger State
+T13	Person 2226 2237	Ndako Kpaki
+T14	Organization 2420 2440	31 Artillery Brigade
+T15	Rank 2442 2449	Captain
+T16	Person 2450 2465	Salisu Mustapha
+T17	Organization 2994 3002	Military
+T18	Rank 3181 3188	Maj Gen
+T19	Person 3190 3205	Chris Olukolade
+T20	Person 3792 3801	Olukolade
+T21	Person 3964 3972	Whatever
+R1	has_rank Arg1:T3 Arg2:T2
+R2	is_posted Arg1:T3 Arg2:T4
+R3	has_rank Arg1:T8 Arg2:T7
+R4	is_posted Arg1:T13 Arg2:T12
+R5	is_posted Arg1:T16 Arg2:T14
+R6	has_rank Arg1:T16 Arg2:T15
+R7	has_rank Arg1:T19 Arg2:T18

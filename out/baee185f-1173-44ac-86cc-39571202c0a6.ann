@@ -1,0 +1,209 @@
+T1	Organization 0 22	Nigeria: Major Shakeup
+T2	Organization 26 30	Army
+T3	Organization 33 47	COAS Redeploys
+T4	Organization 48 60	317 Officers
+T5	Title_Role 136 155	Chief of Army Staff
+T6	Rank 164 171	Lt.-Gen
+T7	Person 173 200	Onyemoabi Azubike Ihejirika
+T8	Title_Role 504 535	Director, Army Public Relations
+T9	Rank 537 544	Maj-Gen
+T10	Person 546 563	Mobolaji Koleosho
+T11	Organization 736 746	3 Division
+T12	Rank 748 755	Maj-Gen
+T13	Person 757 772	Ebiobowei Awala
+T14	Organization 774 784	2 Division
+T15	Rank 786 793	Maj-Gen
+T16	Person 795 807	Ahmed Jibrin
+T17	Title_Role 820 829	Commander
+T18	Organization 831 854	Nigerian Army Engineers
+T19	Rank 856 863	Maj-Gen
+T20	Person 864 880	Ashimiyu Olaniyi
+T21	Title_Role 896 899	GOC
+T22	Organization 900 911	82 Division
+T23	Title_Role 926 929	GOC
+T24	Organization 930 941	81 Division
+T25	Rank 945 952	Maj-Gen
+T26	Person 954 963	Obi Umahi
+T27	Organization 976 1002	Army Headquarters Garrison
+T28	Title_Role 1003 1012	Commander
+T29	Rank 1016 1023	Maj-Gen
+T30	Person 1025 1037	Obidah Ethan
+T31	Title_Role 1086 1089	GOC
+T32	Organization 1090 1101	81 Division
+T33	Rank 1103 1110	Maj-Gen
+T34	Person 1112 1132	Kenneth T.J. Minimah
+T35	Title_Role 1141 1150	Commander
+T36	Organization 1152 1177	Infantry Corps and Centre
+T37	Title_Role 1196 1228	Chief of Training and Operations
+T38	Organization 1230 1243	Nigerian Army
+T39	Rank 1244 1256	Major Genral
+T40	Person 1257 1273	Lawrence Ngubane
+T41	Title_Role 1285 1317	Chief of Training and Operations
+T42	Organization 1325 1345	Defence Headquarters
+T43	Title_Role 1358 1361	GOC
+T44	Organization 1362 1372	3 Division
+T45	Rank 1374 1381	Maj-Gen
+T46	Person 1383 1395	Jack Nwaogbo
+T47	Title_Role 1407 1439	Chief of Training and Opeartions
+T48	Organization 1443 1460	Army Headquarters
+T49	Title_Role 1469 1472	GOC
+T50	Organization 1473 1483	2 Division
+T51	Rank 1485 1492	Maj-Gen
+T52	Person 1494 1511	Mohammed Abubakar
+T53	Title_Role 1523 1551	Chief of Army Administration
+T54	Organization 1559 1576	Army Headquarters
+T55	Rank 1607 1614	Maj-Gen
+T56	Person 1616 1626	Paul Isang
+T57	Title_Role 1638 1675	Chief of Army Standard and Evaluation
+T58	Rank 1694 1701	Maj-Gen
+T59	Person 1703 1720	Shehu Abdul-Kadir
+T60	Title_Role 1748 1763	Force Commander
+T61	Organization 1797 1821	Support Mission for Mali
+T62	Title_Role 1840 1849	Commander
+T63	Organization 1858 1901	Nigerian Army Training and Doctrine Command
+T64	Rank 1914 1921	Maj-Gen
+T65	Person 1923 1939	Babagana Munguno
+T66	Rank 1941 1948	Maj-Gen
+T67	Person 1950 1966	Daniel Kitchener
+T68	Title_Role 1974 1992	Chief of Logistics
+T69	Organization 2000 2017	Army Headquarters
+T70	Rank 2024 2031	Maj-Gen
+T71	Person 2033 2048	Emmanuel Bassey
+T72	Title_Role 2061 2086	Chief of Policy and Plans
+T73	Rank 2144 2151	Maj-Gen
+T74	Person 2153 2167	Obinali Ariahu
+T75	Title_Role 2177 2210	Chief of Research and Development
+T76	Organization 2218 2239	Defence Headquarters;
+T77	Rank 2240 2247	Maj-Gen
+T78	Person 2249 2260	John Zaruwa
+T79	Title_Role 2274 2310	Coordinator, Peacekeeping Operations
+T80	Organization 2318 2337	Ministry of Defence
+T81	Rank 2339 2346	Maj-Gen
+T82	Person 2348 2358	Salihu Uba
+T83	Title_Role 2370 2380	Commandant
+T84	Organization 2382 2416	Nigerian Army Peacekeeping Centre;
+T85	Title_Role 2428 2460	Defence Adviser, UN Headquarters
+T86	Rank 2472 2479	Maj-Gen
+T87	Person 2481 2491	Garba Audu
+T88	Title_Role 2499 2517	Chief of Logistics
+T89	Organization 2519 2539	Defence Headquarters
+T90	Title_Role 2549 2565	Director General
+T91	Rank 2610 2617	Maj-Gen
+T92	Person 2619 2634	Ekwenugo Chioba
+T93	Rank 2639 2646	Maj-Gen
+T94	Person 2648 2661	Abubakar Gana
+T95	Title_Role 2673 2683	Commandant
+T96	Organization 2685 2718	Nigerian Army School of Logistics
+T97	Rank 2739 2758	Commandant, Maj-Gen
+T98	Person 2760 2776	Adekunle Martins
+T99	Title_Role 2784 2793	Commander
+T100	Organization 2795 2824	Nigerian Army Ordinance Corps
+T101	Title_Role 2839 2848	Commander
+T102	Organization 2850 2871	Nigerian Army Signals
+T103	Rank 2883 2890	Maj-Gen
+T104	Person 2892 2910	Abayomi Olonisakin
+T105	Title_Role 2917 2926	Commander
+T106	Organization 2928 2968	Nigerian Army Supply and Transport Corps
+T107	Rank 2976 2983	Maj-Gen
+T108	Person 2985 3000	Emmanuel Nienge
+T109	Title_Role 3011 3020	Commander
+T110	Organization 3022 3050	Nigerian Army Armoured Corps
+T111	Rank 3065 3072	Maj-Gen
+T112	Person 3074 3085	John Nwaoga
+T113	Rank 3087 3094	Maj-Gen
+T114	Person 3096 3111	Bolaji Koleosho
+T115	Title_Role 3143 3174	Chief of Civil-Military Affairs
+T116	Title_Role 3184 3215	Director, Army Public Relations
+T117	Rank 3222 3239	Brigadier General
+T118	Person 3240 3256	Ibrahim Attahiru
+T119	Title_Role 3282 3296	Army spokesman
+T120	Rank 3298 3305	Maj-Gen
+T121	Person 3307 3319	Bitrus Kwaji
+R1	has_title_or_role Arg1:T7 Arg2:T5
+R2	has_rank Arg1:T7 Arg2:T6
+R3	has_title_or_role Arg1:T10 Arg2:T8
+R4	has_rank Arg1:T10 Arg2:T9
+R5	is_posted Arg1:T13 Arg2:T11
+R6	has_rank Arg1:T13 Arg2:T12
+R7	is_posted Arg1:T13 Arg2:T14
+R8	has_rank Arg1:T16 Arg2:T15
+R9	has_title_or_role Arg1:T20 Arg2:T17
+R10	is_posted Arg1:T20 Arg2:T18
+R11	has_rank Arg1:T20 Arg2:T19
+R12	has_title_or_role Arg1:T16 Arg2:T21
+R13	is_posted Arg1:T16 Arg2:T22
+R14	has_title_or_role Arg1:T26 Arg2:T23
+R15	is_posted Arg1:T26 Arg2:T24
+R16	has_rank Arg1:T26 Arg2:T25
+R17	is_posted Arg1:T20 Arg2:T27
+R18	has_title_or_role Arg1:T20 Arg2:T28
+R19	has_rank Arg1:T30 Arg2:T29
+R20	has_title_or_role Arg1:T34 Arg2:T31
+R21	is_posted Arg1:T34 Arg2:T32
+R22	has_rank Arg1:T34 Arg2:T33
+R23	has_title_or_role Arg1:T34 Arg2:T35
+R24	is_posted Arg1:T34 Arg2:T36
+R25	has_title_or_role Arg1:T40 Arg2:T37
+R26	is_posted Arg1:T40 Arg2:T38
+R27	has_rank Arg1:T40 Arg2:T39
+R28	has_title_or_role Arg1:T40 Arg2:T41
+R29	is_posted Arg1:T52 Arg2:T42
+R30	has_title_or_role Arg1:T46 Arg2:T43
+R31	is_posted Arg1:T46 Arg2:T44
+R32	has_rank Arg1:T46 Arg2:T45
+R33	has_title_or_role Arg1:T46 Arg2:T47
+R34	is_posted Arg1:T52 Arg2:T48
+R35	has_title_or_role Arg1:T52 Arg2:T49
+R36	is_posted Arg1:T52 Arg2:T50
+R37	has_rank Arg1:T52 Arg2:T51
+R38	has_title_or_role Arg1:T52 Arg2:T53
+R39	is_posted Arg1:T52 Arg2:T54
+R40	has_rank Arg1:T56 Arg2:T55
+R41	has_title_or_role Arg1:T71 Arg2:T57
+R42	has_rank Arg1:T59 Arg2:T58
+R43	has_title_or_role Arg1:T71 Arg2:T60
+R44	is_posted Arg1:T71 Arg2:T61
+R45	has_title_or_role Arg1:T71 Arg2:T62
+R46	is_posted Arg1:T65 Arg2:T63
+R47	has_rank Arg1:T65 Arg2:T64
+R48	has_rank Arg1:T65 Arg2:T66
+R49	has_title_or_role Arg1:T67 Arg2:T68
+R50	is_posted Arg1:T67 Arg2:T69
+R51	has_rank Arg1:T71 Arg2:T70
+R52	has_title_or_role Arg1:T71 Arg2:T72
+R53	has_rank Arg1:T74 Arg2:T73
+R54	has_title_or_role Arg1:T74 Arg2:T75
+R55	is_posted Arg1:T74 Arg2:T76
+R56	has_rank Arg1:T78 Arg2:T77
+R57	has_title_or_role Arg1:T74 Arg2:T79
+R58	is_posted Arg1:T82 Arg2:T80
+R59	has_rank Arg1:T82 Arg2:T81
+R60	has_title_or_role Arg1:T74 Arg2:T83
+R61	is_posted Arg1:T74 Arg2:T84
+R62	has_title_or_role Arg1:T87 Arg2:T85
+R63	has_rank Arg1:T87 Arg2:T86
+R64	has_title_or_role Arg1:T87 Arg2:T88
+R65	is_posted Arg1:T74 Arg2:T89
+R66	has_title_or_role Arg1:T87 Arg2:T90
+R67	has_rank Arg1:T92 Arg2:T91
+R68	has_rank Arg1:T94 Arg2:T93
+R69	has_title_or_role Arg1:T87 Arg2:T95
+R70	is_posted Arg1:T87 Arg2:T96
+R71	has_rank Arg1:T98 Arg2:T97
+R72	has_title_or_role Arg1:T98 Arg2:T99
+R73	is_posted Arg1:T98 Arg2:T100
+R74	has_title_or_role Arg1:T74 Arg2:T101
+R75	is_posted Arg1:T82 Arg2:T102
+R76	has_rank Arg1:T82 Arg2:T103
+R77	has_title_or_role Arg1:T108 Arg2:T105
+R78	is_posted Arg1:T108 Arg2:T106
+R79	has_rank Arg1:T108 Arg2:T107
+R80	has_title_or_role Arg1:T121 Arg2:T109
+R81	is_posted Arg1:T121 Arg2:T110
+R82	has_rank Arg1:T112 Arg2:T111
+R83	has_rank Arg1:T112 Arg2:T113
+R84	has_title_or_role Arg1:T114 Arg2:T115
+R85	has_title_or_role Arg1:T114 Arg2:T116
+R86	has_rank Arg1:T118 Arg2:T117
+R87	has_title_or_role Arg1:T118 Arg2:T119
+R88	has_rank Arg1:T121 Arg2:T120

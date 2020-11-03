@@ -1,0 +1,34 @@
+T1	Organization 0 63	Ops Python Dance 2: GOC 82 Div tours IPOB leader, Nnamdi Kanu’s
+T2	Title_Role 216 242	General Officer Commanding
+T3	Organization 249 260	82 Division
+T4	Rank 276 289	Major General
+T5	Person 290 309	Adamu Baba Abubakar
+T6	Rank 392 399	General
+T7	Person 400 419	Adamu Baba Abubakar
+T8	Rank 452 459	Colonel
+T9	Person 460 470	Sagir Musa
+T10	Title_Role 472 510	Deputy Director, Army Public relations
+T11	Organization 512 523	82 division
+T12	Title_Role 668 677	Commander
+T13	Organization 678 688	14 Brigade
+T14	Rank 690 707	Brigadier General
+T15	Person 708 718	AK Ibrahim
+T16	Title_Role 767 794	Commissioner of Police Abia
+T17	Person 805 814	O Oyebade
+T18	Person 901 911	Oko Chukwu
+T19	Organization 1391 1430	Rules of Engagement and Code of Conduct
+T20	Organization 1434 1462	Internal Security Operations
+T21	Rank 1591 1594	Col
+T22	Person 1595 1600	Sagir
+R1	has_title_or_role Arg1:T5 Arg2:T2
+R2	is_posted Arg1:T5 Arg2:T3
+R3	has_rank Arg1:T5 Arg2:T4
+R4	has_rank Arg1:T7 Arg2:T6
+R5	has_rank Arg1:T9 Arg2:T8
+R6	has_title_or_role Arg1:T9 Arg2:T10
+R7	is_posted Arg1:T9 Arg2:T11
+R8	has_title_or_role Arg1:T17 Arg2:T12
+R9	is_posted Arg1:T15 Arg2:T13
+R10	has_rank Arg1:T15 Arg2:T14
+R11	has_title_or_role Arg1:T17 Arg2:T16
+R12	has_rank Arg1:T22 Arg2:T21

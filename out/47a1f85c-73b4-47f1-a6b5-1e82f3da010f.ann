@@ -1,0 +1,25 @@
+T1	Organization 24 44	operation in Sambisa
+T2	Title_Role 55 64	Commander
+T3	Organization 70 83	Nigerian Army
+T4	Rank 224 232	Maj.-Gen
+T5	Person 234 246	Lucky Irabor
+T6	Title_Role 252 269	Theater Commander
+T7	Organization 270 291	Operation Lafiya Dole
+T8	Organization 381 402	Operation Lafiya Dole
+T9	Title_Role 594 620	General Officer Commanding
+T10	Organization 627 637	7 division
+T11	Organization 645 658	Nigerian Army
+T12	Rank 669 678	Brig.-Gen
+T13	Person 680 693	Victor Ezugwu
+T14	Title_Role 709 712	GOC
+T15	Organization 713 723	7 division
+T16	Person 1497 1503	Irabor
+T17	Organization 2070 2084	Bogoro, Duguno
+T18	Organization 2504 2511	14 Dane
+R1	has_rank Arg1:T5 Arg2:T4
+R2	has_title_or_role Arg1:T5 Arg2:T6
+R3	is_posted Arg1:T5 Arg2:T7
+R4	has_title_or_role Arg1:T13 Arg2:T9
+R5	is_posted Arg1:T13 Arg2:T10
+R6	is_posted Arg1:T13 Arg2:T11
+R7	has_rank Arg1:T13 Arg2:T12

@@ -1,0 +1,91 @@
+T1	Organization 0 27	Nigerian Army | 81 Division
+T2	Organization 29 67	Headquarters 81 Division Nigerian Army
+T3	Organization 113 137	Nigerian Army Formations
+T4	Organization 607 646	GENERAL OFFICERS COMMANDING 81 DIVISION
+T5	Organization 648 670	LAGOS GARRISON COMMAND
+T6	Organization 672 675	S/N
+T7	Organization 677 681	Rank
+T8	Organization 689 707	Awards/ Decoration
+T9	Organization 709 713	Appt
+T10	Organization 715 721	Period
+T11	Organization 728 732	Brig
+T12	Organization 734 742	AK Adisa
+T13	Organization 744 747	FSS
+T14	Organization 757 761	Comd
+T15	Person 775 778	Oct
+T16	Rank 788 796	Brig Gen
+T17	Organization 798 806	AK Adisa
+T18	Organization 808 811	FSS
+T19	Organization 821 825	Comd
+T20	Organization 827 830	Oct
+T21	Rank 852 860	Brig Gen
+T22	Organization 862 872	IR Bamaiyi
+T23	Organization 874 877	FSS
+T24	Organization 887 891	Comd
+T25	Organization 893 899	20 Sep
+T26	Rank 921 928	Maj Gen
+T27	Organization 930 940	IR Bamaiyi
+T28	Organization 942 945	FSS
+T29	Organization 955 959	Comd
+T30	Organization 961 967	31 Dec
+T31	Rank 989 997	Brig Gen
+T32	Organization 999 1007	PN Aziza
+T33	Organization 1009 1016	FSS DSS
+T34	Organization 1026 1030	Comd
+T35	Organization 1032 1037	1 Jul
+T36	Person 1046 1049	Jun
+T37	Rank 1059 1066	Maj Gen
+T38	Organization 1068 1076	PN Aziza
+T39	Organization 1078 1085	FSS DSS
+T40	Organization 1095 1099	Comd
+T41	Organization 1101 1106	1 Jul
+T42	Rank 1128 1135	Maj Gen
+T43	Organization 1137 1147	BS Magashi
+T44	Organization 1149 1168	FSS MSS DSS psc mni
+T45	Organization 1170 1174	Comd
+T46	Rank 1203 1210	Maj Gen
+T47	Organization 1212 1220	SVL Malu
+T48	Organization 1222 1225	DSS
+T49	Organization 1239 1243	Comd
+T50	Person 1259 1262	Jul
+T51	Rank 1272 1280	Brig Gen
+T52	Organization 1282 1290	GT Zidon
+T53	Organization 1292 1311	FSS MSS psc Ndc OFR
+T54	Organization 1313 1317	Comd
+T55	Organization 1319 1325	19 Jul
+T56	Rank 1348 1356	Brig Gen
+T57	Organization 1358 1366	GT Zidon
+T58	Organization 1368 1387	FSS MSS psc Ndc OFR
+T59	Organization 1389 1392	GOC
+T60	Rank 1423 1431	Brig Gen
+T61	Organization 1433 1440	TN Abdu
+T62	Organization 1442 1461	MSS DSS psc Fwc Ndu
+T63	Organization 1463 1466	GOC
+T64	Organization 1468 1474	13 Apr
+T65	Rank 1491 1498	Maj Gen
+T66	Organization 1500 1514	AA Mshelbwalla
+T67	Rank 1547 1554	Maj Gen
+T68	Organization 1556 1563	S Iliya
+T69	Organization 1565 1576	DSS psc Fwc
+T70	Organization 1578 1581	GOC
+T71	Rank 1612 1619	Maj Gen
+T72	Organization 1621 1634	JO Adesunloye
+T73	Organization 1636 1639	DSS
+T74	Organization 1652 1655	GOC
+T75	Rank 1686 1693	Maj Gen
+T76	Organization 1695 1707	OA Ihejirika
+T77	Organization 1712 1715	GOC
+T78	Rank 1742 1749	Maj Gen
+T79	Person 1751 1766	Eugene Nwanjuma
+T80	Rank 1792 1799	Maj Gen
+T81	Organization 1801 1812	KTJ Minimah
+T82	Rank 1837 1844	Maj Gen
+T83	Organization 1846 1854	OA Umahi
+T84	Rank 1875 1885	19 Maj Gen
+T85	Person 1886 1893	TI Dibi
+T86	Organization 1915 1936	Nigerian Army History
+T87	Organization 1957 1970	Nigerian Army
+T88	Person 1991 2000	Lt Glover
+R1	is_posted Arg1:T36 Arg2:T35
+R2	has_rank Arg1:T85 Arg2:T84
+R3	is_posted Arg1:T88 Arg2:T87

@@ -1,0 +1,235 @@
+>>> Ian Ma, Dec 3, 2019 - Dec 15, 2019:
+
+
+We started with a very simple nearest neighbor algorithm for relationship extraction.
+This will be used as the baseline. Within a sentence, the algorithm assigns non-person
+name entities to the person that appears immediately after. If there are no persons
+after them, then assign them to the nearest person in spite of whether the person
+appears before or after.
+
+--- TO DO:
+  Dependency parsing: https://github.com/datquocnguyen/jPTDP
+    $ source .DyNet/bin/activate
+    $ python utils/converter.py my_test/text.ph.txt
+    $ python jPTDP.py --predict --model sample/model256 --params sample/model256.params --test my_test/text.ph.txt.conllu --outdir my_test/ --output text.ph.conllu.pred
+    $ deactivate
+  Visualization Tool: https://universaldependencies.org/conllu_viewer.html
+
+  test case id: a7105b41-1e5c-4d6b-8920-ebad5d9e068c
+
+1. remove contents in brackets
+2. modified NER
+  a) Tokens with all uppercase letters are also classified as org
+  b) Split name entities, such as "T39	Person 1176 1196	Major General Arende"
+
+
+
+
+
+>>> Ian Ma, Jan 8, 2020 - Jan 9, 2020:
+
+--- To run dependency parsing, now run:
+  $ source .DyNet/bin/activate
+  $ python utils/converter.py buffer/test.txt
+  $ python jPTDP.py --predict --model sample/model256 --params sample/model256.params --test buffer/test.txt.conllu --outdir buffer/ --output test.txt.conllu.pred
+  $ deactivate
+
+--- Usage:
+  1. Go to folder NER and run:
+    $ python ner.py /PATH/TO/<doc_name>.txt
+    Predicted annotations are written into /PATH/TO/<doc_name>.ann
+
+  2. Go to folder RE/<version> and run:
+    $ python placeholder.py /PATH/TO/<doc_name>.txt /PATH/TO/<doc_name>.ann
+    This generates /PATH/TO/<doc_name>.ph.txt with certain name entities replaced with corresponding placeholders
+
+  3. Go to folder RE/jPTDP-master, move dep_parse.py to this folder,
+          and move <doc_name>.ph.txt to folder "buffer" and run:
+    $ source .DyNet/bin/activate
+    $ python dep_parse.py buffer/<doc_name>.ph.txt
+    $ deactivate
+
+  4. Go back to folder RE/<version> and run:
+    $ python relation_dep.py /PATH/TO/jPTDP-master/buffer /PATH/TO/<doc_name>.txt /PATH/TO/<doc_name>.ann
+
+
+
+
+
+>>> Ian Ma, Jan 9, 2020 - Feb 5, 2020:
+--- Tried algorithm on 17a7a0b4-17d8-47bf-9a00-c2c1c99c5685.txt
+
+--- Interesting files:
+    6d8d6c4d-317e-4f9f-bbf0-35e190c15374
+    90050408-1e9c-4d11-ab4b-e978bb4aab6a
+    92167d54-96bb-4dcb-90aa-b185584c5c25
+    a2922c4e-d151-4b62-b0e1-bfe41d1af48c
+    b166faeb-7005-422d-8dd1-b8039edc0705
+    baee185f-1173-44ac-86cc-39571202c0a6
+
+
+
+
+
+>>>  Ian Ma, Feb 5, 2020 - Feb 11, 2020:
+--- Instead of looking for the entity with the shortest path to the person,
+    we now look for the entity whose path has a certain pattern
+
+    A better conllu visualizer: http://spyysalo.github.io/conllu.js/
+
+--- Feb 5 meeting recap:
+    Goal:
+        1. How we can apply the algorithm to make KGE work in a way that
+          it needs less time for user to correct the results than doing KGE manually.
+        2. A website for visualization the results
+            -> spaCy visualizers: https://spacy.io/usage/visualizers
+    Paper:
+        1. What is the challenging part of this project?
+        2. How NLP is not working well in some cases? Does not adapt well?
+        3. Demo paper / academic paper
+        4. How to evaluate the results?
+
+--- Wrote:
+    1. Fixed bugs in the previous version
+      -> Now only considers person in the current sentence, instead of all persons in the document.
+      -> When interpreting placeholders, it previously only works for two digit name entity id's, and cannot have punctuations at the end
+
+    2. Tried to replace the shortest-path method but saw some problems:
+      -> The placeholders can also confuse the parser, causing a single name entity to 'dominate' the sentence
+      -> Without placeholders, the algorithm performs worse on some files like a7105b41-1e5c-4d6b-8920-ebad5d9e068c.txt
+
+    3. Ideas
+      -> Maybe we can notify the user if a person as too many rank/titles assign to him/her
+
+
+
+
+
+>>>  Ian Ma, Feb 11, 2020 - Feb 21, 2020:
+--- TO DO:
+    https://docs.google.com/document/d/1peTZnAwlrP7_CLeP2VvHkjBC_vhOf4H6SPConRIpIRQ/edit#
+    constituency parser
+
+--- Wrote:
+    1. Fixed more bugs
+
+    2. Removed placeholder from RE
+
+    3. Wrote a bash script for running the whole pipeline from NER to RE for a batch of documents:
+            baseline.sh, pipeline_ph.sh, pipeline.sh
+        Usage:
+            $ source pipeline.sh
+
+    4. Wrote ne_only.py to extract only name entity entries in an .ann file.
+
+    5. eval.py for evaluating RE
+      Nearest Person:
+            Precision: 0.35941866964784797
+             643 / 1789
+            Recall: 0.4540960451977401
+             643 / 1416
+
+      Dep+ph:
+            Precision: 0.3911525029103609
+           	 672 / 1718
+            Recall: 0.4745762711864407
+           	 672 / 1416
+
+      Dep:
+            Precision: 0.4324956165984804
+             740 / 1711
+            Recall: 0.5225988700564972
+             740 / 1416
+
+      Dep with ground truth name entities:
+            Precision: 0.8225584594222833
+           	 1196 / 1454
+            Recall: 0.844632768361582
+           	 1196 / 1416
+
+
+
+
+
+>>>  Ian Ma, Feb 11, 2020 - Feb 21, 2020:
+--- TO DO:
+    1. Perform some error analysis on your results with gold entities.
+          This should include examining if relations are completely missed,
+          or if the type is just wrong, and if so why (dependency path has not been seen,
+          another relation label was seen more frequently, ...).
+    2. Dependency parsing path: create a list of dependency paths that map to relations, including their frequency in the training data.
+    3. Transformer and BERT, https://github.com/thunlp/NREPapers
+
+
+--- ERROR occurred in files:
+  002fcbe4-503c-400d-8cc0-77a395570ade
+  25c08012-69c2-4e12-a85a-604f0eee0df3
+  e12a7970-4bda-477a-b8ee-7dcc64b51bb8
+
+
+--- Wrote:
+    Previous results:
+                  Wrong span count:  0
+                  Wrong type count:  6
+                  Similar count:  18
+                  Precision: 0.42314436002337813
+                  	 724 / 1711
+                  Recall: 0.5112994350282486
+                  	 724 / 1416
+
+    1. Now only uses the nearest two persons on the left and right side of the name entity.
+                  Wrong span count:  0
+                  Wrong type count:  8
+                  Similar count:  23
+                  Precision: 0.5161479741632413
+                  	 879 / 1703
+                  Recall: 0.6207627118644068
+                  	 879 / 1416
+
+    2. Since the dep parser does not take into account the punctuations in a line and a line could contain multiple sentences,
+        I'm now using semicolon to split the parse tree.
+                  Wrong span count:  0
+                  Wrong type count:  8
+                  Similar count:  27
+                  Precision: 0.5360094451003542
+                  	 908 / 1694
+                  Recall: 0.6412429378531074
+                  	 908 / 1416
+
+            True NE:
+                  Wrong span count:  0
+                  Wrong type count:  0
+                  Similar count:  5
+                  Precision: 0.8773388773388774
+                  	 1266 / 1443
+                  Recall: 0.8940677966101694
+                  	 1266 / 1416
+
+    3. Path patterns
+                  Wrong span count:  0
+                  Wrong type count:  9
+                  Similar count:  29
+                  Precision: 0.5416940249507551
+                  	 825 / 1523
+                  Recall: 0.5826271186440678
+                  	 825 / 1416
+
+--- Usage:
+    1. Copy .txt and .ann from NER and parsing folders to a <data_dir>
+    2. Change re_method to <data_dir> in /rel.sh
+    3. $ source rel.sh
+    4. Change pred_path to <data_dir> in /RE/eval/eval.py
+    5. $ python eval.py
+
+
+
+
+
+>>>  Ian Ma, Feb 21, 2020 - Mar 18, 2020:
+--- Written:
+    1. Cleaned up class definitions by removing duplicate definitions across files in different folders
+    2. Revised how precision and recall are evaluated:
+        Precision: 0.7005909389363099
+        	 1067 / 1523
+        Recall: 0.7535310734463276
+        	 1067 / 1416

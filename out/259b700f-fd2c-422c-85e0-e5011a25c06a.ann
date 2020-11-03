@@ -1,0 +1,13 @@
+T1	Organization 0 4	Army
+T2	Title_Role 58 84	General Officer Commanding
+T3	Organization 91 101	1 Division
+T4	Rank 117 126	Major Gen
+T5	Person 128 143	Adeniyi Oyebade
+T6	Person 489 502	'Sharan Daji'
+T7	Organization 758 778	31 Artillery Brigade
+T8	Person 1314 1333	Katsina/Kano States
+T9	Organization 1656 1667	2 Battalion
+T10	Person 2223 2241	Muhammadu Buhari."
+R1	has_title_or_role Arg1:T5 Arg2:T2
+R2	is_posted Arg1:T5 Arg2:T3
+R3	has_rank Arg1:T5 Arg2:T4

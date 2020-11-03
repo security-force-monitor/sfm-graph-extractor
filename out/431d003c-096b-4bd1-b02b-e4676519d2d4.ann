@@ -1,0 +1,21 @@
+T1	Title_Role 92 118	General Officer Commanding
+T2	Organization 125 136	82 Division
+T3	Organization 137 150	Nigerian Army
+T4	Rank 157 170	Major General
+T5	Person 171 190	Adamu Baba Abubakar
+T6	Rank 880 883	Gen
+T7	Person 884 892	Abubakar
+T8	Title_Role 1402 1434	Director State Security Services
+T9	Title_Role 1734 1749	Deputy Governor
+T10	Person 1770 1784	Moses Ekpo MFR
+T11	Organization 2791 2800	2 Brigade
+T12	Title_Role 3086 3114	Commissioners of Police AKwa
+T13	Person 3148 3158	Don Awunah
+T14	Person 3163 3177	Mohammed Hafiz
+R1	has_title_or_role Arg1:T5 Arg2:T1
+R2	is_posted Arg1:T5 Arg2:T2
+R3	is_posted Arg1:T5 Arg2:T3
+R4	has_rank Arg1:T5 Arg2:T4
+R5	has_rank Arg1:T7 Arg2:T6
+R6	has_title_or_role Arg1:T10 Arg2:T9
+R7	has_title_or_role Arg1:T14 Arg2:T12

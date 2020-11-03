@@ -1,0 +1,29 @@
+T1	Organization 0 4	Army
+T2	Location 32 37	Lagos
+T3	Organization 43 56	Nigerian Army
+T4	Title_Role 194 220	General Officer Commanding
+T5	Organization 227 238	81 Division
+T6	Rank 255 268	Major General
+T7	Person 269 278	Obi Umahi
+T8	Organization 338 350	65 Battalion
+T9	Organization 360 373	Bravo Company
+T10	Rank 421 439	Lieutenant General
+T11	Person 440 450	TY Danjuma
+T12	Title_Role 496 514	Commanding Officer
+T13	Rank 516 534	Lieutenant Colonel
+T14	Person 535 548	Haruna Dasuki
+T15	Person 2067 2078	Gen Danjuma
+T16	Rank 2278 2280	Lt
+T17	Person 2282 2288	Dasuki
+T18	Rank 2325 2328	Gen
+T19	Person 2329 2336	Danjuma
+R1	has_title_or_role Arg1:T7 Arg2:T4
+R2	is_posted Arg1:T7 Arg2:T5
+R3	has_rank Arg1:T7 Arg2:T6
+R4	is_posted Arg1:T7 Arg2:T8
+R5	is_posted Arg1:T7 Arg2:T9
+R6	has_rank Arg1:T11 Arg2:T10
+R7	has_title_or_role Arg1:T14 Arg2:T12
+R8	has_rank Arg1:T14 Arg2:T13
+R9	has_rank Arg1:T17 Arg2:T16
+R10	has_rank Arg1:T19 Arg2:T18

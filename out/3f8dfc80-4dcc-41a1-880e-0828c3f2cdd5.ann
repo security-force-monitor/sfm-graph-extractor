@@ -1,0 +1,49 @@
+T1	Organization 0 58	Terrorism... Shopping Malls, Tank Farms Under Surveillance
+T2	Rank 88 97	Nairobi's
+T3	Person 98 111	Westgate Mall
+T4	Location 115 120	Kenya
+T5	Misclass 610 616	Kenyan
+T6	Organization 746 783	Department of State Security Services
+T7	Person 810 824	Ben Achu-Olayi
+T8	Title_Role 1629 1655	General Officer Commanding
+T9	Organization 1663 1687	81 Division Headquarters
+T10	Rank 1689 1702	Major General
+T11	Person 1703 1713	Abel Umahi
+T12	Rank 2958 2971	Air Commodore
+T13	Person 2972 2982	Yusuf Anas
+T14	Title_Role 3389 3426	state Police Public Relations Officer
+T15	Rank 3428 3431	DSP
+T16	Person 3432 3444	Ngozi Braide
+T17	Person 3518 3533	Chukwuma Ozoani
+T18	Rank 3538 3565	Assistant Superintendent of
+T19	Person 3566 3572	Police
+T20	Location 3636 3641	Kenya
+T21	Organization 4122 4150	Close Circuit Cameras (CCTV)
+T22	Organization 4460 4478	Federal Government
+T23	Person 4654 4666	Labaran Maku
+T24	Organization 5115 5135	Defence Headquarters
+T25	Organization 5566 5579	Nigerian Army
+T26	Organization 5723 5739	Joint Task Force
+T27	Title_Role 5875 5908	Director of Army Public Relations
+T28	Rank 5910 5918	Brig-Gen
+T29	Person 5920 5936	Ibrahim Attahiru
+T30	Organization 5957 5974	Army Headquarters
+T31	Organization 6187 6207	Defence Headquarters
+T32	Title_Role 6226 6257	Director of Defence Information
+T33	Organization 6309 6329	JTF Operation BOYONA
+T34	Organization 6584 6587	JTF
+T35	Organization 6602 6622	Defence Headquarters
+T36	Organization 6682 6702	Defence Information)
+T37	Organization 6832 6849	Army Headquarters
+R1	has_rank Arg1:T3 Arg2:T2
+R2	is_posted Arg1:T7 Arg2:T6
+R3	has_title_or_role Arg1:T11 Arg2:T8
+R4	is_posted Arg1:T11 Arg2:T9
+R5	has_rank Arg1:T11 Arg2:T10
+R6	has_rank Arg1:T13 Arg2:T12
+R7	has_title_or_role Arg1:T16 Arg2:T14
+R8	has_rank Arg1:T16 Arg2:T15
+R9	has_rank Arg1:T17 Arg2:T18
+R10	has_title_or_role Arg1:T29 Arg2:T27
+R11	has_rank Arg1:T29 Arg2:T28
+R12	is_posted Arg1:T29 Arg2:T30

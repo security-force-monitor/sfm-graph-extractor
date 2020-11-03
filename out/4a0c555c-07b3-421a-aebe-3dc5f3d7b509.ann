@@ -1,0 +1,35 @@
+T1	Organization 12 25	Zakzaky, wife
+T2	Organization 28 32	Army
+T3	Organization 38 51	Nigerian Army
+T4	Organization 175 191	Islamic Movement
+T5	Misclass 442 448	Sheikh
+T6	Title_Role 455 481	General Officer Commanding
+T7	Organization 482 507	1 Mechanisd Army Division
+T8	Rank 517 531	Major Greneral
+T9	Person 532 547	Adeniyi Oyebade
+T10	Person 731 738	Shi’ite
+T11	Title_Role 1086 1105	Chief of Army Staff
+T12	Rank 1107 1117	Lieutenant
+T13	Person 1118 1131	Tukur Buratia
+T14	Organization 3191 3211	Deport Nigerian Army
+T15	Organization 3681 3691	1 Division
+T16	Misclass 4379 4384	Zaria
+T17	Person 6171 6185	Sheikh Zakzaky
+T18	Person 6247 6259	Ibrahim Musa
+T19	Organization 6293 6309	Islamic Movement
+T20	Rank 6480 6486	Sayyid
+T21	Person 6487 6503	Ibraheem Zakzaky
+T22	Rank 7112 7118	Sayyid
+T23	Person 7119 7135	Ibraheem Zakzaky
+T24	Location 7484 7525	Ahmadu Bello University Teaching Hospital
+T25	Title_Role 7863 7885	Chief Medical Director
+T26	Person 7913 7925	Lawal Khalid
+R1	has_title_or_role Arg1:T9 Arg2:T6
+R2	is_posted Arg1:T9 Arg2:T7
+R3	has_rank Arg1:T9 Arg2:T8
+R4	has_title_or_role Arg1:T13 Arg2:T11
+R5	has_rank Arg1:T13 Arg2:T12
+R6	is_posted Arg1:T18 Arg2:T19
+R7	has_rank Arg1:T21 Arg2:T20
+R8	has_rank Arg1:T23 Arg2:T22
+R9	has_title_or_role Arg1:T26 Arg2:T25

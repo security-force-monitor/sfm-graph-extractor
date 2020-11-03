@@ -1,0 +1,25 @@
+T1	Organization 44 57	Nigerian Army
+T2	Title_Role 265 279	Army spokesman
+T3	Rank 280 287	Colonel
+T4	Person 288 298	Sani Usman
+T5	Organization 399 409	3 Division
+T6	Rank 513 520	Colonel
+T7	Person 521 526	Usman
+T8	Person 778 792	Musa Abdullahi
+T9	Organization 836 866	2 Improvised Explosive Devices
+T10	Organization 1120 1148	Improvised Explosive Devices
+T11	Organization 1259 1283	121 Task Force Battalion
+T12	Organization 1285 1306	26 Task Force Brigade
+T13	Organization 1630 1657	Improvised Explosive Device
+T14	Organization 2069 2090	26 Task Force Brigade
+T15	Title_Role 2285 2311	General Officer Commanding
+T16	Organization 2312 2322	7 Division
+T17	Rank 2324 2342	Brigadier  General
+T18	Person 2343 2365	Victor Okwudili Ezugwu
+R1	has_title_or_role Arg1:T4 Arg2:T2
+R2	has_rank Arg1:T4 Arg2:T3
+R3	is_posted Arg1:T4 Arg2:T5
+R4	has_rank Arg1:T7 Arg2:T6
+R5	has_title_or_role Arg1:T18 Arg2:T15
+R6	is_posted Arg1:T18 Arg2:T16
+R7	has_rank Arg1:T18 Arg2:T17

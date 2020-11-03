@@ -1,0 +1,17 @@
+T1	Organization 0 47	‘We Arrested Many Boko Haram Suspects In Lagos’
+T2	Title_Role 60 86	General Officer Commanding
+T3	Organization 93 104	81 Division
+T4	Rank 106 115	Major-Gen
+T5	Person 117 127	Tanmi Dibi
+T6	Rank 337 346	Major-Gen
+T7	Person 348 359	Isibor Edet
+T8	Organization 678 689	Lagos State
+T9	Organization 1151 1163	65 Battalion
+T10	Person 1681 1683	So
+T11	Rank 3018 3027	Major-Gen
+T12	Person 3029 3040	Isibor Edet
+R1	has_title_or_role Arg1:T5 Arg2:T2
+R2	is_posted Arg1:T5 Arg2:T3
+R3	has_rank Arg1:T5 Arg2:T4
+R4	has_rank Arg1:T7 Arg2:T6
+R5	has_rank Arg1:T12 Arg2:T11

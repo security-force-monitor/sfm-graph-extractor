@@ -1,0 +1,13 @@
+T1	Organization 0 31	FG Deploys Soldiers In Nasarawa
+T2	Title_Role 218 254	director, army public relations unit
+T3	Rank 256 273	Brigadier General
+T4	Person 274 290	Ibrahim Attahiru
+T5	Title_Role 408 418	army chief
+T6	Rank 420 426	Lt Gen
+T7	Person 428 454	Azubuike Onyeabo Ihejirika
+T8	Organization 463 480	Army Headquarters
+R1	has_title_or_role Arg1:T7 Arg2:T2
+R2	has_rank Arg1:T4 Arg2:T3
+R3	has_title_or_role Arg1:T7 Arg2:T5
+R4	has_rank Arg1:T7 Arg2:T6
+R5	is_posted Arg1:T7 Arg2:T8

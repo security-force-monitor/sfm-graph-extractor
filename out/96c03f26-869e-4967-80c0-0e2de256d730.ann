@@ -1,0 +1,10 @@
+T1	Organization 0 48	Bakassi Killings: Nigerian Soldiers Not Involved
+T2	Person 50 63	Azazi Insists
+T3	Title_Role 65 87	Chief of Defence Staff
+T4	Rank 89 96	General
+T5	Person 97 109	Andrew Azazi
+T6	Organization 256 283	United Nations, Prince Bola
+T7	Person 796 801	Azazi
+R1	is_posted Arg1:T2 Arg2:T1
+R2	has_title_or_role Arg1:T5 Arg2:T3
+R3	has_rank Arg1:T5 Arg2:T4

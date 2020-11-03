@@ -1,0 +1,48 @@
+T1	Organization 0 28	Army, Airforce move into Jos
+T2	Title_Role 91 113	Chief of Defence Staff
+T3	Rank 115 132	Air Chief Marshal
+T4	Person 133 148	Oluseyi Petirin
+T5	Title_Role 484 510	General Officer Commanding
+T6	Organization 511 532	‘3’ Armoured Division
+T7	Rank 555 568	Major General
+T8	Person 569 580	Adamu Marwa
+T9	Title_Role 752 771	Chief of Army Staff
+T10	Rank 773 784	Lt. General
+T11	Person 785 812	Onyeabor Azubuike Ihejirika
+T12	Title_Role 828 846	Chief of Air Staff
+T13	Rank 848 859	Air Marshal
+T14	Person 860 879	Mohammed Dikko Umar
+T15	Organization 1170 1187	Army High Command
+T16	Title_Role 1409 1431	Air Officer Commanding
+T17	Organization 1432 1448	Tactical Command
+T18	Organization 1456 1474	Nigerian Air Force
+T19	Rank 1485 1501	Air Vice Marshal
+T20	Person 1502 1509	Odesola
+T21	Organization 3595 3630	Residents hail Jonathan’s directive
+T22	Title_Role 3732 3754	Chief of Defence Staff
+T23	Rank 3756 3767	Air Marshal
+T24	Person 3768 3783	Oluseyi Petirin
+T25	Organization 3985 4009	Special Task Force (STF)
+T26	Person 4149 4163	Maiyaki Ishaku
+T27	Organization 4222 4240	Federal Government
+T28	Location 4271 4274	Jos
+T29	Title_Role 4605 4648	Acting President of Civil Society Coalition
+T30	Person 4667 4678	Tor Iorapuu
+T31	Person 5497 5516	Air Marshal Petirin
+R1	has_title_or_role Arg1:T4 Arg2:T2
+R2	has_rank Arg1:T4 Arg2:T3
+R3	has_title_or_role Arg1:T8 Arg2:T5
+R4	is_posted Arg1:T8 Arg2:T6
+R5	has_rank Arg1:T8 Arg2:T7
+R6	has_title_or_role Arg1:T11 Arg2:T9
+R7	has_rank Arg1:T11 Arg2:T10
+R8	has_title_or_role Arg1:T11 Arg2:T12
+R9	has_rank Arg1:T14 Arg2:T13
+R10	has_title_or_role Arg1:T20 Arg2:T16
+R11	is_posted Arg1:T20 Arg2:T17
+R12	is_posted Arg1:T20 Arg2:T18
+R13	has_rank Arg1:T20 Arg2:T19
+R14	has_title_or_role Arg1:T24 Arg2:T22
+R15	has_rank Arg1:T24 Arg2:T23
+R16	is_posted Arg1:T26 Arg2:T27
+R17	has_title_or_role Arg1:T30 Arg2:T29

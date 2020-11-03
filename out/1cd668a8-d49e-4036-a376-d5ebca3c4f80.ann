@@ -1,0 +1,38 @@
+T1	Organization 0 24	EXCLUSIVE: Nigerian Army
+T2	Organization 70 83	Nigerian Army
+T3	Person 576 584	M. Jimoh
+T4	Title_Role 594 603	commander
+T5	Organization 611 624	Nigerian Army
+T6	Organization 625 649	145 Task Force Battalion
+T7	Rank 689 707	lieutenant colonel
+T8	Organization 732 745	145 Battalion
+T9	Organization 794 822	Army 7 Division Headquarters
+T10	Organization 840 860	82 Division Garrison
+T11	Organization 889 900	5 Battalion
+T12	Organization 910 922	20 Battalion
+T13	Organization 947 960	103 Battalion
+T14	Organization 974 987	119 Battalion
+T15	Organization 1054 1076	143 Infantry Battalion
+T16	Organization 1112 1125	144 Battalion
+T17	Organization 1150 1163	146 Battalion
+T18	Person 1324 1332	K. Yusuf
+T19	Rank 1336 1354	lieutenant colonel
+T20	Title_Role 1403 1412	commander
+T21	Organization 1420 1444	145 Task Force Battalion
+T22	Organization 2139 2161	Forward Operation Base
+T23	Organization 2488 2501	Nigerian Army
+T24	Organization 2808 2812	Army
+T25	Rank 2884 2888	Army
+T26	Person 2890 2900	Sani Usman
+T27	Title_Role 2980 2997	Theatre Commander
+T28	Organization 3001 3022	Operation Lafiya Dole
+T29	Person 3041 3053	Lucky Irabor
+R1	has_title_or_role Arg1:T3 Arg2:T4
+R2	is_posted Arg1:T3 Arg2:T5
+R3	is_posted Arg1:T3 Arg2:T6
+R4	has_rank Arg1:T18 Arg2:T19
+R5	has_title_or_role Arg1:T18 Arg2:T20
+R6	is_posted Arg1:T18 Arg2:T21
+R7	has_rank Arg1:T26 Arg2:T25
+R8	has_title_or_role Arg1:T29 Arg2:T27
+R9	is_posted Arg1:T29 Arg2:T28

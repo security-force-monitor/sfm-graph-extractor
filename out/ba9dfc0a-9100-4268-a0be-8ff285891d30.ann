@@ -1,0 +1,18 @@
+T1	Misclass 23 30	Islamic
+T2	Organization 84 105	Jama’atu Nasril Islam
+T3	Title_Role 140 156	Sultan of Sokoto
+T4	Title_Role 394 420	General Officer Commanding
+T5	Organization 422 433	82 Division
+T6	Rank 458 471	Major General
+T7	Person 472 488	Ibrahim Attahiru
+T8	Rank 584 612	State Commissioner of Police
+T9	Person 614 631	Nwodibo Ekechukwu
+T10	Rank 833 850	Secretary-General
+T11	Person 852 864	Khalid Aliyu
+T12	Misclass 1145 1152	Islamic
+T13	Person 3657 3687	Alhaji Muhammad Sa’ad Abubakar
+R1	has_title_or_role Arg1:T9 Arg2:T4
+R2	is_posted Arg1:T9 Arg2:T5
+R3	has_rank Arg1:T7 Arg2:T6
+R4	has_rank Arg1:T9 Arg2:T8
+R5	has_rank Arg1:T11 Arg2:T10

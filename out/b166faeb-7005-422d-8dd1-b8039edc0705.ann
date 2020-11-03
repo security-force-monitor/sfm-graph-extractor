@@ -1,0 +1,136 @@
+T1	Organization 31 51	Police Commissioners
+T2	Organization 104 125	Nigerian Police force
+T3	Rank 186 220	Acting Inspector General of Police
+T4	Person 222 242	Suleiman Abba Monday
+T5	Rank 318 320	CP
+T6	Person 321 336	Kayode Aderanti
+T7	Rank 430 432	CP
+T8	Person 433 443	Usman Baba
+T9	Title_Role 455 499	Commissioner of Police in charge Delta State
+T10	Organization 530 570	Police Cooperative at Force headquarters
+T11	Rank 572 574	CP
+T12	Person 575 585	Dan Bature
+T13	Title_Role 597 645	Commissioner of Police in charge of Rivers State
+T14	Rank 666 669	AIG
+T15	Person 670 685	Tunde Ogunsakin
+T16	Rank 687 689	CP
+T17	Person 690 701	Paul Okafor
+T18	Title_Role 709 752	Commissioner of Police in charge Kogi State
+T19	Title_Role 770 801	DCP attached to Police Pensions
+T20	Rank 804 806	CP
+T21	Person 807 822	Wilson Inalegwu
+T22	Title_Role 834 860	FCT Commissioner of Police
+T23	Rank 881 884	AIG
+T24	Person 885 903	Joseph Mbu Joseph;
+T25	Rank 904 906	CP
+T26	Person 907 922	Hyacinth Dagala
+T27	Title_Role 930 977	Commissioner of Police in charge of Benue State
+T28	Rank 979 981	CP
+T29	Person 982 994	Usman Yakubu
+T30	Title_Role 998 1035	Commissioner of Police Nasarawa State
+T31	Rank 1037 1039	CP
+T32	Person 1040 1060	Isaac Gabriel Achong
+T33	Title_Role 1072 1110	Commissioner of Police Akwa Ibom State
+T34	Rank 1115 1117	CP
+T35	Person 1118 1135	Idris Farouk Umar
+T36	Title_Role 1147 1192	Commissioner of Police in charge Jigawa State
+T37	Rank 1206 1208	CP
+T38	Person 1209 1221	Salihu Garba
+T39	Title_Role 1223 1257	Commissioner of Police Kwara state
+T40	Rank 1259 1261	CP
+T41	Person 1262 1274	A.K. Shodipo
+T42	Title_Role 1276 1308	Commissioner of Police Oyo State
+T43	Rank 1310 1312	CP
+T44	Person 1313 1328	Abubakar Marafa
+T45	Title_Role 1332 1366	Commissioner of Police, Osun State
+T46	Rank 1368 1370	CP
+T47	Person 1371 1384	Clement Adoda
+T48	Title_Role 1416 1438	Commissioner of Police
+T49	Rank 1440 1442	CP
+T50	Person 1443 1461	Karma Hosea Hassan
+T51	Title_Role 1473 1510	Commissioner of Police, Anambra state
+T52	Rank 1531 1534	AIG
+T53	Person 1535 1548	Bala Nasarawa
+T54	Title_Role 1560 1592	AIG in charge Force Intelligence
+T55	Organization 1596 1614	Force headquarters
+T56	Rank 1629 1631	CP
+T57	Person 1632 1647	Titilayo Busari
+T58	Rank 1706 1708	CP
+T59	Person 1709 1729	Valentine Ntomchukwu
+T60	Person 1802 1814	Hilary Opara
+T61	Rank 1826 1829	DIG
+T62	Organization 1858 1876	Force Headquarters
+T63	Rank 1878 1880	CP
+T64	Person 1881 1894	Ademola Omole
+T65	Title_Role 1906 1951	Commissioner of Police in charge Taraba state
+T66	Rank 1953 1955	CP
+T67	Person 1956 1969	Olusola Amore
+T68	Title_Role 1980 2010	Force Public Relations officer
+T69	Organization 2014 2032	Force headquarters
+T70	Title_Role 2044 2088	Commissioner of Police in charge Niger state
+T71	Rank 2091 2093	CP
+T72	Person 2094 2114	Gabriel Adejoh Adaji
+T73	Title_Role 2126 2162	Commissioner of Police Adamawa state
+T74	Rank 2164 2166	CP
+T75	Person 2167 2183	Frederick Lakanu
+T76	Title_Role 2195 2233	Commissioner of Police in charge Ekiti
+T77	Rank 2246 2248	CP
+T78	Person 2249 2261	Ishaku Barau
+T79	Title_Role 2273 2317	Commissioner of Police in charge Kebbi state
+T80	Rank 2342 2351	Acting CP
+T81	Person 2352 2367	Emmanuel Ojukwu
+T82	Title_Role 2369 2399	Force Public Relations Officer
+R1	is_posted Arg1:T6 Arg2:T2
+R2	has_rank Arg1:T4 Arg2:T3
+R3	has_rank Arg1:T6 Arg2:T5
+R4	has_rank Arg1:T8 Arg2:T7
+R5	has_title_or_role Arg1:T8 Arg2:T9
+R6	is_posted Arg1:T12 Arg2:T10
+R7	has_rank Arg1:T12 Arg2:T11
+R8	has_title_or_role Arg1:T12 Arg2:T13
+R9	has_rank Arg1:T17 Arg2:T14
+R10	has_rank Arg1:T17 Arg2:T16
+R11	has_title_or_role Arg1:T17 Arg2:T18
+R12	has_title_or_role Arg1:T17 Arg2:T19
+R13	has_rank Arg1:T21 Arg2:T20
+R14	has_title_or_role Arg1:T21 Arg2:T22
+R15	has_rank Arg1:T24 Arg2:T23
+R16	has_rank Arg1:T26 Arg2:T25
+R17	has_title_or_role Arg1:T26 Arg2:T27
+R18	has_rank Arg1:T29 Arg2:T28
+R19	has_title_or_role Arg1:T29 Arg2:T30
+R20	has_rank Arg1:T32 Arg2:T31
+R21	has_title_or_role Arg1:T32 Arg2:T33
+R22	has_rank Arg1:T35 Arg2:T34
+R23	has_title_or_role Arg1:T35 Arg2:T36
+R24	has_rank Arg1:T38 Arg2:T37
+R25	has_title_or_role Arg1:T38 Arg2:T39
+R26	has_rank Arg1:T41 Arg2:T40
+R27	has_title_or_role Arg1:T41 Arg2:T42
+R28	has_rank Arg1:T44 Arg2:T43
+R29	has_title_or_role Arg1:T47 Arg2:T45
+R30	has_rank Arg1:T47 Arg2:T46
+R31	has_title_or_role Arg1:T47 Arg2:T48
+R32	has_rank Arg1:T50 Arg2:T49
+R33	has_title_or_role Arg1:T47 Arg2:T51
+R34	has_rank Arg1:T53 Arg2:T52
+R35	has_title_or_role Arg1:T44 Arg2:T54
+R36	is_posted Arg1:T44 Arg2:T55
+R37	has_rank Arg1:T57 Arg2:T56
+R38	has_rank Arg1:T59 Arg2:T58
+R39	has_rank Arg1:T67 Arg2:T61
+R40	is_posted Arg1:T64 Arg2:T62
+R41	has_rank Arg1:T64 Arg2:T63
+R42	has_title_or_role Arg1:T67 Arg2:T65
+R43	has_rank Arg1:T67 Arg2:T66
+R44	has_title_or_role Arg1:T67 Arg2:T68
+R45	is_posted Arg1:T67 Arg2:T69
+R46	has_title_or_role Arg1:T67 Arg2:T70
+R47	has_rank Arg1:T72 Arg2:T71
+R48	has_title_or_role Arg1:T75 Arg2:T73
+R49	has_rank Arg1:T75 Arg2:T74
+R50	has_title_or_role Arg1:T72 Arg2:T76
+R51	has_rank Arg1:T78 Arg2:T77
+R52	has_title_or_role Arg1:T78 Arg2:T79
+R53	has_rank Arg1:T81 Arg2:T80
+R54	has_title_or_role Arg1:T81 Arg2:T82

@@ -1,0 +1,19 @@
+T1	Person 17 24	Buratai
+T2	Title_Role 158 177	Chief of Army Staff
+T3	Rank 179 186	Lt. Col
+T4	Person 188 207	Tukur Yusuf Buratai
+T5	Organization 395 407	16th brigade
+T6	Person 542 549	Dickson
+T7	Person 554 561	Buratai
+T8	Title_Role 808 827	Chief of Army Staff
+T9	Organization 1022 1034	16th brigade
+T10	Rank 1121 1129	Governor
+T11	Person 1130 1146	Dickson, Buratai
+T12	Rank 1166 1173	Lt. Col
+T13	Person 1175 1182	Buratai
+T14	Organization 1772 1792	Army Children School
+T15	Organization 2009 2019	‘Our State
+R1	has_title_or_role Arg1:T4 Arg2:T2
+R2	has_rank Arg1:T4 Arg2:T3
+R3	has_rank Arg1:T11 Arg2:T10
+R4	has_rank Arg1:T13 Arg2:T12

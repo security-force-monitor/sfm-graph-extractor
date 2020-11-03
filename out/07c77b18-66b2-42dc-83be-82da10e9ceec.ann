@@ -1,0 +1,27 @@
+T1	Organization 0 25	Owoseni replaces Aderanti
+T2	Organization 29 37	Lagos CP
+T3	Organization 39 81	Inspector-General of Police, Solomon Arase
+T4	Rank 87 120	Inspector General of Police (IGP)
+T5	Person 122 135	Solomon Arase
+T6	Title_Role 152 186	Lagos State Commissioner of Police
+T7	Person 188 203	Kayode Aderanti
+T8	Organization 208 226	Force Headquarters
+T9	Title_Role 389 426	Deputy Force Public Relations Officer
+T10	Person 428 444	Abayomi Shogunle
+T11	Title_Role 448 468	Chief Superintendent
+T12	Person 573 578	Arase
+T13	Rank 715 717	CP
+T14	Person 718 731	Fatai Owoseni
+T15	Person 830 841	Chris Ezike
+T16	Person 846 860	Abdulmajid Ali
+T17	Organization 892 902	Ogun State
+T18	Organization 1083 1101	Force Headquarters
+T19	Organization 1842 1875	Special Anti Robbery Squad (SARS)
+T20	Person 2086 2101	Akinwumi Ambode
+R1	has_rank Arg1:T5 Arg2:T4
+R2	has_title_or_role Arg1:T5 Arg2:T6
+R3	is_posted Arg1:T5 Arg2:T8
+R4	has_title_or_role Arg1:T10 Arg2:T9
+R5	has_title_or_role Arg1:T10 Arg2:T11
+R6	has_rank Arg1:T14 Arg2:T13
+R7	is_posted Arg1:T16 Arg2:T17

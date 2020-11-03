@@ -1,0 +1,34 @@
+T1	Organization 0 31	SOUTH EAST GOVERNORS EXTOL ARMY
+T2	Organization 134 147	Nigerian Army
+T3	Title_Role 497 516	Chief of Army Staff
+T4	Rank 524 530	Lt Gen
+T5	Person 531 541	TY Buratai
+T6	Title_Role 561 587	General Officer Commanding
+T7	Organization 588 599	82 Division
+T8	Rank 600 613	Major General
+T9	Person 614 624	I Attahiru
+T10	Rank 1092 1099	General
+T11	Person 1100 1107	Buratai
+T12	Rank 2780 2787	General
+T13	Person 2788 2795	Buratai
+T14	Title_Role 3584 3603	Chief of Army Staff
+T15	Rank 3605 3623	Lieutenant General
+T16	Person 3624 3643	Tukur Yusuf Buratai
+T17	Organization 3690 3701	82 Division
+T18	Organization 4124 4146	302 Artillery Regiment
+T19	Organization 4156 4165	HQ 82 Div
+T20	Organization 4176 4196	34 Artillery Brigade
+R1	is_posted Arg1:T11 Arg2:T2
+R2	has_title_or_role Arg1:T5 Arg2:T3
+R3	has_rank Arg1:T5 Arg2:T4
+R4	has_title_or_role Arg1:T9 Arg2:T6
+R5	is_posted Arg1:T9 Arg2:T7
+R6	has_rank Arg1:T9 Arg2:T8
+R7	has_rank Arg1:T11 Arg2:T10
+R8	has_rank Arg1:T13 Arg2:T12
+R9	has_title_or_role Arg1:T16 Arg2:T14
+R10	has_rank Arg1:T16 Arg2:T15
+R11	is_posted Arg1:T16 Arg2:T17
+R12	is_posted Arg1:T16 Arg2:T18
+R13	is_posted Arg1:T16 Arg2:T19
+R14	is_posted Arg1:T16 Arg2:T20

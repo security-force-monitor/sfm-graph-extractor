@@ -1,0 +1,32 @@
+T1	Title_Role 4 21	Theatre Commander
+T2	Organization 22 37	Ops LAFIYA DOLE
+T3	Rank 39 42	Gen
+T4	Person 43 51	Attahiru
+T5	Title_Role 69 86	Theatre Commander
+T6	Organization 90 111	Operation LAFIYA DOLE
+T7	Rank 133 141	Maj.-Gen
+T8	Person 143 159	Ibrahim Attahiru
+T9	Rank 236 244	Maj.-Gen
+T10	Person 246 258	Lucky Irabor
+T11	Title_Role 282 297	Force Commander
+T12	Organization 301 331	Multinational Joint Task Force
+T13	Organization 416 448	Maimalari Barracks, Headquarters
+T14	Title_Role 456 471	Theatre Command
+T15	Person 473 481	Attahiru
+T16	Organization 621 634	Quarter Guard
+T17	Title_Role 739 765	General Officer Commanding
+T18	Organization 767 778	82 Division
+T19	Organization 786 799	Nigerian Army
+T20	Title_Role 835 861	Director of Administration
+T21	Organization 863 883	Defence Headquarters
+R1	has_title_or_role Arg1:T4 Arg2:T1
+R2	is_posted Arg1:T4 Arg2:T2
+R3	has_rank Arg1:T4 Arg2:T3
+R4	has_title_or_role Arg1:T8 Arg2:T5
+R5	is_posted Arg1:T8 Arg2:T6
+R6	has_rank Arg1:T8 Arg2:T7
+R7	has_rank Arg1:T10 Arg2:T9
+R8	has_title_or_role Arg1:T10 Arg2:T11
+R9	is_posted Arg1:T10 Arg2:T12
+R10	is_posted Arg1:T15 Arg2:T13
+R11	has_title_or_role Arg1:T15 Arg2:T14

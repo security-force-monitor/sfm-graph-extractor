@@ -1,0 +1,42 @@
+T1	Organization 0 45	6 Div Commander resumes duty in Port Harcourt
+T2	Title_Role 67 100	General Officer Commanding, (GOC)
+T3	Organization 102 112	6 Division
+T4	Organization 120 133	Nigerian Army
+T5	Rank 150 163	Major-General
+T6	Person 164 181	Enobong Okon Udoh
+T7	Title_Role 240 273	General Officer Commanding, (GOC)
+T8	Organization 275 285	6 Division
+T9	Organization 293 306	Nigerian Army
+T10	Rank 323 336	Major-General
+T11	Person 337 354	Enobong Okon Udoh
+T12	Title_Role 429 475	Division’s Deputy Director of Public Relations
+T13	Rank 477 480	Col
+T14	Person 482 494	Aminu Aliasu
+T15	Rank 501 514	Major-General
+T16	Rank 535 548	Major-General
+T17	Person 549 566	Hamisu Abdulkarim
+T18	Rank 629 642	Major-General
+T19	Organization 718 741	21 Mechanized Battalion
+T20	Organization 750 769	Depot Nigerian Army
+T21	Organization 792 806	Guards Brigade
+T22	Organization 815 832	Army Headquarters
+T23	Organization 834 862	Department of Administration
+T24	Organization 864 875	2 Battalion
+T25	Organization 891 925	Headquarters Infantry Corps Centre
+T26	Organization 933 971	Armed Forces Command and Staff College
+T27	Organization 986 1010	National Defense College
+T28	Title_Role 1041 1050	Commander
+T29	Organization 1054 1075	Operation LAFIYA DOLE
+T30	Organization 1115 1128	Nigerian Army
+R1	has_title_or_role Arg1:T6 Arg2:T2
+R2	is_posted Arg1:T6 Arg2:T3
+R3	is_posted Arg1:T6 Arg2:T4
+R4	has_rank Arg1:T6 Arg2:T5
+R5	has_title_or_role Arg1:T11 Arg2:T7
+R6	is_posted Arg1:T11 Arg2:T8
+R7	is_posted Arg1:T11 Arg2:T9
+R8	has_rank Arg1:T11 Arg2:T10
+R9	has_title_or_role Arg1:T14 Arg2:T12
+R10	has_rank Arg1:T14 Arg2:T13
+R11	has_rank Arg1:T14 Arg2:T15
+R12	has_rank Arg1:T17 Arg2:T16

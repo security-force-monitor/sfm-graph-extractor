@@ -1,0 +1,171 @@
+T1	Organization 0 19	Boko Haram: Massive
+T2	Organization 36 40	Army
+T3	Organization 386 411	First Mechanized Division
+T4	Rank 413 426	Major General
+T5	Person 427 442	Joseph Shoboiki
+T6	Title_Role 448 457	GOC Enugu
+T7	Rank 459 472	Major General
+T8	Person 473 485	Sunday Idoko
+T9	Organization 494 517	Third Armoured Division
+T10	Rank 524 537	Major General
+T11	Person 538 550	O.O Oshinowo
+T12	Title_Role 562 565	GOC
+T13	Organization 566 577	81 Division
+T14	Person 586 601	Kenneth Minimah
+T15	Rank 661 674	Major General
+T16	Person 675 686	MD Mohammed
+T17	Title_Role 713 716	GOC
+T18	Organization 724 738	First Division
+T19	Organization 878 884	82 Div
+T20	Location 940 945	Delta
+T21	Organization 955 993	Cross Section of Top Military Officers
+T22	Organization 1019 1046	GOC, Third Amoured Division
+T23	Location 1062 1075	North Central
+T24	Location 1080 1090	North East
+T25	Title_Role 1129 1166	Chief of Staff, Army Public Relations
+T26	Rank 1168 1171	Col
+T27	Person 1173 1181	OU Abdul
+T28	Rank 1269 1272	Col
+T29	Person 1274 1279	Abdul
+T30	Title_Role 1291 1310	Chief of Army Staff
+T31	Rank 1318 1329	Lt. General
+T32	Person 1330 1348	Azubuike Ihejirika
+T33	Rank 1432 1445	Major General
+T34	Person 1446 1465	Garba Ayodele Wahab
+T35	Title_Role 1476 1504	Director of Operations, DOPs
+T36	Organization 1506 1523	Army Headquarters
+T37	Organization 1545 1570	First Mechanized Division
+T38	Rank 1580 1593	Major General
+T39	Person 1594 1606	Jack Nwaogbo
+T40	Title_Role 1617 1626	Commander
+T41	Organization 1634 1650	Joint Task Force
+T42	Organization 1716 1739	Third Armoured Division
+T43	Organization 1815 1826	82 Division
+T44	Rank 1856 1869	Major General
+T45	Person 1870 1881	Raphael Isa
+T46	Title_Role 1896 1927	Director, Army Public Relations
+T47	Title_Role 1944 1959	Provost Marshal
+T48	Organization 1961 1973	Nigeria Army
+T49	Rank 1975 1988	Major General
+T50	Person 1989 2001	Etim Bassey;
+T51	Title_Role 2011 2020	Commander
+T52	Organization 2022 2040	Corps of Artillery
+T53	Title_Role 2048 2071	Chief of Administration
+T54	Organization 2073 2091	Army Headquarters;
+T55	Rank 2092 2105	Major General
+T56	Person 2106 2116	MB Ibrahim
+T57	Title_Role 2124 2133	Commander
+T58	Organization 2135 2153	Special Task Force
+T59	Rank 2178 2185	Maj Gen
+T60	Person 2186 2195	AT Jibrin
+T61	Rank 2200 2207	Maj Gen
+T62	Person 2208 2217	U Buzugbe
+T63	Title_Role 2241 2274	Director of Military Intelligence
+T64	Organization 2285 2303	Military Secretary
+T65	Title_Role 2334 2343	Commander
+T66	Organization 2351 2386	Nigerian Army, Peace Keeping Centre
+T67	Rank 2404 2411	Maj Gen
+T68	Person 2412 2422	JS Zaruwa;
+T69	Rank 2423 2431	Maj. Gen
+T70	Person 2432 2445	AS Agha-Okoro
+T71	Organization 2471 2513	Department of Army Training and Operations
+T72	Organization 2523 2540	Army Headquarters
+T73	Title_Role 2552 2575	Director Legal Services
+T74	Rank 2583 2590	Maj Gen
+T75	Person 2591 2606	Joseph Shoboiki
+T76	Title_Role 2617 2620	GOC
+T77	Organization 2647 2667	Defence Headquarters
+T78	Title_Role 2671 2689	Director of Policy
+T79	Rank 2696 2703	Maj Gen
+T80	Person 2704 2716	Sunday Idoko
+T81	Organization 2732 2743	82 Division
+T82	Title_Role 2758 2776	Chief of Logistics
+T83	Organization 2792 2809	Army Headquarters
+T84	Title_Role 2847 2856	Commander
+T85	Organization 2858 2871	Three Brigade
+T86	Rank 2873 2881	Brig Gen
+T87	Person 2882 2898	Ishiaku I Abbah;
+T88	Title_Role 2899 2908	Commander
+T89	Organization 2909 2919	31 Brigade
+T90	Person 2921 2937	Brig Gen Ilouga;
+T91	Title_Role 2938 2947	Commander
+T92	Organization 2948 2958	21 Brigade
+T93	Rank 2960 2968	Brig Gen
+T94	Person 2969 2981	RO Bamigboye
+T95	Title_Role 2992 3006	Chief of Staff
+T96	Organization 3014 3025	81 Division
+T97	Rank 3027 3035	Brig Gen
+T98	Person 3036 3045	C.O Okoro
+T99	Title_Role 3054 3070	Sector Commander
+T100	Organization 3072 3132	Nigerian Contingent of the United Nations Mission in Liberia
+T101	Rank 3149 3157	Brig Gen
+T102	Person 3158 3168	MA Koleoso
+T103	Organization 3187 3263	Sector Commander/Nigerian Contingent for the United Nations Mission in Dafur
+R1	is_posted Arg1:T5 Arg2:T3
+R2	has_rank Arg1:T5 Arg2:T4
+R3	has_title_or_role Arg1:T8 Arg2:T6
+R4	has_rank Arg1:T8 Arg2:T7
+R5	is_posted Arg1:T11 Arg2:T9
+R6	has_rank Arg1:T11 Arg2:T10
+R7	has_title_or_role Arg1:T14 Arg2:T12
+R8	is_posted Arg1:T14 Arg2:T13
+R9	has_rank Arg1:T16 Arg2:T15
+R10	has_title_or_role Arg1:T27 Arg2:T25
+R11	has_rank Arg1:T27 Arg2:T26
+R12	has_rank Arg1:T29 Arg2:T28
+R13	has_title_or_role Arg1:T32 Arg2:T30
+R14	has_rank Arg1:T32 Arg2:T31
+R15	has_rank Arg1:T34 Arg2:T33
+R16	has_title_or_role Arg1:T34 Arg2:T35
+R17	is_posted Arg1:T39 Arg2:T36
+R18	is_posted Arg1:T39 Arg2:T37
+R19	has_rank Arg1:T39 Arg2:T38
+R20	has_title_or_role Arg1:T39 Arg2:T40
+R21	is_posted Arg1:T39 Arg2:T41
+R22	is_posted Arg1:T39 Arg2:T42
+R23	is_posted Arg1:T39 Arg2:T43
+R24	has_rank Arg1:T45 Arg2:T44
+R25	has_title_or_role Arg1:T45 Arg2:T46
+R26	has_title_or_role Arg1:T45 Arg2:T47
+R27	is_posted Arg1:T50 Arg2:T48
+R28	has_rank Arg1:T50 Arg2:T49
+R29	has_title_or_role Arg1:T60 Arg2:T51
+R30	is_posted Arg1:T50 Arg2:T52
+R31	has_title_or_role Arg1:T50 Arg2:T53
+R32	is_posted Arg1:T56 Arg2:T54
+R33	has_rank Arg1:T56 Arg2:T55
+R34	has_title_or_role Arg1:T56 Arg2:T57
+R35	is_posted Arg1:T56 Arg2:T58
+R36	has_rank Arg1:T60 Arg2:T59
+R37	has_rank Arg1:T62 Arg2:T61
+R38	has_title_or_role Arg1:T62 Arg2:T63
+R39	is_posted Arg1:T62 Arg2:T64
+R40	has_title_or_role Arg1:T70 Arg2:T65
+R41	is_posted Arg1:T70 Arg2:T66
+R42	has_rank Arg1:T68 Arg2:T67
+R43	has_rank Arg1:T70 Arg2:T69
+R44	is_posted Arg1:T70 Arg2:T71
+R45	is_posted Arg1:T70 Arg2:T72
+R46	has_title_or_role Arg1:T68 Arg2:T73
+R47	has_rank Arg1:T75 Arg2:T74
+R48	has_title_or_role Arg1:T75 Arg2:T76
+R49	is_posted Arg1:T75 Arg2:T77
+R50	has_title_or_role Arg1:T75 Arg2:T78
+R51	has_rank Arg1:T80 Arg2:T79
+R52	is_posted Arg1:T80 Arg2:T81
+R53	has_title_or_role Arg1:T80 Arg2:T82
+R54	is_posted Arg1:T80 Arg2:T83
+R55	is_posted Arg1:T102 Arg2:T85
+R56	has_rank Arg1:T87 Arg2:T86
+R57	has_title_or_role Arg1:T87 Arg2:T88
+R58	is_posted Arg1:T87 Arg2:T89
+R59	has_title_or_role Arg1:T87 Arg2:T91
+R60	is_posted Arg1:T90 Arg2:T92
+R61	has_rank Arg1:T90 Arg2:T93
+R62	has_title_or_role Arg1:T94 Arg2:T95
+R63	is_posted Arg1:T98 Arg2:T96
+R64	has_rank Arg1:T98 Arg2:T97
+R65	has_title_or_role Arg1:T94 Arg2:T99
+R66	is_posted Arg1:T94 Arg2:T100
+R67	has_rank Arg1:T102 Arg2:T101
+R68	is_posted Arg1:T102 Arg2:T103

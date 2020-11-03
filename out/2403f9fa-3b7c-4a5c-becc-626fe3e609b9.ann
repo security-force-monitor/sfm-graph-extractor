@@ -1,0 +1,13 @@
+T1	Title_Role 58 75	Theatre Commander
+T2	Organization 83 104	Operation Lafiya Dole
+T3	Rank 124 137	Major General
+T4	Person 138 149	Hassan Umar
+T5	Title_Role 299 316	Theatre Commander
+T6	Organization 481 494	212 Battalion
+T7	Rank 541 548	General
+T8	Person 549 553	Umar
+R1	has_title_or_role Arg1:T4 Arg2:T1
+R2	is_posted Arg1:T4 Arg2:T2
+R3	has_rank Arg1:T4 Arg2:T3
+R4	is_posted Arg1:T8 Arg2:T6
+R5	has_rank Arg1:T8 Arg2:T7

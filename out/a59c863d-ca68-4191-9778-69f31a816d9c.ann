@@ -1,0 +1,35 @@
+T1	Organization 0 47	Finally, Nigerian Troops Bombard Sambisa Forest
+T2	Rank 330 337	Maj-Gen
+T3	Person 338 353	Chris Olukolade
+T4	Organization 1326 1333	Chadian
+T5	Organization 1364 1377	African Union
+T6	Location 1396 1403	Nigeria
+T7	Organization 1425 1435	Boko Haram
+T8	Organization 1517 1530	Nigerian Army
+T9	Organization 1831 1841	7 Division
+T10	Organization 1843 1855	Nigeria Army
+T11	Organization 2065 2077	81 battalion
+T12	Organization 2591 2605	United Nations
+T13	Organization 2684 2694	Boko Haram
+T14	Location 2713 2718	Gombe
+T15	Organization 2725 2735	Jonathan’s
+T16	Person 2777 2794	Goodluck Jonathan
+T17	Person 3092 3107	Mohammed Bolari
+T18	Organization 3462 3465	AFP
+T19	Organization 3557 3582	People’s Democratic Party
+T20	Organization 3809 3849	African Union Peace and Security Council
+T21	Organization 3984 4011	National Information Centre
+T22	Person 4017 4027	Mike Omeri
+T23	Organization 4107 4147	African Union Peace and Security Council
+T24	Organization 4320 4336	Security Council
+T25	Location 4367 4375	Cameroon
+T26	Organization 4516 4518	UN
+T27	Person 4541 4547	Ban Ki
+T28	Misclass 6735 6743	Nigerian
+T29	Organization 6785 6808	Konduga, Abuwar Ibrahim
+T30	Organization 7080 7105	Rocket Propelled Grenades
+T31	Organization 7671 7678	Konduga
+R1	has_rank Arg1:T3 Arg2:T2
+R2	is_posted Arg1:T22 Arg2:T21
+R3	is_posted Arg1:T27 Arg2:T24
+R4	is_posted Arg1:T27 Arg2:T26

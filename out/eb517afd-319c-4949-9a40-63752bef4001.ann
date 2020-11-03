@@ -1,0 +1,19 @@
+T1	Organization 114 125	82 Division
+T2	Organization 133 146	Nigerian Army
+T3	Organization 297 307	13 Brigade
+T4	Organization 317 327	14 Brigade
+T5	Organization 350 370	34 Artillery Brigade
+T6	Organization 382 399	82 Division Enugu
+T7	Title_Role 402 433	General Officer Commanding, GOC
+T8	Organization 435 446	82 Division
+T9	Rank 448 461	Major General
+T10	Person 462 476	Adamu Abubakar
+T11	Rank 501 509	Brig-Gen
+T12	Person 511 526	Lasisi Adegboye
+T13	Rank 708 717	Brig- Gen
+T14	Person 719 734	Lasisi Adegboye
+R1	has_title_or_role Arg1:T10 Arg2:T7
+R2	is_posted Arg1:T10 Arg2:T8
+R3	has_rank Arg1:T10 Arg2:T9
+R4	has_rank Arg1:T12 Arg2:T11
+R5	has_rank Arg1:T14 Arg2:T13

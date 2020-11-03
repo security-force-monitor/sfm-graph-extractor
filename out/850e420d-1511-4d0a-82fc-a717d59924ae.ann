@@ -1,0 +1,16 @@
+T1	Organization 32 39	Buratai
+T2	Title_Role 75 88	Chief of Army
+T3	Rank 89 96	Lt.-Gen
+T4	Person 98 111	Tukur Buratai
+T5	Title_Role 243 262	Chief of Army Staff
+T6	Rank 263 281	Lieutenant General
+T7	Person 282 295	Tukur Buratai
+T8	Location 298 301	AFP
+T9	Organization 324 334	21 Brigade
+T10	Organization 1164 1174	21 Brigade
+T11	Organization 1368 1396	News Agency of Nigeria (NAN)
+T12	Title_Role 1497 1524	Chief of Account and Budget
+R1	has_title_or_role Arg1:T4 Arg2:T2
+R2	has_rank Arg1:T4 Arg2:T3
+R3	has_title_or_role Arg1:T7 Arg2:T5
+R4	has_rank Arg1:T7 Arg2:T6

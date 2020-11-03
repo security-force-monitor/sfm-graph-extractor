@@ -1,0 +1,43 @@
+T1	Title_Role 311 336	Divisional Police Officer
+T2	Organization 340 358	Bunu Yadi Division
+T3	Rank 360 374	Superintendent
+T4	Person 375 388	Hassan Thlama
+T5	Person 706 710	Site
+T6	Misclass 782 803	UEFA Champions League
+T7	Location 863 866	Jos
+T8	Misclass 979 1000	UEFA Champions League
+T9	Organization 1015 1029	Real Madrid FC
+T10	Organization 1034 1052	Atletico Madrid FC
+T11	Person 1075 1084	Buni Yadi
+T12	Location 1367 1377	South-East
+T13	Location 1406 1414	Cameroon
+T14	Location 1466 1477	Borno State
+T15	Organization 1866 1882	Magistrate Court
+T16	Organization 2266 2297	Buni Yadi, Mallam Jubrin Usmanu
+T17	Rank 2829 2836	General
+T18	Person 2837 2848	Sani Abacha
+T19	Rank 3176 3186	Lieutenant
+T20	Person 3187 3198	Eli Lazarus
+T21	Location 3436 3458	Chikidr Joghode Kaghum
+T22	Location 3573 3589	Ashigashiya Ward
+T23	Location 3627 3635	Cameroon
+T24	Person 3718 3730	Joshua Jidda
+T25	Organization 3925 3938	Bulama Dajiba
+T26	Person 3968 3980	Haruna Wadda
+T27	Rank 3982 3994	Births Kurma
+T28	Person 3996 4009	Haruna Waruda
+T29	Person 4014 4026	Shaibu Galva
+T30	Title_Role 4033 4064	Police Public Relations Officer
+T31	Rank 4066 4069	DSP
+T32	Person 4070 4083	Gideon Jubrin
+R1	has_title_or_role Arg1:T4 Arg2:T1
+R2	is_posted Arg1:T4 Arg2:T2
+R3	has_rank Arg1:T4 Arg2:T3
+R4	is_posted Arg1:T5 Arg2:T9
+R5	is_posted Arg1:T5 Arg2:T10
+R6	has_rank Arg1:T18 Arg2:T17
+R7	has_rank Arg1:T20 Arg2:T19
+R8	is_posted Arg1:T28 Arg2:T25
+R9	has_rank Arg1:T28 Arg2:T27
+R10	has_title_or_role Arg1:T32 Arg2:T30
+R11	has_rank Arg1:T32 Arg2:T31

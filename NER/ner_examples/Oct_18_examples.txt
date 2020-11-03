@@ -1,0 +1,57 @@
+1. Similar: I removed all punctuations, which caused some mismatches OR model only catches a part of the name entity
+    >
+    Last week will be remembered for a long time as one of the saddest in this nation’s history with respect to road accidents. On Sunday last week Minister of State for Labour Mr. James Ocholi, SAN, as well as his wife and son died in an accident along the Kaduna-Abuja road. A day later, Chief of Training and Operations of the Nigeria Army Major General Yusha’u Mahmood Abubakar died in a crash on the Maiduguri-Damaturu highway. Abubakar was the former Theatre Commander of Operation Zaman Lafiya Dole, the military operation to banish insurgents from the North East. Under his command, spectacular successes were recorded in the war against Boko Haram. Acting General Officer Commanding \[GOC\] the Army’s 3 Armoured Division Brigadier M.S.A. Aliyu was also injured in the same accident. In the same week, 18 people died in an accident along the Bauchi-Jos highway when their commercial bus crashed.
+    Ground Truth:  M.S.A. Aliyu
+    Predicted Label:  MSA Aliyu
+
+    >
+    Chukwu said: “Troops of 27 Task Force Brigade in conjunction with the Nigerian Air Force and Civilian Joint Task Force (CJTF) in the ongoing clearance operation destroyed another Boko Haram enclave.
+    Ground Truth:  27 Task Force Brigade
+    Predicted Label:  Task Force Brigade
+
+    >
+    General Officer Commanding Three Division, Major General Ebobowei Bona Awala, assured that the division will continue to work hand-in-hand with the various task forces in the areas of operations to ensure that piece is maintained and lives and property are secured in the region.
+    Ground Truth:  Ebobowei Bona Awala,
+    Predicted Label:  Bona Awala
+
+    >
+    Last week will be remembered for a long time as one of the saddest in this nation’s history with respect to road accidents. On Sunday last week Minister of State for Labour Mr. James Ocholi, SAN, as well as his wife and son died in an accident along the Kaduna-Abuja road. A day later, Chief of Training and Operations of the Nigeria Army Major General Yusha’u Mahmood Abubakar died in a crash on the Maiduguri-Damaturu highway. Abubakar was the former Theatre Commander of Operation Zaman Lafiya Dole, the military operation to banish insurgents from the North East. Under his command, spectacular successes were recorded in the war against Boko Haram. Acting General Officer Commanding \[GOC\] the Army’s 3 Armoured Division Brigadier M.S.A. Aliyu was also injured in the same accident. In the same week, 18 people died in an accident along the Bauchi-Jos highway when their commercial bus crashed.
+    Ground Truth:  Theatre Commander
+    Predicted Label:  Theatre Commander of Operation Zaman Lafiya Dole
+
+2. False positive: Many of the false positives are name entities that we are not interested in
+    >
+    Fambiya, who was on posting to the 322 Artillery Regiment in Benin City, Edo State, was redeployed to the JTF on June 13, 2013, a few weeks into his deployment to the JTF’s Operation Boyona.
+    Predicted Label:  Fambiya
+    True Labels: 322 Artillery Regiment,
+
+    >
+    In another development, the General Officer Commanding (GOC) 3 Division, Major-General Fatai Alli, said yesterday that Nigerian troops have recaptured almost all towns in Adamawa earlier held by the insurgents except Madagali, headquarters of Madagali Local Government Area.
+    Predicted Label:  Madagali Local Government Area
+    True Labels: Fatai Alli, Major-General, 3 Division, General Officer Commanding (GOC),
+
+    >
+    Abuja – Ahead of the commencement of Friday’s Special Military Exercise in the six South East States tagged ‘Operation Python Dance II’, the General Officer Commanding (GOC) 82 Division Nigerian Army, Major General Adamu Baba Abubakar has toured the home town of IPOB leader, Nnamdi Kanu, Umuahis in Abia State.Major General Adamu Baba Abubakar
+    Predicted Label:  IPOB
+    True Labels: Operation Python Dance II, 82 Division, Adamu Baba Abubakar, Major General, General Officer Commanding (GOC),
+
+    >
+    Lt. Gen. Buratai described the gesture to the Nigeria Army as one of the numerous by the Yobe state government which will go a long way for the army and other security agencies to discharge their duties diligently without hindrance “ we are doing very well here in Yobe State and with the support and cooperation of your administration , other security agencies and the good people of Yobe state , we will continue to have an excellent security arrangement in the final push to crush Boko-Haram elements in the state “ he emphasised.
+    Predicted Label:  Boko-Haram
+    True Labels: Buratai, Lt. Gen, Nigeria Army,
+
+3. False Negative: ranks, titles are often not recognized since the model is not trained to do that yet.
+    >
+    In another development, the General Officer Commanding (GOC) 3 Division, Major-General Fatai Alli, said yesterday that Nigerian troops have recaptured almost all towns in Adamawa earlier held by the insurgents except Madagali, headquarters of Madagali Local Government Area.
+    Ground Truth:  3 Division
+    Predicted Labels: General Officer Commanding GOC, Fatai Alli, Nigerian, Adamawa, Madagali, Madagali Local Government Area,
+
+    >
+    Among those retired are the former Chief of Training and Operations (CTOP) at the Defence Headquarters (DHQ), Major General Lawrence Ngubane, Commander, Training and Doctrine Command (TRADOC), Major General Babagana Mungono, Commander, Nigerian Army School of Artillery, Major General Kwaskebe, former Co-ordinator, in-charge of AFISMA, Major General Ugwu and former Commander, Defence Industries Corporation (DICON), Major General Maduegbunam.
+    Ground Truth:  Commander
+    Predicted Labels: Chief of Training and Operations CTOP, Defence Headquarters, Lawrence Ngubane, Nigerian, Coordinator, AFISMA Major General Ugwu, Commander Defence Industries Corporation,
+
+    >
+    Kaduna (Kaduna State) – The General Officer Commanding (GOC) 81 Division of the Nigerian Army, Maj.-Gen. Tamunomieibi Dibi, said 700 officers and soldiers would be deployed to Liberia on peace keeping mission.
+    Ground Truth:  Maj.-Gen.
+    Predicted Labels: Kaduna Kaduna State – The General Officer Commanding GOC, Nigerian Army, Tamunomieibi Dibi, Liberia,

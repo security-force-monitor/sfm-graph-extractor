@@ -1,0 +1,53 @@
+T1	Location 64 68	Chad
+T2	Location 398 405	Kwapchi
+T3	Organization 630 657	Government Secondary School
+T4	Rank 775 781	Mallam
+T5	Person 782 793	Umaru Saina
+T6	Location 993 1001	Alagarno
+T7	Organization 1278 1328	SOLDIERS ON GUARD ON POST OFFICE ROAD IN MAIDUGURI
+T8	Organization 1330 1340	7 Division
+T9	Organization 1463 1473	7 Division
+T10	Person 1666 1671	Shawa
+T11	Location 1721 1728	Algarno
+T12	Person 1893 1903	Mutai Hona
+T13	Person 1986 2002	Madam Mary Lalai
+T14	Rank 2193 2195	Mr
+T15	Person 2197 2213	James Yama. Yama
+T16	Location 2557 2563	Chibok
+T17	Person 2732 2742	Mutai Hona
+T18	Organization 3022 3058	National Emergency Management Agency
+T19	Organization 3715 3740	Nigeria Union of Teachers
+T20	Person 3989 4003	Michael Alogba
+T21	Organization 5169 5178	US troops
+T22	Organization 5184 5213	United States of America, USA
+T23	Person 5344 5356	Barack Obama
+T24	Organization 5393 5404	US Congress
+T25	Location 5544 5551	Nigeria
+T26	Location 5605 5609	Chad
+T27	Location 5691 5697	France
+T28	Location 5729 5736	Britain
+T29	Location 5745 5758	United States
+T30	Organization 5821 5839	Federal Government
+T31	Organization 6067 6077	7 Division
+T32	Organization 6161 6171	7 Division
+T33	Organization 6270 6280	7 Division
+T34	Organization 6332 6345	101 battalion
+T35	Title_Role 6363 6389	General Officer Commanding
+T36	Person 6404 6419	Ahmadu Mohammed
+T37	Rank 6423 6436	Major General
+T38	Organization 6643 6672	Sector 3 operational division
+T39	Location 6788 6796	Kangarwa
+T40	Organization 6868 6877	Sightings
+T41	Location 7207 7213	Kukawa
+T42	Organization 7269 7279	Boko Haram
+T43	Person 7360 7377	Goodluck Jonathan
+T44	Organization 7581 7602	Boko Haram’s movement
+T45	Location 8054 8062	Cameroon
+T46	Location 8117 8131	Niger Republic
+R1	has_rank Arg1:T5 Arg2:T4
+R2	has_rank Arg1:T15 Arg2:T14
+R3	is_posted Arg1:T23 Arg2:T22
+R4	is_posted Arg1:T36 Arg2:T33
+R5	is_posted Arg1:T36 Arg2:T34
+R6	has_title_or_role Arg1:T36 Arg2:T35
+R7	has_rank Arg1:T36 Arg2:T37

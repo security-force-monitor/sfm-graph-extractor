@@ -1,0 +1,311 @@
+T1	Organization 0 25	Nigeria: Shake-Up in Army
+T2	Rank 40 53	Major-General
+T3	Person 54 68	Kamaldeen Role
+T4	Title_Role 79 88	Commander
+T5	Organization 90 116	Army Headquarters Garrison
+T6	Title_Role 129 155	General officer Commanding
+T7	Organization 156 168	One Division
+T8	Rank 178 191	Major-General
+T9	Person 192 208	Lawrence Ngubane
+T10	Title_Role 219 236	Deputy Commandant
+T11	Organization 238 262	National Defence College
+T12	Title_Role 268 294	General Officer Commanding
+T13	Organization 295 305	2 Division
+T14	Rank 315 328	Major General
+T15	Person 329 340	Saleh Maina
+T16	Title_Role 351 361	Commandant
+T17	Organization 362 387	Armoured Corps and School
+T18	Title_Role 401 427	General Officer Commanding
+T19	Organization 428 438	3 Division
+T20	Rank 457 470	Major General
+T21	Person 471 484	Mohammed Isah
+T22	Title_Role 499 524	Military Secretary 'Army'
+T23	Title_Role 529 555	General Officer Commanding
+T24	Organization 556 567	82 Division
+T25	Organization 575 588	Nigerian Army
+T26	Rank 600 613	Major General
+T27	Person 614 631	Emeka CG Nwanguna
+T28	Title_Role 673 699	General Officer Commanding
+T29	Organization 700 711	81 Division
+T30	Rank 769 782	Major-General
+T31	Person 783 792	Moses Obi
+T32	Rank 803 806	GOC
+T33	Person 807 821	'One' Division
+T34	Title_Role 834 853	Chief of Operations
+T35	Organization 857 874	Army Headquarters
+T36	Rank 876 893	Brigadier-General
+T37	Person 894 902	AT Umaru
+T38	Title_Role 920 942	Director of Operations
+T39	Organization 950 977	Defence Intelligence Agency
+T40	Title_Role 990 1023	Director of Military Intelligence
+T41	Rank 1031 1048	Brigadier-General
+T42	Person 1049 1060	AS Mustapha
+T43	Organization 1074 1091	Army Headquarters
+T44	Title_Role 1104 1113	Commander
+T45	Organization 1115 1132	Brigade of Guards
+T46	Rank 1142 1155	Major-General
+T47	Person 1156 1166	BM Monguno
+T48	Title_Role 1178 1187	Commander
+T49	Organization 1189 1206	Brigade of Guards
+T50	Title_Role 1215 1232	Deputy Commandant
+T51	Organization 1240 1264	National Defence College
+T52	Rank 1275 1292	Brigadier-General
+T53	Person 1293 1301	YD Pyeng
+T54	Title_Role 1316 1340	Commandant 'DEPOT' Zaria
+T55	Title_Role 1354 1369	Provost-Marshal
+T56	Organization 1371 1384	Nigerian Army
+T57	Rank 1386 1403	Brigadier-General
+T58	Person 1404 1416	AC Olukolade
+T59	Title_Role 1428 1459	Director, Army Public Relations
+T60	Rank 1467 1484	Brigadier-General
+T61	Person 1485 1493	AB Marwa
+T62	Organization 1505 1520	Defence College
+T63	Organization 1524 1534	22 Brigade
+T64	Organization 1546 1563	Brigade Commander
+T65	Rank 1566 1579	Major-General
+T66	Person 1580 1592	TI Oliomogbe
+T67	Title_Role 1603 1613	Commandant
+T68	Organization 1615 1644	Nigerian Army Engineers Corps
+T69	Title_Role 1652 1662	Commandant
+T70	Organization 1664 1690	Army College of Logistics;
+T71	Rank 1691 1704	Major-General
+T72	Person 1705 1713	UT Usman
+T73	Title_Role 1725 1743	Chief of Logistics
+T74	Organization 1747 1764	Army Headquarters
+T75	Rank 1766 1779	Major General
+T76	Person 1780 1789	AM Jubrin
+T77	Title_Role 1804 1824	Army Provost Marshal
+T78	Title_Role 1837 1860	Chief of Administration
+T79	Organization 1862 1879	Army Headquarters
+T80	Rank 1887 1900	Major General
+T81	Person 1901 1913	SU Abdukadir
+T82	Title_Role 1917 1942	Military Secretary 'Army'
+T83	Rank 1945 1958	Major-General
+T84	Person 1959 1970	BC Azurunwa
+T85	Title_Role 1981 2009	Director of Policy and Plans
+T86	Organization 2010 2027	Army Headquarters
+T87	Title_Role 2040 2085	chief of Army Standards and Evaluation (CASE)
+T88	Rank 2088 2101	Major-General
+T89	Person 2102 2111	EE Bassey
+T90	Title_Role 2122 2131	Commander
+T91	Organization 2132 2142	32 Brigade
+T92	Organization 2153 2173	Defence Headquarters
+T93	Title_Role 2177 2204	Director of Administration;
+T94	Rank 2205 2218	Major-General
+T95	Person 2219 2229	Bala Usara
+T96	Organization 2245 2276	Department of Physical Training
+T97	Title_Role 2287 2305	Director of Sports
+T98	Rank 2307 2320	Major-General
+T99	Person 2321 2327	DM Edi
+T100	Organization 2341 2361	Defence Headquarters
+T101	Title_Role 2374 2383	Commander
+T102	Organization 2385 2411	Army Headquarters Garrison
+T103	Rank 2420 2433	Major-General
+T104	Person 2434 2444	JA Okunbor
+T105	Title_Role 2459 2477	Chief of Logistics
+T106	Organization 2481 2498	Army headquarters
+T107	Title_Role 2506 2524	Director of Policy
+T108	Organization 2528 2532	Army
+T109	Rank 2548 2565	Brigadier-General
+T110	Person 2566 2583	Emeka Onwuamaegbu
+T111	Title_Role 2598 2631	Director of Army Public Relations
+T112	Title_Role 2643 2653	Commandant
+T113	Organization 2655 2688	Nigerian Army Peacekeeping Centre
+T114	Rank 2696 2713	Brigadier-General
+T115	Person 2714 2725	KTJ Minimah
+T116	Organization 2743 2775	Nigerian Army School of Infantry
+T117	Title_Role 2788 2812	Commander, 'One' Brigade
+T118	Organization 2814 2827	Nigerian Army
+T119	Rank 2837 2854	Brigadier-General
+T120	Person 2855 2867	OM Sho-Silva
+T121	Organization 2879 2899	Defence Headquarters
+T122	Organization 2903 2920	Army Headquarters
+T123	Title_Role 2924 2953	Director of Physical Training
+T124	Rank 2955 2972	Brigadier-General
+T125	Person 2973 2984	BM Badewole
+T126	Title_Role 3000 3018	Academic Registrar
+T127	Organization 3022 3045	Nigeria Defence Academy
+T128	Title_Role 3058 3068	Commandant
+T129	Organization 3070 3109	Nigerian Army School of Military Police
+T130	Rank 3148 3165	Brigadier-General
+T131	Person 3166 3177	OO Oshinowo
+T132	Title_Role 3188 3197	Commander
+T133	Organization 3199 3209	22 Brigade
+T134	Title_Role 3223 3233	Commandant
+T135	Organization 3235 3264	Nigeria Army Artillery School
+T136	Rank 3266 3283	Brigadier-General
+T137	Person 3284 3295	Yusuf Bomoi
+T138	Rank 3306 3309	D-G
+T139	Title_Role 3323 3333	Commandant
+T140	Organization 3335 3369	Nigeria Army School of Engineering
+T141	Rank 3371 3388	Brigadier-General
+T142	Person 3389 3396	G Bauka
+T143	Rank 3407 3416	Commander
+T144	Person 3417 3426	I Brigade
+T145	Organization 3449 3476	Defence Intelligence Agency
+T146	Title_Role 3480 3488	Director
+T147	Organization 3490 3505	Foreign Liaison
+T148	Rank 3507 3524	Brigadier-General
+T149	Person 3525 3536	AK Kwaskebe
+T150	Title_Role 3546 3555	Commander
+T151	Organization 3556 3566	34 Brigade
+T152	Title_Role 3575 3595	Director of Training
+T153	Organization 3599 3616	Army Headquarters
+T154	Rank 3623 3640	Brigadier General
+T155	Person 3641 3649	JS Kwabe
+T156	Organization 3666 3686	Defence Headquarters
+T157	Title_Role 3699 3721	Director of Operations
+T158	Organization 3725 3742	Army Headquarters
+T159	Rank 3766 3779	Major-General
+T160	Person 3780 3790	O Akinyemi
+T161	Organization 3804 3814	3 Division
+T162	Title_Role 3827 3850	Director, Peace-keeping
+T163	Organization 3854 3874	Defence Headquarters
+T164	Person 3876 3899	Major-General Ihejirika
+T165	Title_Role 3914 3952	Chief of Army Standards and Evaluation
+T166	Title_Role 3965 3988	Director of Engineering
+T167	Organization 3992 4012	Defence Headquarters
+T168	Rank 4014 4027	Major General
+T169	Person 4028 4036	ID Penap
+T170	Title_Role 4046 4079	Chief of Research and Development
+T171	Title_Role 4126 4165	Chief of Training and Operations (CTOP)
+T172	Rank 4167 4180	Major General
+T173	Person 4181 4191	FN Osukogu
+T174	Organization 4203 4233	Department of Peacekeeping DHQ
+R1	has_rank Arg1:T3 Arg2:T2
+R2	has_title_or_role Arg1:T3 Arg2:T4
+R3	is_posted Arg1:T3 Arg2:T5
+R4	has_title_or_role Arg1:T3 Arg2:T6
+R5	is_posted Arg1:T9 Arg2:T7
+R6	has_rank Arg1:T9 Arg2:T8
+R7	has_title_or_role Arg1:T9 Arg2:T10
+R8	is_posted Arg1:T9 Arg2:T11
+R9	has_title_or_role Arg1:T15 Arg2:T12
+R10	is_posted Arg1:T15 Arg2:T13
+R11	has_rank Arg1:T15 Arg2:T14
+R12	has_title_or_role Arg1:T15 Arg2:T16
+R13	is_posted Arg1:T15 Arg2:T17
+R14	has_title_or_role Arg1:T15 Arg2:T18
+R15	is_posted Arg1:T15 Arg2:T19
+R16	has_rank Arg1:T21 Arg2:T20
+R17	has_title_or_role Arg1:T21 Arg2:T22
+R18	has_title_or_role Arg1:T21 Arg2:T23
+R19	is_posted Arg1:T21 Arg2:T24
+R20	is_posted Arg1:T21 Arg2:T25
+R21	has_rank Arg1:T27 Arg2:T26
+R22	has_title_or_role Arg1:T27 Arg2:T28
+R23	is_posted Arg1:T27 Arg2:T29
+R24	has_rank Arg1:T31 Arg2:T30
+R25	has_rank Arg1:T31 Arg2:T32
+R26	has_title_or_role Arg1:T31 Arg2:T34
+R27	is_posted Arg1:T42 Arg2:T35
+R28	has_rank Arg1:T42 Arg2:T36
+R29	has_title_or_role Arg1:T31 Arg2:T38
+R30	is_posted Arg1:T37 Arg2:T39
+R31	has_title_or_role Arg1:T37 Arg2:T40
+R32	has_rank Arg1:T42 Arg2:T41
+R33	is_posted Arg1:T42 Arg2:T43
+R34	has_title_or_role Arg1:T42 Arg2:T44
+R35	is_posted Arg1:T42 Arg2:T45
+R36	has_rank Arg1:T47 Arg2:T46
+R37	has_title_or_role Arg1:T61 Arg2:T48
+R38	is_posted Arg1:T61 Arg2:T49
+R39	has_title_or_role Arg1:T47 Arg2:T50
+R40	is_posted Arg1:T47 Arg2:T51
+R41	has_rank Arg1:T53 Arg2:T52
+R42	has_title_or_role Arg1:T47 Arg2:T54
+R43	has_title_or_role Arg1:T58 Arg2:T55
+R44	is_posted Arg1:T58 Arg2:T56
+R45	has_rank Arg1:T58 Arg2:T57
+R46	has_title_or_role Arg1:T53 Arg2:T59
+R47	has_rank Arg1:T61 Arg2:T60
+R48	is_posted Arg1:T61 Arg2:T62
+R49	is_posted Arg1:T61 Arg2:T63
+R50	is_posted Arg1:T61 Arg2:T64
+R51	has_rank Arg1:T66 Arg2:T65
+R52	has_title_or_role Arg1:T66 Arg2:T67
+R53	is_posted Arg1:T66 Arg2:T68
+R54	has_title_or_role Arg1:T66 Arg2:T69
+R55	is_posted Arg1:T66 Arg2:T70
+R56	has_rank Arg1:T72 Arg2:T71
+R57	has_title_or_role Arg1:T72 Arg2:T73
+R58	is_posted Arg1:T76 Arg2:T74
+R59	has_rank Arg1:T76 Arg2:T75
+R60	has_title_or_role Arg1:T76 Arg2:T77
+R61	has_title_or_role Arg1:T72 Arg2:T78
+R62	is_posted Arg1:T76 Arg2:T79
+R63	has_rank Arg1:T81 Arg2:T80
+R64	has_title_or_role Arg1:T81 Arg2:T82
+R65	has_rank Arg1:T84 Arg2:T83
+R66	has_title_or_role Arg1:T84 Arg2:T85
+R67	is_posted Arg1:T84 Arg2:T86
+R68	has_title_or_role Arg1:T84 Arg2:T87
+R69	has_rank Arg1:T89 Arg2:T88
+R70	has_title_or_role Arg1:T104 Arg2:T90
+R71	is_posted Arg1:T104 Arg2:T91
+R72	is_posted Arg1:T104 Arg2:T92
+R73	has_title_or_role Arg1:T89 Arg2:T93
+R74	has_rank Arg1:T95 Arg2:T94
+R75	is_posted Arg1:T89 Arg2:T96
+R76	has_title_or_role Arg1:T104 Arg2:T97
+R77	has_rank Arg1:T99 Arg2:T98
+R78	is_posted Arg1:T104 Arg2:T100
+R79	has_title_or_role Arg1:T104 Arg2:T101
+R80	is_posted Arg1:T104 Arg2:T102
+R81	has_rank Arg1:T104 Arg2:T103
+R82	has_title_or_role Arg1:T104 Arg2:T105
+R83	is_posted Arg1:T104 Arg2:T106
+R84	has_title_or_role Arg1:T104 Arg2:T107
+R85	is_posted Arg1:T104 Arg2:T108
+R86	has_rank Arg1:T110 Arg2:T109
+R87	has_title_or_role Arg1:T125 Arg2:T111
+R88	has_title_or_role Arg1:T110 Arg2:T112
+R89	is_posted Arg1:T110 Arg2:T113
+R90	has_rank Arg1:T110 Arg2:T114
+R91	is_posted Arg1:T110 Arg2:T116
+R92	has_title_or_role Arg1:T120 Arg2:T117
+R93	is_posted Arg1:T120 Arg2:T118
+R94	has_rank Arg1:T120 Arg2:T119
+R95	is_posted Arg1:T120 Arg2:T121
+R96	is_posted Arg1:T120 Arg2:T122
+R97	has_title_or_role Arg1:T120 Arg2:T123
+R98	has_rank Arg1:T125 Arg2:T124
+R99	has_title_or_role Arg1:T125 Arg2:T126
+R100	is_posted Arg1:T125 Arg2:T127
+R101	has_title_or_role Arg1:T125 Arg2:T128
+R102	is_posted Arg1:T125 Arg2:T129
+R103	has_rank Arg1:T131 Arg2:T130
+R104	has_title_or_role Arg1:T142 Arg2:T132
+R105	is_posted Arg1:T142 Arg2:T133
+R106	has_title_or_role Arg1:T137 Arg2:T134
+R107	is_posted Arg1:T137 Arg2:T135
+R108	has_rank Arg1:T137 Arg2:T136
+R109	has_rank Arg1:T131 Arg2:T138
+R110	has_title_or_role Arg1:T137 Arg2:T139
+R111	is_posted Arg1:T137 Arg2:T140
+R112	has_rank Arg1:T142 Arg2:T141
+R113	has_rank Arg1:T142 Arg2:T143
+R114	is_posted Arg1:T144 Arg2:T145
+R115	has_title_or_role Arg1:T144 Arg2:T146
+R116	is_posted Arg1:T149 Arg2:T147
+R117	has_rank Arg1:T149 Arg2:T148
+R118	has_title_or_role Arg1:T149 Arg2:T150
+R119	is_posted Arg1:T149 Arg2:T151
+R120	has_title_or_role Arg1:T149 Arg2:T152
+R121	is_posted Arg1:T149 Arg2:T153
+R122	has_rank Arg1:T155 Arg2:T154
+R123	is_posted Arg1:T142 Arg2:T156
+R124	has_title_or_role Arg1:T155 Arg2:T157
+R125	is_posted Arg1:T155 Arg2:T158
+R126	has_rank Arg1:T160 Arg2:T159
+R127	is_posted Arg1:T173 Arg2:T161
+R128	has_title_or_role Arg1:T160 Arg2:T162
+R129	is_posted Arg1:T164 Arg2:T163
+R130	has_title_or_role Arg1:T164 Arg2:T165
+R131	has_title_or_role Arg1:T169 Arg2:T166
+R132	is_posted Arg1:T169 Arg2:T167
+R133	has_rank Arg1:T169 Arg2:T168
+R134	has_title_or_role Arg1:T164 Arg2:T170
+R135	has_title_or_role Arg1:T173 Arg2:T171
+R136	has_rank Arg1:T173 Arg2:T172
+R137	is_posted Arg1:T173 Arg2:T174

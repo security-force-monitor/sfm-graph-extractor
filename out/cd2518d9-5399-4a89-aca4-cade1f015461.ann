@@ -1,0 +1,27 @@
+T1	Title_Role 55 58	GOC
+T2	Rank 66 74	Maj.-Gen
+T3	Person 76 87	Adamu Marwa
+T4	Title_Role 93 119	General Officer Commanding
+T5	Organization 126 145	3 Armoured Division
+T6	Organization 278 288	3 Division
+T7	Organization 438 448	3 Division
+T8	Rank 825 838	Air Commodore
+T9	Title_Role 839 865	Davies Akpofure, Commander
+T10	Organization 867 897	330 Nigerian Air Force Station
+T11	Organization 1057 1070	Nigerian Army
+T12	Person 1718 1723	Marwa
+T13	Organization 1837 1850	Nigerian Army
+T14	Organization 1866 1895	3 Division Garrison Commander
+T15	Rank 1897 1906	Brig.-Gen
+T16	Person 1908 1923	Jatau Alexander
+T17	Person 2161 2170	Alexander
+T18	Organization 2388 2398	21 Brigade
+T19	Organization 2411 2421	23 Brigade
+T20	Organization 2429 2449	33 Artillery Brigade
+T21	Organization 2467 2486	3 Division Garrison
+R1	has_rank Arg1:T3 Arg2:T2
+R2	has_title_or_role Arg1:T3 Arg2:T4
+R3	is_posted Arg1:T3 Arg2:T5
+R4	is_posted Arg1:T12 Arg2:T13
+R5	is_posted Arg1:T16 Arg2:T14
+R6	has_rank Arg1:T16 Arg2:T15

@@ -1,0 +1,18 @@
+T1	Organization 64 77	Nigerian Army
+T2	Rank 202 210	Maj.-Gen
+T3	Person 212 224	Lucky Irabor
+T4	Title_Role 230 247	Theatre Commander
+T5	Organization 251 272	Operation Lafiya Dole
+T6	Organization 462 479	Nigeria Air Force
+T7	Organization 1117 1130	Nigerian Army
+T8	Misclass 1219 1230	Cameroonian
+T9	Title_Role 2108 2127	Chief of Army Staff
+T10	Rank 2129 2137	Lt. –Gen
+T11	Person 2139 2152	Tukur Buratai
+T12	Organization 2182 2203	Motor Cycle Battalion
+T13	Organization 2461 2484	81 Task Force Battalion
+R1	has_rank Arg1:T3 Arg2:T2
+R2	has_title_or_role Arg1:T3 Arg2:T4
+R3	is_posted Arg1:T3 Arg2:T5
+R4	has_title_or_role Arg1:T11 Arg2:T9
+R5	has_rank Arg1:T11 Arg2:T10

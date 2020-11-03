@@ -1,0 +1,20 @@
+T1	Organization 43 53	Oshiomhole
+T2	Organization 87 90	PDP
+T3	Organization 375 384	4 Brigade
+T4	Person 689 704	Chris Nehikhare
+T5	Rank 943 948	Chief
+T6	Person 949 958	Dan Orbih
+T7	Person 1753 1769	Adams Oshiomhole
+T8	Misclass 2563 2570	African
+T9	Person 2618 2637	Channels Television
+T10	Location 3022 3034	South Africa
+T11	Location 3041 3060	Today, South Africa
+T12	Rank 3250 3263	Major-General
+T13	Person 3264 3276	Sanusi Muazu
+T14	Title_Role 3282 3308	General Officer Commanding
+T15	Organization 3315 3325	2 Division
+T16	Organization 3710 3723	Nigerian Army
+R1	has_rank Arg1:T6 Arg2:T5
+R2	has_rank Arg1:T13 Arg2:T12
+R3	has_title_or_role Arg1:T13 Arg2:T14
+R4	is_posted Arg1:T13 Arg2:T15

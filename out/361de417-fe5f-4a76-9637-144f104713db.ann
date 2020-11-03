@@ -1,0 +1,119 @@
+T1	Organization 0 54	BREAKING NEWS: YAr'adua Sacks Military Chiefs; Departs
+T2	Location 58 70	Saudi Arabia
+T3	Organization 75 92	Medical Treatment
+T4	Person 95 114	Umaru Musa Yar'Adua
+T5	Location 263 275	Saudi Arabia
+T6	Misclass 366 371	Saudi
+T7	Misclass 372 378	German
+T8	Organization 408 416	Aso Rock
+T9	Rank 901 912	Air Marshal
+T10	Person 913 922	Paul Dike
+T11	Title_Role 934 956	Chief of Defence Staff
+T12	Rank 958 969	Air Marshal
+T13	Person 970 974	Dike
+T14	Rank 996 1003	General
+T15	Person 1004 1016	Andrew Azazi
+T16	Rank 1469 1482	Major-General
+T17	Person 1483 1496	A.B. Dambazau
+T18	Title_Role 1500 1519	Chief of Army Staff
+T19	Rank 1533 1551	Lieutenant-General
+T20	Person 1552 1562	Luka Yusuf
+T21	Rank 1612 1620	Maj.-Gen
+T22	Person 1622 1630	Dambazau
+T23	Title_Role 1639 1665	General Officer Commanding
+T24	Organization 1670 1682	2nd Division
+T25	Organization 1690 1703	Nigerian Army
+T26	Rank 1956 1968	Rear Admiral
+T27	Person 1969 1987	Isaiah Iko Ibrahim
+T28	Title_Role 1991 2011	Chief of Naval Staff
+T29	Rank 2024 2036	Vice Admiral
+T30	Person 2037 2051	G.T.A. Adekeye
+T31	Rank 2085 2097	Rear Admiral
+T32	Person 2098 2105	Ibrahim
+T33	Title_Role 2114 2137	Flag Officer Commanding
+T34	Organization 2142 2164	Naval Training Command
+T35	Rank 2215 2226	Air Marshal
+T36	Person 2227 2243	Oluseyi Petinrin
+T37	Title_Role 2247 2265	Chief of Air Staff
+T38	Rank 2291 2302	Air Marshal
+T39	Person 2303 2311	Petinrin
+T40	Title_Role 2320 2342	Air Officer Commanding
+T41	Organization 2347 2382	Nigerian Air Force Training Command
+T42	Misclass 2460 2465	Saudi
+T43	Organization 2527 2538	Liyel Imoke
+T44	Person 2624 2632	Yar’adua
+T45	Person 2661 2668	Imoke’s
+T46	Organization 3134 3159	Saharareporters, New York
+T47	Person 3195 3214	Umaru Musa Yar'adua
+T48	Misclass 3269 3274	Saudi
+T49	Misclass 3322 3333	Saudi-based
+T50	Misclass 3334 3340	German
+T51	Misclass 3359 3371	Saudi German
+T52	Person 3718 3726	Aso Rock
+T53	Person 3732 3747	Saharareporters
+T54	Person 3819 3829	Yar’adua’s
+T55	Location 3846 3858	Saudi Arabia
+T56	Person 3877 3883	Muslim
+T57	Person 4118 4126	Yar’adua
+T58	Rank 4440 4443	Aso
+T59	Person 4444 4454	Rock Villa
+T60	Person 4543 4551	Yar’adua
+T61	Location 4584 4591	Germany
+T62	Location 4787 4794	Germany
+T63	Location 4867 4874	Germany
+T64	Person 4917 4925	Yar’adua
+T65	Misclass 5031 5040	Yar’aduas
+T66	Person 5060 5074	Turai Yar’adua
+T67	Location 5700 5708	Yar’adua
+T68	Location 5712 5724	Saudi Arabia
+T69	Location 5828 5835	Germany
+T70	Person 5925 5938	Churg Strauss
+T71	Location 6016 6023	Germany
+T72	Location 6082 6089	Germany
+T73	Person 6128 6144	Bilfinger Berger
+T74	Organization 6168 6192	Julius Berger, Nigeria's
+T75	Misclass 6256 6262	German
+T76	Person 6523 6536	Julius Berger
+T77	Person 6641 6654	Julius Berger
+T78	Misclass 6723 6729	German
+T79	Organization 6738 6741	BKA
+T80	Misclass 6748 6760	Saudi German
+T81	Misclass 6849 6854	Saudi
+T82	Location 6895 6901	Jeddah
+T83	Location 6950 6956	Riyadh
+T84	Person 7066 7070	Once
+T85	Location 7086 7098	Saudi Arabia
+T86	Person 7123 7131	Yar’adua
+T87	Location 7168 7174	Brazil
+T88	Organization 7189 7220	United Nations General Assembly
+T89	Location 7224 7232	New York
+T90	Person 7282 7290	Yar'adua
+T91	Misclass 7315 7327	Saudi German
+T92	Location 7340 7346	Jeddah
+R1	has_rank Arg1:T10 Arg2:T9
+R2	has_title_or_role Arg1:T10 Arg2:T11
+R3	has_rank Arg1:T13 Arg2:T12
+R4	has_rank Arg1:T15 Arg2:T14
+R5	has_rank Arg1:T17 Arg2:T16
+R6	has_title_or_role Arg1:T22 Arg2:T18
+R7	has_rank Arg1:T20 Arg2:T19
+R8	has_rank Arg1:T22 Arg2:T21
+R9	has_title_or_role Arg1:T22 Arg2:T23
+R10	is_posted Arg1:T22 Arg2:T24
+R11	is_posted Arg1:T22 Arg2:T25
+R12	has_rank Arg1:T27 Arg2:T26
+R13	has_title_or_role Arg1:T39 Arg2:T28
+R14	has_rank Arg1:T30 Arg2:T29
+R15	has_rank Arg1:T32 Arg2:T31
+R16	has_title_or_role Arg1:T39 Arg2:T33
+R17	is_posted Arg1:T27 Arg2:T34
+R18	has_rank Arg1:T36 Arg2:T35
+R19	has_title_or_role Arg1:T39 Arg2:T37
+R20	has_rank Arg1:T39 Arg2:T38
+R21	has_title_or_role Arg1:T39 Arg2:T40
+R22	is_posted Arg1:T39 Arg2:T41
+R23	is_posted Arg1:T45 Arg2:T43
+R24	has_rank Arg1:T59 Arg2:T58
+R25	is_posted Arg1:T73 Arg2:T74
+R26	is_posted Arg1:T77 Arg2:T79
+R27	is_posted Arg1:T86 Arg2:T88

@@ -1,0 +1,13 @@
+T1	Organization 0 43	Nigeria: Nwoga Takes Over At Three Division
+T2	Title_Role 57 83	General Officer Commanding
+T3	Rank 91 104	Major General
+T4	Person 105 115	John Nwoga
+T5	Organization 133 156	3 Division Headquarters
+T6	Organization 164 177	Nigerian Army
+T7	Organization 319 331	3rd Division
+T8	Organization 565 574	AllAfrica
+T9	Location 697 703	Africa
+R1	has_title_or_role Arg1:T4 Arg2:T2
+R2	has_rank Arg1:T4 Arg2:T3
+R3	is_posted Arg1:T4 Arg2:T5
+R4	is_posted Arg1:T4 Arg2:T6

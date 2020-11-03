@@ -1,0 +1,39 @@
+T1	Organization 4 17	Nigerian Army
+T2	Title_Role 183 216	Deputy Director, Public Relations
+T3	Organization 218 229	82 Division
+T4	Rank 245 248	Col
+T5	Person 250 260	Sagir Musa
+T6	Title_Role 302 328	General Officer Commanding
+T7	Organization 335 346	82 Division
+T8	Rank 362 375	Major General
+T9	Person 376 395	Adamu Baba Abubakar
+T10	Title_Role 431 450	Chief of Army Staff
+T11	Rank 459 477	Lieutenant General
+T12	Person 478 492	Yusufu Buratai
+T13	Location 987 1005	Cross River States
+T14	Rank 1356 1358	Mr
+T15	Person 1360 1373	Titus Lamorde
+T16	Person 1378 1392	Hafiz Mohammed
+T17	Person 1625 1637	Bernard Odoh
+T18	Person 1699 1714	Emmanuel Bassey
+T19	Person 1874 1893	Sylvania Nwankwegu;
+T20	Rank 1901 1908	Senator
+T21	Person 1909 1920	Ngiji Ngele
+T22	Title_Role 1922 1942	Chief Jeremia Oketah
+T23	Rank 1944 1947	Hon
+T24	Person 1949 1961	Mathew Uguru
+T25	Rank 1963 1966	Hon
+T26	Person 1968 1983	Earnest Henriek
+R1	has_title_or_role Arg1:T5 Arg2:T2
+R2	is_posted Arg1:T5 Arg2:T3
+R3	has_rank Arg1:T5 Arg2:T4
+R4	has_title_or_role Arg1:T12 Arg2:T6
+R5	is_posted Arg1:T9 Arg2:T7
+R6	has_rank Arg1:T9 Arg2:T8
+R7	has_title_or_role Arg1:T12 Arg2:T10
+R8	has_rank Arg1:T12 Arg2:T11
+R9	has_rank Arg1:T15 Arg2:T14
+R10	has_rank Arg1:T21 Arg2:T20
+R11	has_title_or_role Arg1:T26 Arg2:T22
+R12	has_rank Arg1:T26 Arg2:T23
+R13	has_rank Arg1:T26 Arg2:T25

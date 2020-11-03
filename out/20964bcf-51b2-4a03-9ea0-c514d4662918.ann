@@ -1,0 +1,22 @@
+T1	Person 14 25	Gov. Gaidam
+T2	Title_Role 68 87	Chief of Army Staff
+T3	Rank 96 107	Lt. General
+T4	Person 108 127	Tukur Yusuf Buratai
+T5	Rank 166 169	Alh
+T6	Person 171 185	Ibrahim Gaidam
+T7	Organization 366 381	20 Toyota Hilux
+T8	Rank 568 575	Lt. Gen
+T9	Person 577 584	Buratai
+T10	Organization 614 626	Nigeria Army
+T11	Title_Role 1169 1186	Brigade Commander
+T12	Organization 1194 1221	27 task force Brigade Buni-
+T13	Rank 1229 1246	Brigadier General
+T14	Person 1247 1256	K.N Garba
+R1	has_title_or_role Arg1:T4 Arg2:T2
+R2	has_rank Arg1:T4 Arg2:T3
+R3	has_rank Arg1:T6 Arg2:T5
+R4	has_rank Arg1:T9 Arg2:T8
+R5	is_posted Arg1:T9 Arg2:T10
+R6	has_title_or_role Arg1:T14 Arg2:T11
+R7	is_posted Arg1:T14 Arg2:T12
+R8	has_rank Arg1:T14 Arg2:T13

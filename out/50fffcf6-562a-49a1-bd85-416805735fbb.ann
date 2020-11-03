@@ -1,0 +1,24 @@
+T1	Organization 0 28	Gunmen Kill DPO, 3 Policemen
+T2	Organization 30 56	Enugu State Police Command
+T3	Person 459 470	Okey ofoedu
+T4	Rank 474 498	superintendent of police
+T5	Title_Role 521 524	DPO
+T6	Organization 535 560	Oji River Police Division
+T7	Title_Role 734 765	Police Public Relations Officer
+T8	Person 787 800	Ebere Amarizu
+T9	Rank 805 836	deputy superintendent of police
+T10	Title_Role 1421 1449	state Commissioner of Police
+T11	Person 1451 1464	Musa A. Daura
+T12	Title_Role 1832 1856	Public Relations Officer
+T13	Organization 1864 1892	Katsina State Police Command
+T14	Rank 1894 1897	ASP
+T15	Person 1898 1908	Shehu Koko
+R1	has_rank Arg1:T3 Arg2:T4
+R2	has_title_or_role Arg1:T3 Arg2:T5
+R3	is_posted Arg1:T3 Arg2:T6
+R4	has_title_or_role Arg1:T8 Arg2:T7
+R5	has_rank Arg1:T8 Arg2:T9
+R6	has_title_or_role Arg1:T11 Arg2:T10
+R7	has_title_or_role Arg1:T15 Arg2:T12
+R8	is_posted Arg1:T15 Arg2:T13
+R9	has_rank Arg1:T15 Arg2:T14

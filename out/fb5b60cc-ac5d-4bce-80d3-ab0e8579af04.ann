@@ -1,0 +1,23 @@
+T1	Organization 0 16	Herdsmen Menace:
+T2	Organization 21 39	Million Lives Lost
+T3	Organization 43 62	16 Years In Adamawa
+T4	Person 575 588	Murtala Nyako
+T5	Person 1334 1344	John Dauda
+T6	Organization 1782 1814	Federal University of Technology
+T7	Organization 1882 1904	Federal Medical Centre
+T8	Organization 2002 2027	People’s Democratic Party
+T9	Organization 3147 3175	Adamawa State Police Command
+T10	Rank 3177 3180	DSP
+T11	Person 3181 3196	Othman Abubakar
+T12	Title_Role 3660 3684	Acting Brigade Commander
+T13	Organization 3692 3710	23 Armored Brigade
+T14	Rank 3718 3721	Col
+T15	Person 3723 3734	Aba Popoola
+T16	Person 4097 4108	John Ngamsa
+T17	Person 6263 6273	Kalifa Koh
+T18	Person 6681 6691	Kalifa Koh
+R1	is_posted Arg1:T11 Arg2:T9
+R2	has_rank Arg1:T11 Arg2:T10
+R3	has_title_or_role Arg1:T15 Arg2:T12
+R4	is_posted Arg1:T15 Arg2:T13
+R5	has_rank Arg1:T15 Arg2:T14

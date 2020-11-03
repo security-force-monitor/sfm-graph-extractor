@@ -1,0 +1,29 @@
+T1	Organization 0 50	Army Arrests 37 Boko Haram Suspects in Lagos, Ogun
+T2	Organization 56 67	81 Division
+T3	Organization 75 88	Nigerian Army
+T4	Title_Role 216 242	General Officer Commanding
+T5	Organization 249 260	81 Division
+T6	Rank 262 270	Maj.-Gen
+T7	Person 272 284	Isidore Edet
+T8	Rank 347 355	Maj. Gen
+T9	Person 357 373	Ebenezer Oyefolu
+T10	Organization 393 421	News Agency of Nigeria (NAN)
+T11	Person 437 445	Division
+T12	Title_Role 852 871	Chief of Army Staff
+T13	Title_Role 1096 1122	General Officer Commanding
+T14	Organization 1129 1140	82 Division
+T15	Rank 1148 1155	General
+T16	Person 1156 1172	Ibrahim Attahiru
+T17	Rank 1331 1338	General
+T18	Person 1339 1347	Attahiru
+T19	Organization 1520 1532	Nigeria Army
+R1	has_title_or_role Arg1:T7 Arg2:T4
+R2	is_posted Arg1:T7 Arg2:T5
+R3	has_rank Arg1:T7 Arg2:T6
+R4	has_rank Arg1:T9 Arg2:T8
+R5	is_posted Arg1:T11 Arg2:T10
+R6	has_title_or_role Arg1:T16 Arg2:T13
+R7	is_posted Arg1:T16 Arg2:T14
+R8	has_rank Arg1:T16 Arg2:T15
+R9	has_rank Arg1:T18 Arg2:T17
+R10	is_posted Arg1:T18 Arg2:T19

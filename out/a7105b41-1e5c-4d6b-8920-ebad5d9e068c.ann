@@ -1,0 +1,72 @@
+T1	Organization 0 7	New GOC
+T2	Organization 29 33	Army
+T3	Organization 94 107	Nigerian Army
+T4	Title_Role 232 271	Chief of Training and Operations (CTOP)
+T5	Organization 279 305	Defence Headquarters (DHQ)
+T6	Rank 307 320	Major General
+T7	Title_Role 321 348	Lawrence Ngubane, Commander
+T8	Organization 350 379	Training and Doctrine Command
+T9	Rank 390 403	Major General
+T10	Title_Role 404 431	Babagana Mungono, Commander
+T11	Organization 433 466	Nigerian Army School of Artillery
+T12	Person 468 490	Major General Kwaskebe
+T13	Title_Role 499 511	Co-ordinator
+T14	Organization 513 532	in-charge of AFISMA
+T15	Rank 534 547	Major General
+T16	Person 548 552	Ugwu
+T17	Title_Role 564 573	Commander
+T18	Organization 575 605	Defence Industries Corporation
+T19	Rank 615 628	Major General
+T20	Person 629 640	Maduegbunam
+T21	Rank 657 670	Major General
+T22	Person 671 681	O. T. Etan
+T23	Title_Role 690 699	Commander
+T24	Organization 701 726	Army Headquarters Garison
+T25	Title_Role 758 784	General Officer Commanding
+T26	Organization 812 822	7 Division
+T27	Rank 843 856	Major General
+T28	Person 857 867	T. I. Dibi
+T29	Organization 890 916	Army Headquarters Garrison
+T30	Rank 919 932	Major General
+T31	Person 933 944	P. J. Isang
+T32	Title_Role 956 988	Chief of Training and Operations
+T33	Rank 1007 1020	Major General
+T34	Person 1021 1035	J.A.H. Ewansia
+T35	Organization 1044 1060	Joint Task Force
+T36	Title_Role 1068 1077	Commander
+T37	Title_Role 1102 1135	Chief of Standards and Evaluation
+T38	Organization 1150 1167	Army Headquarters
+T39	Person 1176 1196	Major General Arende
+T40	Rank 1230 1243	Major General
+T41	Person 1244 1254	Abdulkadir
+T42	Title_Role 1266 1282	commander TRADOC
+R1	has_title_or_role Arg1:T20 Arg2:T4
+R2	is_posted Arg1:T20 Arg2:T5
+R3	has_rank Arg1:T12 Arg2:T6
+R4	has_title_or_role Arg1:T12 Arg2:T7
+R5	is_posted Arg1:T12 Arg2:T8
+R6	has_rank Arg1:T20 Arg2:T9
+R7	has_title_or_role Arg1:T20 Arg2:T10
+R8	is_posted Arg1:T12 Arg2:T11
+R9	has_title_or_role Arg1:T12 Arg2:T13
+R10	is_posted Arg1:T12 Arg2:T14
+R11	has_rank Arg1:T16 Arg2:T15
+R12	has_title_or_role Arg1:T20 Arg2:T17
+R13	is_posted Arg1:T20 Arg2:T18
+R14	has_rank Arg1:T20 Arg2:T19
+R15	has_rank Arg1:T22 Arg2:T21
+R16	has_title_or_role Arg1:T22 Arg2:T23
+R17	is_posted Arg1:T22 Arg2:T24
+R18	has_title_or_role Arg1:T28 Arg2:T25
+R19	is_posted Arg1:T28 Arg2:T26
+R20	has_rank Arg1:T28 Arg2:T27
+R21	is_posted Arg1:T28 Arg2:T29
+R22	has_rank Arg1:T31 Arg2:T30
+R23	has_title_or_role Arg1:T31 Arg2:T32
+R24	has_rank Arg1:T34 Arg2:T33
+R25	is_posted Arg1:T34 Arg2:T35
+R26	has_title_or_role Arg1:T34 Arg2:T36
+R27	has_title_or_role Arg1:T39 Arg2:T37
+R28	is_posted Arg1:T39 Arg2:T38
+R29	has_rank Arg1:T41 Arg2:T40
+R30	has_title_or_role Arg1:T41 Arg2:T42

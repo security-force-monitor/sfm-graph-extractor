@@ -1,0 +1,68 @@
+T1	Rank 0 8	Nigeria:
+T2	Organization 9 47	Jonathan Names New CDS, Service Chiefs
+T3	Organization 49 63	Service chiefs
+T4	Title_Role 134 156	Chief of Defence Staff
+T5	Rank 164 175	Air Marshal
+T6	Person 176 191	Oluseyi Petirin
+T7	Rank 219 231	Vice Admiral
+T8	Person 232 258	Ola Sa'ad Ibrahim. Ibrahim
+T9	Title_Role 291 311	Chief of Naval Staff
+T10	Title_Role 383 402	Chief of Army Staff
+T11	Rank 404 411	Lt. Gen
+T12	Person 413 439	Onyeabo Azubuike Ihejirika
+T13	Rank 470 486	Air Vice Marshal
+T14	Person 487 506	Alex Sabunduh Badeh
+T15	Rank 537 548	Air Marshal
+T16	Person 549 568	Mohammed Dikko Umar
+T17	Title_Role 577 595	Chief of Air Staff
+T18	Rank 598 610	Rear Admiral
+T19	Person 611 622	D.J. Ezeoba
+T20	Title_Role 695 715	Chief of Naval Staff
+T21	Organization 1064 1105	Jonathan Appoints New Cds, Service Chiefs
+T22	Rank 1205 1212	Admiral
+T23	Person 1213 1226	Ibrahim Ogohi
+T24	Rank 1270 1287	Air Chief Marshal
+T25	Person 1288 1297	Paul Dike
+T26	Rank 1514 1516	Dr
+T27	Person 1518 1530	Reuben Abati
+T28	Organization 1705 1729	Nigerian Defence Academy
+T29	Organization 1747 1785	Armed Forces Command and Staff College
+T30	Organization 1969 2007	Armed Forces Command and Staff College
+T31	Title_Role 2058 2082	Chief of the Naval Staff
+T32	Organization 2237 2272	Naval Task Group, Operation Harmony
+T33	Organization 2281 2302	Eastern Naval Command
+T34	Organization 2345 2369	National Defence College
+T35	Organization 2439 2457	Naval headquarters
+T36	Title_Role 2528 2551	Flag Officer Commanding
+T37	Organization 2552 2573	Western Naval Command
+T38	Title_Role 2628 2652	Chief of the Naval Staff
+T39	Organization 2704 2736	Royal College of Defence Studies
+T40	Organization 2894 2914	Defence Headquarters
+T41	Title_Role 2962 2979	Deputy Commandant
+T42	Organization 2981 3019	Armed Forces Command and Staff College
+T43	Organization 3165 3189	Nigerian Defence Academy
+T44	Rank 3259 3275	Air Vice Marshal
+T45	Organization 3378 3399	Nigerian Armed Forces
+T46	Organization 3577 3597	176 Guards Battalion
+T47	Organization 3829 3842	176 Battalion
+T48	Organization 3887 3904	Brigade of Guards
+T49	Organization 4118 4135	Brigade of Guards
+T50	Organization 4177 4190	Nigerian Army
+T51	Organization 4386 4403	Brigade of Guards
+T52	Organization 4429 4447	7 Guards Battalion
+T53	Organization 4469 4489	177 Guards Battalion
+T54	Organization 4834 4848	Guards Brigade
+R1	has_title_or_role Arg1:T6 Arg2:T4
+R2	has_rank Arg1:T6 Arg2:T5
+R3	has_rank Arg1:T8 Arg2:T7
+R4	has_title_or_role Arg1:T8 Arg2:T9
+R5	has_title_or_role Arg1:T12 Arg2:T10
+R6	has_rank Arg1:T12 Arg2:T11
+R7	has_rank Arg1:T14 Arg2:T13
+R8	has_rank Arg1:T16 Arg2:T15
+R9	has_title_or_role Arg1:T14 Arg2:T17
+R10	has_rank Arg1:T19 Arg2:T18
+R11	has_title_or_role Arg1:T19 Arg2:T20
+R12	has_rank Arg1:T23 Arg2:T22
+R13	has_rank Arg1:T25 Arg2:T24
+R14	has_rank Arg1:T27 Arg2:T26

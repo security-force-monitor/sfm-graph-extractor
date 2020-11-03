@@ -1,0 +1,47 @@
+T1	Organization 9 18	24 Killed
+T2	Organization 22 41	Bauchi, Jos Attacks
+T3	Organization 280 304	Peoples Democratic Party
+T4	Person 316 329	Robinson Wasa
+T5	Rank 438 445	Senator
+T6	Person 446 458	Ajuji Waziri
+T7	Organization 471 484	Farida Waziri
+T8	Rank 1021 1028	Captain
+T9	Person 1029 1044	Charles Okeocha
+T10	Rank 1440 1448	Corporal
+T11	Person 1449 1461	Mohammed Uba
+T12	Person 1497 1510	Capt. Ekeocha
+T13	Organization 1946 1949	STF
+T14	Organization 2222 2236	Dorowar Babuje
+T15	Person 2372 2383	Nding Susut
+T16	Person 2412 2421	Nding Jok
+T17	Person 2431 2438	Fan Loh
+T18	Person 2451 2457	Dorowa
+T19	Organization 2552 2570	Human Rights Watch
+T20	Person 2755 2767	Francis Deng
+T21	Organization 2773 2787	United Nations
+T22	Organization 2968 2981	Corinne Dufka
+T23	Title_Role 3543 3546	GOC
+T24	Organization 3547 3558	83 division
+T25	Rank 3580 3589	Major Gen
+T26	Person 3591 3603	Sunday Idoko
+T27	Person 4540 4552	Robison Wasa
+T28	Person 4755 4767	Ajuji Waziri
+T29	Organization 4785 4791	Senate
+T30	Person 4876 4890	Senator Waziri
+T31	Person 4924 4928	Wasa
+T32	Rank 5005 5013	Governor
+T33	Person 5014 5026	Danjuma Goje
+T34	Person 5073 5086	Robinson Wasa
+T35	Person 5178 5192	Senator Waziri
+T36	Person 5293 5306	Farida Waziri
+R1	is_posted Arg1:T6 Arg2:T3
+R2	has_rank Arg1:T6 Arg2:T5
+R3	is_posted Arg1:T6 Arg2:T7
+R4	has_rank Arg1:T9 Arg2:T8
+R5	has_rank Arg1:T11 Arg2:T10
+R6	is_posted Arg1:T20 Arg2:T21
+R7	has_title_or_role Arg1:T26 Arg2:T23
+R8	is_posted Arg1:T26 Arg2:T24
+R9	has_rank Arg1:T26 Arg2:T25
+R10	is_posted Arg1:T28 Arg2:T29
+R11	has_rank Arg1:T33 Arg2:T32

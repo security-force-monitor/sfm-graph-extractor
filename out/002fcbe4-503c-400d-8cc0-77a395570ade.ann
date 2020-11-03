@@ -1,0 +1,75 @@
+T1	Organization 0 24	Military Recaptures Bama
+T2	Person 457 461	Bama
+T3	Title_Role 675 701	General Officer Commanding
+T4	Organization 709 719	7 Division
+T5	Rank 721 728	General
+T6	Person 729 743	Lamidi Adeosun
+T7	Location 3012 3037	State Specialist Hospital
+T8	Misclass 3576 3587	Baban-Layin
+T9	Person 4983 5002	Hospital, Maiduguri
+T10	Rank 5168 5174	Mallam
+T11	Person 5175 5189	Garba Mohammed
+T12	Rank 5447 5456	Maiduguri
+T13	Person 5458 5476	Alhaji Yusuf Gimba
+T14	Organization 5761 5774	Nigerian Army
+T15	Rank 5786 5789	Col
+T16	Person 5791 5811	Sani Kukasheka Usman
+T17	Organization 6052 6076	23 Brigade Nigerian Army
+T18	Person 6650 6655	Usman
+T19	Rank 7283 7289	Mallam
+T20	Person 7290 7301	Musa Danuba
+T21	Organization 8403 8414	Borno State
+T22	Title_Role 8489 8515	General Officer Commanding
+T23	Organization 8522 8532	3 Division
+T24	Rank 8534 8547	Major-General
+T25	Person 8548 8558	Fatai Alli
+T26	Rank 8890 8903	Major-General
+T27	Person 8904 8919	Chris Olukolade
+T28	Title_Role 8925 8933	Director
+T29	Organization 8935 8954	Defence Information
+T30	Organization 9063 9091	News Agency of Nigeria (NAN)
+T31	Person 9403 9407	Alli
+T32	Rank 9814 9831	Brigadier-General
+T33	Person 9832 9846	Victor Ezeugwu
+T34	Title_Role 9852 9870	Commanding Officer
+T35	Organization 9872 9893	28 Task Force Brigade
+T36	Person 10005 10012	Ezeugwu
+T37	Organization 10767 10779	Emir of Mubi
+T38	Rank 10781 10787	Alhaji
+T39	Person 10788 10803	Abubakar Ahmadu
+T40	Person 10909 10915	Ahmadu
+T41	Location 11344 11348	Iraq
+T42	Title_Role 11480 11488	Chairman
+T43	Organization 11496 11523	National Information Centre
+T44	Person 11525 11535	Mike Omeri
+T45	Organization 11551 11554	AFP
+T46	Person 11710 11725	Abubakar Shekau
+T47	Location 11899 11904	Niger
+T48	Misclass 12117 12125	Nigerian
+T49	Organization 12587 12599	Boko Haram's
+T50	Location 12707 12711	Iraq
+T51	Person 12849 12857	Abu Bakr
+T52	Organization 13009 13022	Islamic State
+T53	Organization 13080 13109	Federal Republic of Nigeria.”
+R1	has_title_or_role Arg1:T6 Arg2:T3
+R2	is_posted Arg1:T6 Arg2:T4
+R3	has_rank Arg1:T6 Arg2:T5
+R4	has_rank Arg1:T11 Arg2:T10
+R5	has_rank Arg1:T13 Arg2:T12
+R6	is_posted Arg1:T16 Arg2:T14
+R7	has_rank Arg1:T16 Arg2:T15
+R8	has_rank Arg1:T20 Arg2:T19
+R9	has_title_or_role Arg1:T25 Arg2:T22
+R10	is_posted Arg1:T25 Arg2:T23
+R11	has_rank Arg1:T25 Arg2:T24
+R12	has_rank Arg1:T27 Arg2:T26
+R13	has_title_or_role Arg1:T27 Arg2:T28
+R14	is_posted Arg1:T27 Arg2:T29
+R15	has_rank Arg1:T33 Arg2:T32
+R16	has_title_or_role Arg1:T33 Arg2:T34
+R17	is_posted Arg1:T33 Arg2:T35
+R18	is_posted Arg1:T39 Arg2:T37
+R19	has_rank Arg1:T39 Arg2:T38
+R20	has_title_or_role Arg1:T44 Arg2:T42
+R21	is_posted Arg1:T44 Arg2:T43
+R22	is_posted Arg1:T44 Arg2:T45

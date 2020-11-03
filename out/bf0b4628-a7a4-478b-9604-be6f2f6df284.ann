@@ -1,0 +1,31 @@
+T1	Title_Role 0 19	Chief of Army Staff
+T2	Title_Role 59 78	Chief of Army Staff
+T3	Rank 87 94	Lt.-Gen
+T4	Person 96 111	Kenneth Minimah
+T5	Organization 143 156	Nigerian Army
+T6	Organization 311 322	81 Division
+T7	Title_Role 351 377	General Officer Commanding
+T8	Rank 379 387	Maj.-Gen
+T9	Person 389 405	Tamunomeibi Dibi
+T10	Organization 538 551	Nigerian Army
+T11	Person 782 786	It’s
+T12	Misclass 861 870	Nigerians
+T13	Location 1171 1178	Nigeria
+T14	Organization 1258 1271	Nigerian Army
+T15	Person 1534 1551	Goodluck Jonathan
+T16	Organization 1587 1600	Nigerian Army
+T17	Organization 1797 1808	81 Division
+T18	Title_Role 2206 2229	Flag Officer Commanding
+T19	Organization 2231 2252	Western Naval Command
+T20	Rank 2254 2266	Rear Admiral
+T21	Person 2267 2280	Jonathan Ango
+R1	has_title_or_role Arg1:T4 Arg2:T2
+R2	has_rank Arg1:T4 Arg2:T3
+R3	is_posted Arg1:T4 Arg2:T5
+R4	is_posted Arg1:T9 Arg2:T6
+R5	has_title_or_role Arg1:T9 Arg2:T7
+R6	has_rank Arg1:T9 Arg2:T8
+R7	is_posted Arg1:T15 Arg2:T16
+R8	has_title_or_role Arg1:T21 Arg2:T18
+R9	is_posted Arg1:T21 Arg2:T19
+R10	has_rank Arg1:T21 Arg2:T20

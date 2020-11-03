@@ -1,0 +1,61 @@
+T1	Organization 0 34	NIGERIAN ARMY CHRONICLE OF COMMAND
+T2	Organization 36 72	Past and Present Chief of Army Staff
+T3	Organization 99 113	Office of COAS
+T4	Title_Role 133 152	Chief of Army Staff
+T5	Organization 305 325	Armed Forces Act CAP
+T6	Organization 476 496	Present COAS Profile
+T7	Organization 498 532	NIGERIAN ARMY CHRONICLE OF COMMAND
+T8	Organization 536 546	MAJ GEN CB
+T9	Organization 565 590	MAJ GEN JTU AGUIYI-IRONSI
+T10	Organization 594 605	GEN Y GOWON
+T11	Organization 609 624	COL IRI AKANHAN
+T12	Rank 628 635	Maj Gen
+T13	Person 636 646	HU KATSINA
+T14	Rank 650 657	Maj Gen
+T15	Person 658 663	Ejoor
+T16	Organization 667 684	LT GEN TY DANJUMA
+T17	Organization 688 708	LT GEN IA AKINRINADE
+T18	Organization 712 727	LT GEN GS JALLO
+T19	Organization 731 749	LT GEN MI WUSHISHI
+T20	Organization 753 778	MAJ GEN IBRAHIM BABANGIDA
+T21	Organization 782 799	LATE GEN S ABACHA
+T22	Rank 803 809	Lt Gen
+T23	Person 810 819	S IBRAHIM
+T24	Rank 823 829	Lt Gen
+T25	Person 830 838	MOHAMMED
+T26	Organization 842 857	MAJ GEN MC ALLI
+T27	Rank 861 868	Maj Gen
+T28	Person 869 874	Kazir
+T29	Rank 878 884	Lt Gen
+T30	Person 885 894	I BAMAIYI
+T31	Rank 898 904	Lt Gen
+T32	Person 905 913	SVL MALU
+T33	Rank 917 923	Lt Gen
+T34	Person 924 932	Ogomudia
+T35	Rank 936 942	Lt Gen
+T36	Person 943 951	ML AGWAI
+T37	Rank 955 961	Lt Gen
+T38	Person 962 970	OA Azazi
+T39	Rank 974 980	Lt Gen
+T40	Person 981 989	LN Yusuf
+T41	Rank 993 999	Lt Gen
+T42	Person 1000 1011	AB Dambazau
+T43	Rank 1015 1021	Lt Gen
+T44	Person 1022 1034	OA Ihejirika
+T45	Organization 1036 1057	Nigerian Army History
+T46	Organization 1078 1091	Nigerian Army
+T47	Person 1112 1121	Lt Glover
+R1	has_rank Arg1:T13 Arg2:T12
+R2	has_rank Arg1:T15 Arg2:T14
+R3	has_rank Arg1:T23 Arg2:T22
+R4	has_rank Arg1:T25 Arg2:T24
+R5	has_rank Arg1:T28 Arg2:T27
+R6	has_rank Arg1:T30 Arg2:T29
+R7	has_rank Arg1:T32 Arg2:T31
+R8	has_rank Arg1:T34 Arg2:T33
+R9	has_rank Arg1:T36 Arg2:T35
+R10	has_rank Arg1:T38 Arg2:T37
+R11	has_rank Arg1:T40 Arg2:T39
+R12	has_rank Arg1:T42 Arg2:T41
+R13	has_rank Arg1:T44 Arg2:T43
+R14	is_posted Arg1:T47 Arg2:T46

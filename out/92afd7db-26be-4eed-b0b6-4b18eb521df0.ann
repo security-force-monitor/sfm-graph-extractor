@@ -1,0 +1,48 @@
+T1	Organization 0 10	21 Brigade
+T2	Organization 18 31	Nigerian Army
+T3	Title_Role 41 50	commander
+T4	Rank 52 61	Brig.-Gen
+T5	Person 63 73	Garba Audu
+T6	Title_Role 100 109	Commander
+T7	Organization 117 127	21 Brigade
+T8	Organization 135 148	Nigerian Army
+T9	Rank 186 189	Col
+T10	Person 191 201	Adamu Laka
+T11	Rank 288 295	Lt.-Col
+T12	Person 297 311	Samuel Kinsley
+T13	Title_Role 316 331	Deputy Director
+T14	Organization 333 365	Army Public Relations Department
+T15	Person 419 432	Kinsley, Audu
+T16	Organization 452 471	37th Regular Course
+T17	Organization 491 515	Nigerian Defence Academy
+T18	Organization 542 567	Nigerian Army Amour Corps
+T19	Title_Role 600 623	Deputy Director, Safety
+T20	Organization 631 696	Department of Standard and Evaluation, Defence Headquarters Abuja
+T21	Title_Role 714 747	Acting General Officer Commanding
+T22	Organization 755 779	7 Division Nigerian Army
+T23	Rank 781 791	Brig.- Gen
+T24	Person 793 806	Victor Ezugwu
+T25	Person 925 929	Laka
+T26	Title_Role 1044 1053	Commander
+T27	Organization 1055 1065	21 Brigade
+T28	Person 1067 1089	Brigadier General Audu
+T29	Organization 1094 1104	7 Division
+T30	Organization 1123 1144	Operation Lafiya Dole
+R1	has_rank Arg1:T5 Arg2:T4
+R2	has_title_or_role Arg1:T5 Arg2:T6
+R3	is_posted Arg1:T5 Arg2:T7
+R4	is_posted Arg1:T5 Arg2:T8
+R5	has_rank Arg1:T10 Arg2:T9
+R6	has_rank Arg1:T12 Arg2:T11
+R7	has_title_or_role Arg1:T12 Arg2:T13
+R8	is_posted Arg1:T12 Arg2:T14
+R9	is_posted Arg1:T15 Arg2:T16
+R10	is_posted Arg1:T15 Arg2:T17
+R11	is_posted Arg1:T15 Arg2:T18
+R12	has_title_or_role Arg1:T24 Arg2:T21
+R13	is_posted Arg1:T24 Arg2:T22
+R14	has_rank Arg1:T24 Arg2:T23
+R15	has_title_or_role Arg1:T28 Arg2:T26
+R16	is_posted Arg1:T28 Arg2:T27
+R17	is_posted Arg1:T28 Arg2:T29
+R18	is_posted Arg1:T28 Arg2:T30

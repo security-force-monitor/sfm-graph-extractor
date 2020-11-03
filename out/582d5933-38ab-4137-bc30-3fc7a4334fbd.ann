@@ -1,0 +1,49 @@
+T1	Person 16 22	Buhari
+T2	Organization 32 34	UN
+T3	Organization 49 55	Biafra
+T4	Organization 57 63	Massob
+T5	Organization 75 89	Port Harcourt…
+T6	Organization 118 160	Actualisation of Sovereign State of Biafra
+T7	Person 206 222	Muhammadu Buhari
+T8	Organization 349 368	United Nations (UN)
+T9	Location 560 570	South East
+T10	Title_Role 640 673	Acting General Officer Commanding
+T11	Organization 680 691	82 Division
+T12	Organization 695 708	Nigerian Army
+T13	Rank 717 729	Brig-General
+T14	Person 730 746	Ibrahim Attahiru
+T15	Organization 1144 1157	Nigerian Army
+T16	Organization 1988 2005	National Assembly
+T17	Title_Role 2488 2509	Governor of Imo State
+T18	Person 2511 2526	Rochas Okorocha
+T19	Organization 3348 3364	IPOB Nnamdi Kanu
+T20	Organization 3576 3604	Department of State Services
+T21	Title_Role 3705 3728	Director of Information
+T22	Rank 3730 3737	Comrade
+T23	Person 3738 3750	Uchenna Madu
+T24	Person 3956 3968	Madu, Buhari
+T25	Location 4081 4088	Eastern
+T26	Person 4296 4303	Nigeria
+T27	Organization 4578 4597	United Nations (UN)
+T28	Rank 5110 5112	Mr
+T29	Person 5114 5138	Vincent Egechukwu Obette
+T30	Organization 5554 5570	Mazi Nnamdi Kanu
+T31	Organization 5699 5727	Department of State Services
+T32	Location 5976 5982	Russia
+T33	Location 6002 6008	Israel
+T34	Location 6013 6020	Britain
+T35	Organization 6112 6133	Amnesty International
+T36	Organization 6275 6303	International Criminal Court
+T37	Organization 7164 7195	United Nations General Assembly
+T38	Misclass 7206 7217	Palestinian
+R1	is_posted Arg1:T1 Arg2:T2
+R2	is_posted Arg1:T1 Arg2:T3
+R3	is_posted Arg1:T7 Arg2:T6
+R4	has_title_or_role Arg1:T14 Arg2:T10
+R5	is_posted Arg1:T14 Arg2:T11
+R6	is_posted Arg1:T14 Arg2:T12
+R7	has_rank Arg1:T14 Arg2:T13
+R8	has_title_or_role Arg1:T18 Arg2:T17
+R9	has_title_or_role Arg1:T23 Arg2:T21
+R10	has_rank Arg1:T23 Arg2:T22
+R11	has_rank Arg1:T29 Arg2:T28

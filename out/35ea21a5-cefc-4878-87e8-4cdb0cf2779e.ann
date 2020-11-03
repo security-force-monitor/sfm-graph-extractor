@@ -1,0 +1,15 @@
+T1	Organization 55 68	Nigerian Army
+T2	Organization 220 231	Army troops
+T3	Organization 311 321	23 Brigade
+T4	Organization 323 336	Nigerian Army
+T5	Organization 343 367	Operation Operation Dole
+T6	Rank 439 456	Brigadier General
+T7	Person 457 469	Texas Chukwu
+T8	Person 603 628	Adam Yagga, Musa Kamsulum
+T9	Person 633 645	Abba Djidoum
+T10	Person 738 750	Abba Djidoum
+T11	Organization 1035 1061	23 Brigade Provost Company
+R1	is_posted Arg1:T7 Arg2:T3
+R2	is_posted Arg1:T7 Arg2:T4
+R3	is_posted Arg1:T7 Arg2:T5
+R4	has_rank Arg1:T7 Arg2:T6

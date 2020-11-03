@@ -1,0 +1,370 @@
+>>> Ian Ma, Oct 10 - Oct 18, 2019:
+
+--- To Do:
+There are two main approaches that I will try:
+
+1. Use POS and parsing tree to extract possible name entities. It probably involves some prebuilt Libraries/Packages.
+2. Train LSTM-RNN/CNN, either at word level or character level.
+
+Issues that might be hard to cope with:
+It is very likely that we recognize many name entities that we are not interested in, such as journalist's name, some governor's name, etc.
+
+Repos:
+Model: https://github.com/guillaumegenthial/tf_ner
+     tensorflow==1.15.0
+Dataset: https://github.com/synalp/NER
+Paper: End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF (https://arxiv.org/abs/1603.01354)
+
+--- Wrote: process.py for processing the CONLL2003 dataset
+    $ python3 interact.py
+
+--- Results: (Relatively short training, ~ 30 min, training accuracy: ~0.97, precision: ~0.89)
+
+Labels:
+PER: Person
+ORG: Organization
+LOC: Location
+MISC: everything other than the first 3 classes
+
+1. 002fcbe4-503c-400d-8cc0-77a395570ade.txt
+words: A military source who spoke to THISDAY, disclosed that the battle to uproot the insurgents from the town was led by the General Officer Commanding (GOC), 7 Division, General Lamidi Adeosun.
+preds: O O        O      O   O     O  B-ORG    O         O    O   O      O  O      O   O          O    O   O    O   O   O  O   B-ORG   I-ORG   I-ORG      I-ORG  O O         O       B-PER  I-PER
+
+2. 0b4ea4e0-fade-4d35-b449-c36e265795d3.txt
+words: Jos—General Officer Commanding 3 Armoured Division of the Nigerian Army,  Major General Jack  Nwaogbo, has again re-assured Nigerians that the Boko  Haram insurgency would soon be contained.
+preds: B-ORG       I-ORG   I-ORG      O B-ORG    I-ORG    O  O   B-MISC   I-MISC O     O       B-PER I-PER    O   O     O          B-PER     O    O   B-ORG I-ORG O          O     O    O  O
+
+3. 017326a6-80d1-44de-ad81-a72f47318254.txt
+words: They Chief of Army  Staff who was represented by the General Officer Commanding (GOC), 1 Mechanised Division of the Nigerian Army,  Kaduna, Maj-Gen. Adeniyi Oyebade however said that, all hands must be on deck to ensure proper training and upbringing of Nigerian children, believing that such will reduce to the barest minimal, security threats against the country.
+preds: O    O     O  B-ORG I-ORG O   O   O           O  O   B-ORG   I-ORG   I-ORG      I-ORG  O B-ORG      I-ORG    O  O   B-MISC   I-MISC I-MISC  O        B-PER   I-PER   O       O    O     O   O     O    O  O  O    O  O      O      O        O   O          O  B-MISC   O         O         O    O    O    O      O  O   O      O        O        O       O       O   O
+
+--- Observations:
+1. Works poorly when the organizations's name starts with a number. E.g., 1 Mechanised Division of the Nigerian Army (Result 3.)
+2. This model only have lables: PER ORG LOC MISC (MISC is for everything other than the first 3 classes). Therefore, it cannot classify titles, ranks, etc. The dataset is CONLL2003. If we switch to our dataset, it might improve.
+
+
+
+
+
+>>> Ian Ma, Oct 18 - Oct 24, 2019:
+
+--- To Do:
+1. Evaluate on our dataset using the same parameter.
+      Precision and recall, F score for only person and organizations.
+      Report cases: false positive, false negative.
+*2. Continue training on existing docs, also evaluate...
+*3. Automatic Content Extraction (ACE), inventory of name entities.
+    https://www.ldc.upenn.edu/collaborations/past-projects/ace
+
+--- Wrote: prep_eval.py eval.py
+    $ pip3 install 'gast==0.2.2'
+    $ python3 prep_eval.py
+    $ python3 eval.py
+
+--- Results:
+Precision:  0.25161290322580643
+Recall:  0.24309884238646481
+F1 score:  0.24728260869565213
+
+Similar Precision:  0.5751152073732719
+Similar Recall:  0.5842696629213483
+Similar F1 score:  0.5796562935438923
+
+Examples: Oct_18_examples.txt
+
+
+
+
+
+>>> Ian Ma, Oct 24 - Oct 31, 2019:
+
+--- To Do:
+1. Tokenization
+2. Look at exactly what causes false cases
+3. Retrain, pattern based - deepdiv, bootstraping, semi-supervised
+  US training data military (not grounded in text)
+  list sent by tom WHOwasincommand use only Nigeria?
+  universal terminology
+4. Use a certain format for report/log, include examples under main repo, push to sfm repo
+
+Additional data:
+Two lists of units for training the model
+https://github.com/security-force-monitor/nlp_starter_dataset/tree/master/other_training_data
+
+1) from our dataset created from Department of State training report PDFs
+https://github.com/security-force-monitor/nlp_starter_dataset/tree/master/other_training_data/dos/output
+
+2) from our main research dataset
+https://github.com/security-force-monitor/nlp_starter_dataset/tree/master/other_training_data/sfm/1_process_out_distinct_units/output
+
+3) Processing code is in there too
+
+
+--- Wrote:
+  process.py: 1) preprocess dataset by recording info in dicts,
+                    which are saved in two pickle files: dataset_labels.pickle, dataset_sentences.pickle
+              2) convert SFM starter dataset to a format that can be used by the model
+  pred.py: generates predictions use the trained model. Before this, run python3 train.py
+  eval.py: evaluate the predctions made by model, which are generated by running pred.py
+
+  Workflow:
+    1) Prepare data
+      $ python3 process.py
+      $ cd SFM_STARTER
+      $ python3 build_vocab.py
+      $ python3 build_glove.py
+      $ cd ..
+
+    2) Train model
+      $ python3 train.py
+
+    3) Evaluate model
+      $ python3 pred.py
+      $ python3 eval.py
+
+  Data used for training:
+    1) 400 sentences from SFM starter dataset, but trained model often only recognize the first token of name entities of PER and ORG.
+    2) In addtion to the SFM starter dataset, I added the first 5000 sentences from CONLL2003 training data
+
+--- Results:
+Saving dict for global step 3472: acc = 0.92142266, f1 = 0.77824265, global_step = 3472, loss = 7.126516, precision = 0.7237354, recall = 0.84162897
+Saving 'checkpoint_path' summary for global step 3472: results/model/model.ckpt-3472
+
+Examples: Oct_24_examples.txt
+
+Prediction labels are mapped using this dict, define in process.py:
+label_mapping = {'Person':       'PER',
+                 'Rank':         'RAN',
+                 'Organization': 'ORG',
+                 'Title':        'TIT',
+                 'Role':         'ROL'}
+
+--- Some thoughts:
+  1) I could have tried adding all CONLL2003 dataset, but given that our SFM dataset is relatively small,
+     I was worried that the model might underfit on SFM dataset and only capture the features in CONLL2003.
+  2) Using the additional SFM data might make the model only 'remember' all the name entities, losing the ability of generalization;
+  3) Since, currently, I am only using the sentences that contain name entities, the model is likely to perform worse on the whole document.
+
+
+
+
+
+>>> Ian Ma, Oct 31 - Nov 12, 2019:
+
+----- To Do:
+  1. Revisit DeepDive one last time.
+  2. Use a tokenizer and then retrain the model using the list of known organizations.
+  3. Mythili and Ian will add each other to their private Github repos.
+
+----- Wrote:
+  process.py: added code for loading name lists and misclassified sentences
+
+----- Results:
+  Previous model:
+    Precision:  0.39204545454545453
+    Recall:  0.43125
+    F1 score:  0.4107142857142857
+    Similar Precision:  0.8579545454545454
+    Similar Recall:  0.8830409356725146
+    Similar F1 score:  0.8703170028818444
+
+  With tokenization:
+    Precision:  0.7386363636363636
+    Recall:  0.7975460122699386
+    F1 score:  0.7669616519174041
+    Similar Precision:  0.8579545454545454
+    Similar Recall:  0.8830409356725146
+    Similar F1 score:  0.8703170028818444
+
+  With the two name lists and tokenization:
+  (Nov_3_examples.txt)
+    Precision:  0.7314285714285714
+    Recall:  0.7852760736196319
+    F1 score:  0.757396449704142
+    Similar Precision:  0.8571428571428571
+    Similar Recall:  0.872093023255814
+    Similar F1 score:  0.8645533141210374
+
+  With misclassified sentences, the two name lists and tokenization:
+  (Nov_6_examples.txt)
+    Precision:  0.7005347593582888
+    Recall:  0.808641975308642
+    F1 score:  0.7507163323782235
+    Similar Precision:  0.839572192513369
+    Similar Recall:  0.9181286549707602
+    Similar F1 score:  0.8770949720670391
+
+
+
+
+
+>>> Ian Ma, Nov 12 - Nov 14, 2019:
+
+----- TO DO:
+Report precision and recall for each class
+
+----- Wrote:
+eval_class.py
+
+----- Result:
+Nov_12_examples.txt
+
+A summary of the report:
+
+=============== Class:  Person ===============
+	tp, fp, fn counts:  [35, 9, 3]
+	Precision:  0.7954545454545454
+	Recall:  0.9210526315789473
+	F1 score:  0.853658536585366
+
+=============== Class:  Rank ===============
+	tp, fp, fn counts:  [32, 7, 3]
+	Precision:  0.8205128205128205
+	Recall:  0.9142857142857143
+	F1 score:  0.8648648648648649
+
+=============== Class:  Organization ===============
+	tp, fp, fn counts:  [37, 26, 14]
+	Precision:  0.5873015873015873
+	Recall:  0.7254901960784313
+	F1 score:  0.6491228070175439
+
+=============== Class:  Title ===============
+	tp, fp, fn counts:  [16, 10, 13]
+	Precision:  0.6153846153846154
+	Recall:  0.5517241379310345
+	F1 score:  0.5818181818181818
+
+=============== Class:  Role ===============
+	tp, fp, fn counts:  [6, 8, 3]
+	Precision:  0.42857142857142855
+	Recall:  0.6666666666666666
+	F1 score:  0.5217391304347826
+
+=============== All classes ===============
+	Precision:  0.6737967914438503
+	Recall:  0.7777777777777778
+	F1 score:  0.7220630372492837
+
+
+
+
+
+>>> Ian Ma, Nov 12 - Nov 14, 2019:
+----- TO DO:
+  1. Title and role, collapse into one, retrain model
+  2. Organizations hierarchy? consistently annotate
+  3. Use cross validation, try different part of CONLL2003
+
+----- Wrote:
+  Modified: process.py, eval.py, eval_class.py
+
+----- Results:
+  Nov_20_examples.txt
+
+  =============== Class:  Person ===============
+  	tp, fp, fn counts:  [87, 13, 6]
+  	Precision:  0.87
+  	Recall:  0.9354838709677419
+  	F1 score:  0.9015544041450777
+
+  =============== Class:  Rank ===============
+  	tp, fp, fn counts:  [80, 14, 11]
+  	Precision:  0.851063829787234
+  	Recall:  0.8791208791208791
+  	F1 score:  0.8648648648648649
+
+  =============== Class:  Organization ===============
+  	tp, fp, fn counts:  [103, 33, 31]
+  	Precision:  0.7573529411764706
+  	Recall:  0.7686567164179104
+  	F1 score:  0.762962962962963
+
+  =============== Class:  Title_Role ===============
+  	tp, fp, fn counts:  [85, 20, 23]
+  	Precision:  0.8095238095238095
+  	Recall:  0.7870370370370371
+  	F1 score:  0.7981220657276995
+
+  =============== All classes ===============
+  	Precision:  0.8160919540229885
+  	Recall:  0.8333333333333334
+  	F1 score:  0.8246225319396051
+
+
+
+
+
+>>> Ian Ma, Nov 14 - Dec 3, 2019:
+----- TO DO:
+  1. Retrain, add misclassified to training
+  2. Unknown words
+  3. Relation extraction tools
+  4. Sample annotations
+
+----- Wrote:
+  Modified: process.py, eval.py, eval_class.py, pred.py
+  Added: relation.py
+
+----- Results:
+  1. 	Retrained model:
+    > Nov_20_examples.txt
+    =============== Class:  Person ===============
+    	tp, fp, fn counts:  [87, 13, 6]
+    	Precision:  0.87
+    	Recall:  0.9354838709677419
+    	F1 score:  0.9015544041450777
+
+    =============== Class:  Rank ===============
+    	tp, fp, fn counts:  [80, 14, 11]
+    	Precision:  0.851063829787234
+    	Recall:  0.8791208791208791
+    	F1 score:  0.8648648648648649
+
+    =============== Class:  Organization ===============
+    	tp, fp, fn counts:  [103, 33, 31]
+    	Precision:  0.7573529411764706
+    	Recall:  0.7686567164179104
+    	F1 score:  0.762962962962963
+
+    =============== Class:  Title_Role ===============
+    	tp, fp, fn counts:  [85, 20, 23]
+    	Precision:  0.8095238095238095
+    	Recall:  0.7870370370370371
+    	F1 score:  0.7981220657276995
+
+    =============== All classes ===============
+    	Precision:  0.8160919540229885
+    	Recall:  0.8333333333333334
+    	F1 score:  0.8246225319396051
+
+  2. Unknown words:
+      It turns out that the model handles unknown words automatically, which is implicitly done by tf.contrib.lookup.index_table_from_file (The following line is just a part of its documentation): 
+      tf.contrib.lookup.index_table_from_file --- Any lookup of an out-of-vocabulary token will return a bucket ID based on its hash if num_oov_buckets is greater than zero. Otherwise it is assigned the default_value
+
+  3. Relation extraction tools:
+    > test_docs
+    I have implemented a very simple relation extraction algorithm, which is simply assigning name entities to the nearest person. But this already produces some reasonable results.
+    Results are included in 'test_docs', those files are in BRAT annotation format. So, the relations can be viewed in BRAT, just like the original annotations.
+
+    Usage: $ python relation.py <text_file>
+
+
+Main purpose is to get info from a lot of doc that a person cannot go through mannully.
+1. corpus, with high levels and low levels, build a structure
+https://www.state.gov/wp-content/uploads/2019/12/FMT_Volume-I_FY2018_2019.pdf
+
+
+
+
+
+>>> Ian Ma, Jan 7 - Jan 22, 2020:
+----- Wrote:
+  Split relation.py into two files: ner.py and relation_<suffix>.py
+  ner.py is for producing the final result of modify NER and write the recognized name entities into a file that follows the BRAT annotation format.
+  Now ner.py can split recognized entities if they contain other recognized entities. E.g., Major General Arende can be split into Major General and Arende in a7105b41-1e5c-4d6b-8920-ebad5d9e068c.txt line 9.
+  relation_<suffix>.py is for relation extraction, moved to folder RE.
+
+----- Usage:
+  To run NER, use: $ python ner.py <text_file>
+  The result of this script will be placed under the same folder as <text_file> but with suffix ".ann"

@@ -1,0 +1,28 @@
+T1	Organization 0 26	Nigerian Army | 7 Division
+T2	Organization 32 37	7 Div
+T3	Organization 71 82	6 divisions
+T4	Organization 726 764	GENERAL OFFICERS COMMANDING 7 DIVISION
+T5	Organization 766 769	S/N
+T6	Organization 771 775	Rank
+T7	Organization 783 787	Appt
+T8	Organization 789 795	Period
+T9	Rank 801 808	Maj Gen
+T10	Organization 810 818	OT Ethan
+T11	Organization 820 823	GOC
+T12	Rank 852 859	Maj Gen
+T13	Organization 861 871	JS Bindawa
+T14	Organization 873 876	GOC
+T15	Rank 902 909	Maj Gen
+T16	Person 913 921	Mohammed
+T17	Organization 923 926	GOC
+T18	Rank 955 963	Brig Gen
+T19	Organization 965 975	MY Ibrahim
+T20	Title_Role 977 983	acting
+T21	Organization 984 987	GOC
+T22	Rank 1016 1023	Maj Gen
+T23	Organization 1025 1035	LO Adeosun
+T24	Organization 1037 1040	GOC
+T25	Organization 1062 1083	Nigerian Army History
+T26	Organization 1104 1117	Nigerian Army
+T27	Person 1138 1147	Lt Glover
+R1	is_posted Arg1:T27 Arg2:T26

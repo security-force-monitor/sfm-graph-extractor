@@ -1,0 +1,70 @@
+T1	Organization 0 27	LT GEN OA IHEJIRIKA CFR Gss
+T2	Rank 65 83	Lieutenant General
+T3	Person 84 109	Onyeabo Azubike Ihejirika
+T4	Organization 346 369	Nigerian Army Engineers
+T5	Rank 722 740	Lieutenant General
+T6	Person 741 750	Ihejirika
+T7	Title_Role 1130 1139	Commander
+T8	Organization 1140 1161	41 Division Engineers
+T9	Title_Role 1166 1199	Acting General Officer Commanding
+T10	Organization 1200 1210	1 Division
+T11	Organization 1235 1246	81 Division
+T12	Rank 1257 1264	General
+T13	Person 1265 1274	Ihejirika
+T14	Rank 1357 1375	Lieutenant General
+T15	Person 1376 1385	Ihejirika
+T16	Organization 1439 1458	Forces Service Star
+T17	Organization 1750 1784	NIGERIAN ARMY CHRONICLE OF COMMAND
+T18	Organization 1788 1798	MAJ GEN CB
+T19	Organization 1817 1842	MAJ GEN JTU AGUIYI-IRONSI
+T20	Organization 1846 1857	GEN Y GOWON
+T21	Organization 1861 1876	COL IRI AKANHAN
+T22	Rank 1880 1887	Maj Gen
+T23	Person 1888 1898	HU KATSINA
+T24	Rank 1902 1909	Maj Gen
+T25	Person 1910 1915	Ejoor
+T26	Organization 1919 1936	LT GEN TY DANJUMA
+T27	Organization 1940 1960	LT GEN IA AKINRINADE
+T28	Organization 1964 1979	LT GEN GS JALLO
+T29	Organization 1983 2001	LT GEN MI WUSHISHI
+T30	Organization 2005 2030	MAJ GEN IBRAHIM BABANGIDA
+T31	Organization 2034 2051	LATE GEN S ABACHA
+T32	Rank 2055 2061	Lt Gen
+T33	Person 2062 2070	MOHAMMED
+T34	Organization 2074 2089	MAJ GEN MC ALLI
+T35	Rank 2093 2100	Maj Gen
+T36	Person 2101 2106	Kazir
+T37	Rank 2110 2116	Lt Gen
+T38	Person 2117 2125	Ogomudia
+T39	Rank 2129 2135	Lt Gen
+T40	Person 2136 2144	OA Azazi
+T41	Rank 2148 2154	Lt Gen
+T42	Person 2155 2163	LN Yusuf
+T43	Rank 2167 2173	Lt Gen
+T44	Person 2174 2185	AB Dambazau
+T45	Rank 2189 2195	Lt Gen
+T46	Person 2196 2208	OA Ihejirika
+T47	Organization 2210 2231	Nigerian Army History
+T48	Organization 2252 2265	Nigerian Army
+T49	Person 2286 2295	Lt Glover
+R1	has_rank Arg1:T3 Arg2:T2
+R2	is_posted Arg1:T15 Arg2:T4
+R3	has_rank Arg1:T6 Arg2:T5
+R4	has_title_or_role Arg1:T15 Arg2:T7
+R5	is_posted Arg1:T13 Arg2:T8
+R6	has_title_or_role Arg1:T15 Arg2:T9
+R7	is_posted Arg1:T15 Arg2:T10
+R8	is_posted Arg1:T13 Arg2:T11
+R9	has_rank Arg1:T13 Arg2:T12
+R10	has_rank Arg1:T15 Arg2:T14
+R11	is_posted Arg1:T15 Arg2:T16
+R12	has_rank Arg1:T23 Arg2:T22
+R13	has_rank Arg1:T25 Arg2:T24
+R14	has_rank Arg1:T33 Arg2:T32
+R15	has_rank Arg1:T36 Arg2:T35
+R16	has_rank Arg1:T38 Arg2:T37
+R17	has_rank Arg1:T40 Arg2:T39
+R18	has_rank Arg1:T42 Arg2:T41
+R19	has_rank Arg1:T44 Arg2:T43
+R20	has_rank Arg1:T46 Arg2:T45
+R21	is_posted Arg1:T49 Arg2:T48

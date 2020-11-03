@@ -1,0 +1,14 @@
+T1	Organization 0 5	Kebbi
+T2	Rank 50 58	Governor
+T3	Person 59 80	Abubakar Atiku Bagudu
+T4	Person 264 279	Governor Bagudu
+T5	Title_Role 1145 1170	Acting Commanding Officer
+T6	Organization 1178 1189	1 Battalion
+T7	Organization 1197 1210	Nigerian Army
+T8	Rank 1228 1232	Capt
+T9	Person 1234 1245	Adamu Aliyu
+R1	has_rank Arg1:T3 Arg2:T2
+R2	has_title_or_role Arg1:T9 Arg2:T5
+R3	is_posted Arg1:T9 Arg2:T6
+R4	is_posted Arg1:T9 Arg2:T7
+R5	has_rank Arg1:T9 Arg2:T8

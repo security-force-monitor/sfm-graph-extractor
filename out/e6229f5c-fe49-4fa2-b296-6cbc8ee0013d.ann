@@ -1,0 +1,19 @@
+T1	Person 0 9	Akeredolu
+T2	Rank 40 43	Gov
+T3	Person 45 66	Oluwarotimi Akeredolu
+T4	Title_Role 230 256	General Officer Commanding
+T5	Organization 258 268	2 Division
+T6	Organization 270 283	Nigerian Army
+T7	Rank 293 302	Maj.- Gen
+T8	Person 304 323	Chukwunedum Abraham
+T9	Person 1014 1023	Akeredolu
+T10	Title_Role 1271 1274	GOC
+T11	Title_Role 1362 1390	Warrant Officer and Sergeant
+T12	Organization 1415 1425	32 Brigade
+T13	Title_Role 1781 1784	GOC
+T14	Organization 1788 1798	2 Division
+R1	has_rank Arg1:T3 Arg2:T2
+R2	has_title_or_role Arg1:T8 Arg2:T4
+R3	is_posted Arg1:T8 Arg2:T5
+R4	is_posted Arg1:T8 Arg2:T6
+R5	has_rank Arg1:T8 Arg2:T7

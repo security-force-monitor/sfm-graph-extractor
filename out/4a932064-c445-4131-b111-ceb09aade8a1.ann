@@ -1,0 +1,19 @@
+T1	Organization 0 41	Army Demands Discipline from Civilian JTF
+T2	Organization 47 60	Nigerian Army
+T3	Title_Role 253 279	General Officer Commanding
+T4	Organization 280 290	7 Division
+T5	Organization 298 311	Nigerian Army
+T6	Rank 313 321	Maj, Gen
+T7	Person 323 335	Obidah Ethan
+T8	Title_Role 451 470	Chief of Army Staff
+T9	Rank 472 479	Lt. Gen
+T10	Person 481 499	Azubuike Ihejirika
+T11	Person 598 603	Ethan
+T12	Title_Role 821 824	GOC
+T13	Title_Role 847 870	Governor of Borno State
+R1	has_title_or_role Arg1:T7 Arg2:T3
+R2	is_posted Arg1:T7 Arg2:T4
+R3	is_posted Arg1:T7 Arg2:T5
+R4	has_rank Arg1:T7 Arg2:T6
+R5	has_title_or_role Arg1:T10 Arg2:T8
+R6	has_rank Arg1:T10 Arg2:T9

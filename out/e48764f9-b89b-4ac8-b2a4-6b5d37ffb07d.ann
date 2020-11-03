@@ -1,0 +1,51 @@
+T1	Organization 0 56	Emergency Rule: Economic Activities Grounded In 3 States
+T2	Rank 932 939	Admiral
+T3	Person 940 958	Ola Saa’ad Ibrahim
+T4	Organization 1014 1035	1 Mechanized Division
+T5	Organization 1045 1057	82 Battalion
+T6	Organization 1204 1220	Joint Task Force
+T7	Organization 2407 2420	Nigerian Army
+T8	Organization 2438 2456	Nigerian Air Force
+T9	Person 3453 3460	Adamawa
+T10	Organization 3861 3881	US cautions military
+T11	Location 3898 3911	United States
+T12	Organization 4070 4089	US State Department
+T13	Misclass 4166 4174	Islamist
+T14	Location 4236 4243	Nigeria
+T15	Misclass 4321 4329	Islamist
+T16	Person 4530 4546	Patrick Ventrell
+T17	Location 4560 4570	Washington
+T18	Location 4588 4595	Nigeria
+T19	Organization 4923 4930	Reuters
+T20	Organization 5077 5083	Senate
+T21	Organization 5121 5127	Senate
+T22	Person 5321 5331	David Mark
+T23	Person 5879 5896	Victor Ndoma-Egba
+T24	Organization 6864 6881	National Assembly
+T25	Organization 7662 7679	National Assembly
+T26	Organization 7818 7835	National Assembly
+T27	Person 7876 7884	Jonathan
+T28	Organization 8358 8401	House Committee on Media and Public Affairs
+T29	Rank 8407 8411	Afam
+T30	Person 8412 8424	Victor Ogene
+T31	Organization 8821 8840	National Assembly.”
+T32	Organization 9061 9078	National Assembly
+T33	Organization 9320 9335	Cameroun offers
+T34	Location 9346 9353	Nigeria
+T35	Person 9355 9363	Cameroun
+T36	Misclass 9446 9453	Nigeria
+T37	Person 9541 9552	Ahmadou Ali
+T38	Misclass 9793 9801	Cameroun
+T39	Person 10392 10395	Ali
+T40	Person 10442 10446	Biya
+T41	Person 10565 10573	Jonathan
+T42	Organization 10701 10718	National Assembly
+T43	Organization 10748 10763	Action Congress
+T44	Organization 12611 12614	NLC
+T45	Organization 12625 12648	Nigeria Labour Congress
+T46	Organization 13137 13161	Comrade Abdulwaheed Omar
+R1	has_rank Arg1:T3 Arg2:T2
+R2	is_posted Arg1:T3 Arg2:T4
+R3	is_posted Arg1:T3 Arg2:T5
+R4	is_posted Arg1:T30 Arg2:T28
+R5	has_rank Arg1:T30 Arg2:T29

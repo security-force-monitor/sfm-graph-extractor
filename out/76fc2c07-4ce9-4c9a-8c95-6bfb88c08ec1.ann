@@ -1,0 +1,45 @@
+T1	Organization 0 15	Buratai renames
+T2	Organization 16 26	21 Brigade
+T3	Organization 30 52	Special Forces Brigade
+T4	Title_Role 66 85	Chief of Army Staff
+T5	Rank 93 104	Lt. General
+T6	Person 105 118	Tukur Buratai
+T7	Organization 136 146	21 Brigade
+T8	Organization 181 203	Special Forces Brigade
+T9	Title_Role 247 261	army spokesman
+T10	Rank 263 280	Brigadier General
+T11	Person 281 293	Texas Chukwu
+T12	Organization 321 343	Special Forces Brigade
+T13	Organization 592 599	Brigade
+T14	Title_Role 721 737	Acting Commander
+T15	Organization 738 748	21 Brigade
+T16	Rank 750 757	Colonel
+T17	Person 758 765	AG Nora
+T18	Organization 785 801	Gun Boat Company
+T19	Organization 805 826	Operation Lafiya Dole
+T20	Title_Role 904 921	Theatre Commander
+T21	Organization 922 943	Operation LAFIYA DOLE
+T22	Rank 945 958	Major General
+T23	Person 959 974	Rogers Nicholas
+T24	Title_Role 1032 1065	Acting General Officer Commanding
+T25	Organization 1066 1076	7 Division
+T26	Rank 1078 1095	Brigadier General
+T27	Person 1096 1111	Bulama Biu,”the
+R1	has_title_or_role Arg1:T6 Arg2:T4
+R2	has_rank Arg1:T6 Arg2:T5
+R3	is_posted Arg1:T6 Arg2:T7
+R4	is_posted Arg1:T6 Arg2:T8
+R5	has_title_or_role Arg1:T11 Arg2:T9
+R6	has_rank Arg1:T11 Arg2:T10
+R7	is_posted Arg1:T11 Arg2:T12
+R8	has_title_or_role Arg1:T17 Arg2:T14
+R9	is_posted Arg1:T17 Arg2:T15
+R10	has_rank Arg1:T17 Arg2:T16
+R11	is_posted Arg1:T17 Arg2:T18
+R12	is_posted Arg1:T17 Arg2:T19
+R13	has_title_or_role Arg1:T27 Arg2:T20
+R14	is_posted Arg1:T23 Arg2:T21
+R15	has_rank Arg1:T23 Arg2:T22
+R16	has_title_or_role Arg1:T27 Arg2:T24
+R17	is_posted Arg1:T27 Arg2:T25
+R18	has_rank Arg1:T27 Arg2:T26

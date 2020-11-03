@@ -1,0 +1,9 @@
+T1	Organization 0 39	Anti-Graft War: EFCC Seeks Army Support
+T2	Title_Role 390 416	General Officer Commanding
+T3	Organization 423 434	82 Division
+T4	Rank 458 471	Major General
+T5	Person 472 488	Ibrahim Attahiru
+T6	Title_Role 654 672	Head of Operations
+R1	has_title_or_role Arg1:T5 Arg2:T2
+R2	is_posted Arg1:T5 Arg2:T3
+R3	has_rank Arg1:T5 Arg2:T4

@@ -1,0 +1,30 @@
+T1	Location 0 7	Nigeria
+T2	Location 48 55	Liberia
+T3	Title_Role 85 111	General Officer Commanding
+T4	Organization 118 129	81 Division
+T5	Organization 137 150	Nigerian Army
+T6	Rank 152 160	Maj.-Gen
+T7	Person 162 179	Tamunomieibi Dibi
+T8	Organization 356 390	Nigerian Army Peace Keeping Centre
+T9	Rank 459 468	Brig.-Gen
+T10	Person 470 486	Abubakar Maikobi
+T11	Organization 556 569	Nigerian Army
+T12	Organization 701 720	Rules of Engagement
+T13	Organization 1032 1047	United Nation’s
+T14	Title_Role 1086 1096	Commandant
+T15	Rank 1107 1116	Maj.- Gen
+T16	Person 1118 1130	Sanusi Muazu
+T17	Title_Role 1293 1311	Commanding Officer
+T18	Organization 1315 1328	192 Battalion
+T19	Rank 1330 1338	Lt.- Col
+T20	Person 1340 1354	Mohammed Ahmed
+R1	has_title_or_role Arg1:T7 Arg2:T3
+R2	is_posted Arg1:T7 Arg2:T4
+R3	is_posted Arg1:T7 Arg2:T5
+R4	has_rank Arg1:T7 Arg2:T6
+R5	has_rank Arg1:T10 Arg2:T9
+R6	has_title_or_role Arg1:T16 Arg2:T14
+R7	has_rank Arg1:T16 Arg2:T15
+R8	has_title_or_role Arg1:T20 Arg2:T17
+R9	is_posted Arg1:T20 Arg2:T18
+R10	has_rank Arg1:T20 Arg2:T19

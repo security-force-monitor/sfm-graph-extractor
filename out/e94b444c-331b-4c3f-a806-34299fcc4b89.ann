@@ -1,0 +1,25 @@
+T1	Organization 41 54	Nigerian Army
+T2	Rank 350 358	Maj.-Gen
+T3	Person 360 372	Enobong Udoh
+T4	Title_Role 378 404	General Officer Commanding
+T5	Organization 412 423	81 Division
+T6	Organization 483 496	174 Battalion
+T7	Title_Role 562 579	Brigade Commander
+T8	Rank 581 590	Brig.-Gen
+T9	Person 592 604	Moundhey Ali
+T10	Organization 898 909	81 Division
+T11	Organization 1200 1213	174 Battalion
+T12	Organization 1761 1798	Battalion’s Medical Reception Station
+T13	Organization 2304 2315	81 Division
+T14	Organization 2605 2644	Nigerian National Petroleum Corporation
+T15	Person 3137 3148	Imoro Creek
+T16	Organization 3361 3372	10 Vehicles
+T17	Organization 3374 3382	31 Jerry
+T18	Organization 3969 3991	Area of Responsibility
+T19	Organization 4299 4304	(NAN)
+R1	has_rank Arg1:T3 Arg2:T2
+R2	has_title_or_role Arg1:T3 Arg2:T4
+R3	is_posted Arg1:T3 Arg2:T5
+R4	is_posted Arg1:T3 Arg2:T6
+R5	has_title_or_role Arg1:T9 Arg2:T7
+R6	has_rank Arg1:T9 Arg2:T8

@@ -1,0 +1,15 @@
+T1	Organization 0 11	Army troops
+T2	Organization 61 74	Nigerian Army
+T3	Organization 98 116	Mobile Strike Team
+T4	Organization 295 321	72 Special Force Battalion
+T5	Title_Role 495 528	Director of Army Public Relations
+T6	Rank 530 547	Brigadier General
+T7	Person 548 560	Texas Chukwu
+T8	Organization 740 753	Nigerian Army
+T9	Organization 819 845	72 Special Force Battalion
+T10	Organization 1043 1067	All Progressive Congress
+T11	Organization 1382 1395	Nigerian Army
+T12	Organization 1428 1455	101 Special Force Battalion
+T13	Organization 1592 1605	Nigerian Army
+R1	has_title_or_role Arg1:T7 Arg2:T5
+R2	has_rank Arg1:T7 Arg2:T6

@@ -1,0 +1,36 @@
+T1	Organization 0 13	Nigerian Army
+T2	Title_Role 46 77	head of Training and Operations
+T3	Organization 85 98	Nigerian Army
+T4	Person 100 116	Yusha’u Abubakar
+T5	Rank 187 200	major general
+T6	Organization 294 315	Operation Lafiya Dole
+T7	Title_Role 337 346	spokesman
+T8	Organization 354 367	Nigerian Army
+T9	Person 369 379	Sani Usman
+T10	Title_Role 442 475	acting General Officer Commanding
+T11	Organization 476 486	3 Division
+T12	Person 488 497	MSA Aliyu
+T13	Title_Role 597 636	Chief of Training and Operations (Army)
+T14	Rank 638 651	Major General
+T15	Person 652 676	Yusha’u Mahmood Abubakar
+T16	Title_Role 685 718	Acting General Officer Commanding
+T17	Organization 719 729	3 Division
+T18	Rank 745 762	Brigadier General
+T19	Person 763 772	MSA Aliyu
+T20	Rank 854 867	Major General
+T21	Person 868 884	Yusha’u Abubakar
+T22	Rank 920 937	Brigadier General
+T23	Person 938 943	Aliyu
+R1	has_title_or_role Arg1:T4 Arg2:T2
+R2	is_posted Arg1:T4 Arg2:T3
+R3	has_title_or_role Arg1:T9 Arg2:T7
+R4	is_posted Arg1:T9 Arg2:T8
+R5	has_title_or_role Arg1:T12 Arg2:T10
+R6	is_posted Arg1:T12 Arg2:T11
+R7	has_title_or_role Arg1:T15 Arg2:T13
+R8	has_rank Arg1:T15 Arg2:T14
+R9	has_title_or_role Arg1:T19 Arg2:T16
+R10	is_posted Arg1:T19 Arg2:T17
+R11	has_rank Arg1:T19 Arg2:T18
+R12	has_rank Arg1:T23 Arg2:T20
+R13	has_rank Arg1:T23 Arg2:T22

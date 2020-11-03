@@ -1,0 +1,29 @@
+T1	Organization 0 15	Boko Haram: New
+T2	Organization 548 565	Vanguard Features
+T3	Location 1630 1638	Cameroon
+T4	Title_Role 1968 1987	Chief of Army Staff
+T5	Rank 1989 2000	Lt. General
+T6	Person 2001 2012	KTJ Minimah
+T7	Organization 3520 3533	Nigerian Army
+T8	Organization 4083 4100	Nigerian Airforce
+T9	Organization 4274 4283	Air Force
+T10	Organization 5144 5164	Federal Government’s
+T11	Organization 5323 5344	Operation Zaman Lafia
+T12	Rank 5656 5667	Lt. General
+T13	Person 5668 5683	Kenneth Minimah
+T14	Title_Role 5828 5837	Commander
+T15	Organization 5841 5856	Operation Sweep
+T16	Rank 5948 5960	Brig-General
+T17	Person 5961 5975	Mohammed Marwa
+T18	Organization 7501 7503	VF
+T19	Rank 8217 8224	General
+T20	Person 8225 8232	Minimah
+T21	Organization 8531 8550	‘44’ Army Reference
+T22	Organization 9133 9156	Nigeria Defence Academy
+R1	has_title_or_role Arg1:T6 Arg2:T4
+R2	has_rank Arg1:T6 Arg2:T5
+R3	has_rank Arg1:T13 Arg2:T12
+R4	has_title_or_role Arg1:T17 Arg2:T14
+R5	is_posted Arg1:T17 Arg2:T15
+R6	has_rank Arg1:T17 Arg2:T16
+R7	has_rank Arg1:T20 Arg2:T19

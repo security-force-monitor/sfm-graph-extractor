@@ -1,0 +1,103 @@
+T1	Organization 228 239	Nnamdi Kanu
+T2	Organization 268 302	Indigenous People of Biafra (IPOB)
+T3	Person 1010 1023	Michael Nweke
+T4	Person 1029 1051	Peter Chukwuma Nwankwo
+T5	Rank 1061 1067	Mathew
+T6	Person 1068 1079	Ndukwe Kanu
+T7	Person 1155 1168	Michael Nweke
+T8	Person 1404 1426	Peter Chukwuma Nwankwo
+T9	Organization 1893 1910	New Year. Leaving
+T10	Person 2249 2262	Michael Nweke
+T11	Person 2846 2868	Frank Chijioke Nwankwo
+T12	Rank 2936 2942	Mathew
+T13	Person 2943 2954	Ndukwe Kanu
+T14	Person 3264 3276	Azu Okwuashi
+T15	Person 3601 3609	Okwuashi
+T16	Person 3617 3628	Nnamdi Kanu
+T17	Organization 3655 3667	Radio Biafra
+T18	Person 3963 3967	Kanu
+T19	Organization 4063 4067	IPOB
+T20	Title_Role 4292 4318	General Officer Commanding
+T21	Organization 4319 4329	3 Division
+T22	Rank 4352 4365	Major General
+T23	Person 4366 4378	Hassan Umaru
+T24	Organization 4893 4921	Civil Liberties Organisation
+T25	Organization 5602 5629	Nigeria Police Force (NPF)”
+T26	Organization 5776 5819	Actualization of Sovereign State of Biafra)
+T27	Location 5935 5939	Awka
+T28	Location 5944 5951	Onitsha
+T29	Location 5985 5992	Onitsha
+T30	Location 6027 6034	Onitsha
+T31	Location 6078 6081	Aba
+T32	Location 6117 6120	Aba
+T33	Location 6158 6161	Aba
+T34	Person 6259 6271	Ebuka Nnolum
+T35	Person 6713 6726	Nnamdi Kanu’s
+T36	Person 6893 6910	Emeka Umeagbalasi
+T37	Title_Role 6912 6942	Head of Intersociety for Civil
+T38	Organization 7478 7485	22 IPOB
+T39	Organization 7613 7623	Emma Nmezu
+T40	Organization 8987 9000	144 Battalion
+T41	Organization 9008 9021	Nigerian Army
+T42	Organization 9115 9128	144 Battalion
+T43	Rank 9146 9152	Lt Col
+T44	Person 9153 9168	Kasim Umar Sidi
+T45	Organization 9210 9235	Abia State Police Command
+T46	Organization 9270 9297	Finance & Logistics Command
+T47	Organization 9305 9318	Nigerian Navy
+T48	Title_Role 9401 9430	Commissioner of Police Habila
+T49	Title_Role 9475 9507	Assistant Commissioner of Police
+T50	Person 9509 9523	Peter Nwagbara
+T51	Person 9632 9640	Nwagbara
+T52	Organization 9750 9775	Abia State Police Command
+T53	Organization 10326 10346	National High School
+T54	Organization 10455 10477	Aba Port Harcourt Road
+T55	Organization 10562 10578	Abia State. IPOB
+T56	Person 11265 11271	Biafra
+T57	Organization 11559 11572	144 Battalion
+T58	Organization 12055 12074	Arewa Onions Market
+T59	Person 12438 12453	Justine Ijeomah
+T60	Organization 13034 13055	Amnesty International
+T61	Organization 13115 13127	Petitions to
+T62	Organization 13128 13148	UN Rights Commission
+T63	Organization 13264 13289	National Security Adviser
+T64	Title_Role 13776 13791	Provost Marshal
+T65	Organization 13793 13806	Nigerian Army
+T66	Rank 13808 13816	Brig-Gen
+T67	Person 13818 13837	Ayuba Tedman Hamman
+T68	Organization 14014 14025	Army Staff)
+T69	Person 14108 14114	Hamman
+T70	Organization 14771 14784	Nigerian Army
+T71	Organization 14861 14871	14 Brigade
+T72	Title_Role 14965 14983	Commanding Officer
+T73	Organization 14985 14995	14 Brigade
+T74	Rank 15004 15021	Brigadier General
+T75	Person 15022 15037	Lawrence Fejoku
+T76	Person 15148 15154	Fejoku
+T77	Organization 15318 15331	Nigerian Army
+T78	Organization 15931 15939	Nigerian
+R1	has_rank Arg1:T6 Arg2:T5
+R2	has_rank Arg1:T13 Arg2:T12
+R3	is_posted Arg1:T16 Arg2:T17
+R4	is_posted Arg1:T18 Arg2:T19
+R5	has_title_or_role Arg1:T23 Arg2:T20
+R6	is_posted Arg1:T23 Arg2:T21
+R7	has_rank Arg1:T23 Arg2:T22
+R8	has_title_or_role Arg1:T36 Arg2:T37
+R9	is_posted Arg1:T44 Arg2:T40
+R10	is_posted Arg1:T44 Arg2:T41
+R11	is_posted Arg1:T44 Arg2:T42
+R12	has_rank Arg1:T44 Arg2:T43
+R13	is_posted Arg1:T50 Arg2:T45
+R14	is_posted Arg1:T50 Arg2:T46
+R15	is_posted Arg1:T50 Arg2:T47
+R16	has_title_or_role Arg1:T50 Arg2:T48
+R17	has_title_or_role Arg1:T50 Arg2:T49
+R18	is_posted Arg1:T56 Arg2:T57
+R19	has_title_or_role Arg1:T67 Arg2:T64
+R20	is_posted Arg1:T67 Arg2:T65
+R21	has_rank Arg1:T67 Arg2:T66
+R22	is_posted Arg1:T69 Arg2:T68
+R23	has_title_or_role Arg1:T75 Arg2:T72
+R24	is_posted Arg1:T75 Arg2:T73
+R25	has_rank Arg1:T75 Arg2:T74

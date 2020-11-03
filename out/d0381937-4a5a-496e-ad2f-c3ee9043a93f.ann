@@ -1,0 +1,25 @@
+T1	Organization 0 32	Army "Corners" Boko Haram Leader
+T2	Organization 295 298	JTF
+T3	Person 425 431	Shekau
+T4	Organization 481 502	Army’s Special Forces
+T5	Organization 837 851	Special Forces
+T6	Organization 983 997	Special Forces
+T7	Rank 1007 1012	Major
+T8	Person 1013 1025	A.T. Fambiya
+T9	Organization 1201 1243	Gwoza Local Government Area of Borno State
+T10	Person 1391 1400	Fambiya’s
+T11	Organization 1523 1545	322 Artillery Regiment
+T12	Organization 1661 1677	Operation Boyona
+T13	Organization 1735 1748	Nigerian Army
+T14	Organization 1786 1812	Nigerian Military Cemetery
+T15	Person 2015 2027	Iliya Joshua
+T16	Organization 2607 2640	Nigerian Army School of Artillery
+T17	Title_Role 3018 3049	Director of Defence Information
+T18	Rank 3051 3060	Brig. Gen
+T19	Person 3061 3076	Chris Olukolade
+T20	Organization 3508 3526	Federal Government
+T21	Misclass 3567 3574	Islamic
+R1	is_posted Arg1:T8 Arg2:T6
+R2	has_rank Arg1:T8 Arg2:T7
+R3	has_title_or_role Arg1:T19 Arg2:T17
+R4	has_rank Arg1:T19 Arg2:T18

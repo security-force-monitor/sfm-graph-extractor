@@ -1,0 +1,30 @@
+T1	Organization 87 100	Nigerian Army
+T2	Organization 137 156	1 Division Garrison
+T3	Person 410 423	Alhaji Yahaya
+T4	Rank 508 525	Brigadier General
+T5	Title_Role 526 548	Texas Chukwu, Director
+T6	Organization 550 571	Army Public Relations
+T7	Location 710 720	Sabonfilin
+T8	Organization 1019 1029	Dogon Dawa
+T9	Organization 1080 1094	32 Motorcycles
+T10	Organization 1131 1144	Nigerian Army
+T11	Organization 1282 1303	Operation Lafiya Dole
+T12	Title_Role 1466 1499	Acting General Officer Commanding
+T13	Organization 1500 1510	7 Division
+T14	Rank 1526 1543	Brigadier General
+T15	Person 1544 1565	Abdulmalik Bulama Biu
+T16	Organization 1689 1699	21 Brigade
+T17	Location 2457 2464	Nigeria
+T18	Rank 2719 2726	General
+T19	Person 2727 2730	Biu
+T20	Organization 3024 3037	222 Battalion
+T21	Organization 3084 3097	202 Battalion
+T22	Organization 3131 3146	Force Battalion
+T23	Rank 3208 3226	Lieutenant Colonel
+T24	Person 3227 3243	Mohammed Abu Ali
+R1	has_title_or_role Arg1:T15 Arg2:T12
+R2	is_posted Arg1:T15 Arg2:T13
+R3	has_rank Arg1:T15 Arg2:T14
+R4	is_posted Arg1:T15 Arg2:T16
+R5	has_rank Arg1:T19 Arg2:T18
+R6	has_rank Arg1:T24 Arg2:T23

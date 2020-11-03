@@ -1,0 +1,48 @@
+T1	Organization 32 48	Gwoza, Buni Yadi
+T2	Organization 98 111	Nigerian Army
+T3	Title_Role 204 223	Chief of Army Staff
+T4	Rank 225 243	Lieutenant General
+T5	Person 244 254	TY Buratai
+T6	Title_Role 275 305	Chief of Administration (Army)
+T7	Rank 307 320	Major General
+T8	Person 321 330	IM Alkali
+T9	Title_Role 332 363	Chief of Civil-Military Affairs
+T10	Rank 365 378	Major General
+T11	Person 379 389	NE Angbazo
+T12	Title_Role 391 408	Theatre Commander
+T13	Organization 410 431	Operation LAFIYA DOLE
+T14	Rank 433 446	Major General
+T15	Person 447 458	RI Nicholas
+T16	Title_Role 460 486	General Officer Commanding
+T17	Organization 487 497	7 Division
+T18	Title_Role 502 532	Director Army Public Relations
+T19	Rank 534 551	Brigadier General
+T20	Person 552 560	SK Usman
+T21	Organization 613 636	Headquarters 7 Division
+T22	Organization 720 741	26 Task Force Brigade
+T23	Organization 743 764	Operation LAFIYA DOLE
+T24	Organization 828 849	26 Task Force Brigade
+T25	Title_Role 1132 1171	Chief of Training and Operations (Army)
+T26	Rank 1173 1186	Major General
+T27	Person 1187 1196	DD Ahmadu
+T28	Organization 1217 1251	Headquarters 27 Task Force Brigade
+T29	Organization 1365 1383	‘HQ Nigerian Army’
+R1	has_title_or_role Arg1:T5 Arg2:T3
+R2	has_rank Arg1:T5 Arg2:T4
+R3	has_title_or_role Arg1:T8 Arg2:T6
+R4	has_rank Arg1:T8 Arg2:T7
+R5	has_title_or_role Arg1:T8 Arg2:T9
+R6	has_rank Arg1:T15 Arg2:T10
+R7	has_title_or_role Arg1:T11 Arg2:T12
+R8	is_posted Arg1:T11 Arg2:T13
+R9	has_rank Arg1:T15 Arg2:T14
+R10	has_title_or_role Arg1:T15 Arg2:T16
+R11	is_posted Arg1:T20 Arg2:T17
+R12	has_title_or_role Arg1:T20 Arg2:T18
+R13	has_rank Arg1:T20 Arg2:T19
+R14	is_posted Arg1:T20 Arg2:T21
+R15	is_posted Arg1:T20 Arg2:T22
+R16	is_posted Arg1:T20 Arg2:T23
+R17	has_title_or_role Arg1:T27 Arg2:T25
+R18	has_rank Arg1:T27 Arg2:T26
+R19	is_posted Arg1:T27 Arg2:T28

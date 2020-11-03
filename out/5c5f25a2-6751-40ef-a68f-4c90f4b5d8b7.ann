@@ -1,0 +1,31 @@
+T1	Organization 0 48	Defence HQ Launch Skills Acquisition In Barracks
+T2	Organization 94 114	2 Amphibious Brigade
+T3	Rank 418 431	Major General
+T4	Person 432 451	Azugaku Tsota Umuru
+T5	Title_Role 453 479	Director of Administration
+T6	Organization 481 501	Defence Headquarters
+T7	Title_Role 520 542	Chief of Defence Staff
+T8	Rank 544 556	Air Marshall
+T9	Person 557 574	Oluseyin Petinrin
+T10	Person 1032 1050	Allied Agriculture
+T11	Person 1163 1178	Paulinus Nsirim
+T12	Organization 1210 1230	Defence Headquarters
+T13	Organization 1459 1462	DHQ
+T14	Person 1530 1542	Ken Ahukanna
+T15	Title_Role 1553 1586	Director of Hedgworth Pro-consult
+T16	Title_Role 1993 2012	Chief of Army staff
+T17	Rank 2013 2024	Lt. General
+T18	Person 2025 2052	Onyeabor Azubuike Ihejirika
+T19	Organization 2108 2117	2 Brigade
+T20	Organization 2195 2217	343 Artillery Regiment
+T21	Organization 2222 2233	5 Battalion
+R1	has_rank Arg1:T4 Arg2:T3
+R2	has_title_or_role Arg1:T4 Arg2:T5
+R3	is_posted Arg1:T4 Arg2:T6
+R4	has_title_or_role Arg1:T4 Arg2:T7
+R5	has_rank Arg1:T9 Arg2:T8
+R6	is_posted Arg1:T11 Arg2:T12
+R7	has_title_or_role Arg1:T14 Arg2:T15
+R8	has_title_or_role Arg1:T18 Arg2:T16
+R9	has_rank Arg1:T18 Arg2:T17
+R10	is_posted Arg1:T18 Arg2:T19

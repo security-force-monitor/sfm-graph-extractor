@@ -1,0 +1,20 @@
+T1	Organization 0 13	Nigerian Army
+T2	Organization 19 66	Operation Python Dance in South-East – Official
+T3	Organization 72 94	Operation Python Dance
+T4	Organization 114 127	Nigerian Army
+T5	Title_Role 241 274	Deputy Director, Public Relations
+T6	Organization 276 287	82 Division
+T7	Organization 295 308	Nigerian Army
+T8	Person 310 320	Sagir Musa
+T9	Organization 885 907	Operation Python Dance
+T10	Person 1021 1025	Musa
+T11	Title_Role 1066 1092	General Officer Commanding
+T12	Organization 1093 1104	82 Division
+T13	Person 1106 1120	Adamu Abubakar
+T14	Location 1277 1289	Niger Bridge
+T15	Organization 1744 1765	Exercise Python Dance
+R1	has_title_or_role Arg1:T8 Arg2:T5
+R2	is_posted Arg1:T8 Arg2:T6
+R3	is_posted Arg1:T8 Arg2:T7
+R4	has_title_or_role Arg1:T13 Arg2:T11
+R5	is_posted Arg1:T13 Arg2:T12

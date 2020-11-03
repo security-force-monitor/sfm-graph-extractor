@@ -1,0 +1,14 @@
+T1	Organization 54 67	Nigerian Army
+T2	Title_Role 73 99	General Officer Commanding
+T3	Organization 107 117	1 Division
+T4	Organization 119 131	Nigeria Army
+T5	Person 133 148	Adeniyi Oyebade
+T6	Rank 271 284	Major-General
+T7	Person 517 531	\`Sharan Daji’
+T8	Organization 787 807	31 Artillery Brigade
+T9	Person 1345 1364	Katsina/Kano States
+T10	Organization 1687 1698	2 Battalion
+T11	Person 2254 2274	Muhammadu Buhari.”dG
+R1	has_title_or_role Arg1:T5 Arg2:T2
+R2	is_posted Arg1:T5 Arg2:T3
+R3	is_posted Arg1:T5 Arg2:T4

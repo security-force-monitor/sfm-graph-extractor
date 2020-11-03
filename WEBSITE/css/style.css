@@ -1,0 +1,239 @@
+*, *:before, *:after { box-sizing: border-box; }
+
+.pre-navbar > p {
+    margin: 0;
+}
+
+/* ===== NAVIGATION ======*/
+/*
+.navbar {
+    border: 0;
+    z-index: 9999;
+    letter-spacing: 4px;
+
+}
+.logo {
+    display: block;
+    height: auto;
+    width: 52px;
+    padding-top: 5px;
+    margin-right: 15px;
+}
+
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+
+.navbar .nav > li > a {
+  line-height: 50px;
+}
+
+.navbar-header h1 {
+    letter-spacing: 1px;
+    color: black !important;
+    font-family: 'Lobster Two', cursive;
+}
+
+.navbar li a, .navbar {
+    color: black !important;
+    font-size: 12px;
+    transition: all 0.6s 0s;
+}
+
+.navbar-toggle {
+    background-color: transparent !important;
+    border: 0;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: red !important;
+}
+
+*/
+.navbar {
+  background-color: #425263 !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255,255,255);
+}
+
+.nav-link {
+  color : white !important;
+}
+
+#navbarNavDropdown {
+  float: left;
+  clear: left;
+}
+
+
+/* content */
+#textarea_explanation {
+  padding : 15px 15px 5px 15px;
+}
+
+a.text_generator {
+  text-decoration: underline;
+  color: grey;
+}
+
+a.text_generator:hover {
+  color: #becfd5;
+  cursor: pointer;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.pre-navbar {
+    text-align: right;
+    display: block;
+    padding: 5px 20px;
+    background-color: #becfd5;
+    color: #5a5a5a;
+}
+
+.kge_title {
+  color: white !important;
+  padding : 5px 20px 5px 20px;
+  font-size: 2em;
+  font-family : "Open Sans";
+}
+
+textarea {
+  margin: 20px auto 20px auto;
+  display: block;
+  width: 98%;
+  min-height: 200px;
+  resize: vertical;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  color: #666;
+  box-shadow: inset 0 0 0.25rem #ddd;
+}
+
+textarea:focus {
+  outline: none;
+  border: 1px solid #d0d0d0;
+  box-shadow: inset 0 0 0.75rem #d0d0d0;
+}
+
+textarea[placeholder] {
+  font-style: italic;
+  font-size: 0.875rem;
+}
+
+#the-count {
+  float: right;
+  padding: 0.1rem 0 0 0;
+  font-size: 0.875rem;
+}
+
+.loader {
+  border: 4px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 4px solid #555;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+hr {
+  width : 98%;
+  margin: 20px auto 20px auto;
+}
+
+button, label {
+  border: none;
+  background: #404040;
+  color: #ffffff !important;
+  font-weight: 100;
+  padding: 10px;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+}
+
+button, #file_submit_label {
+  text-transform: uppercase;
+}
+
+button:hover, label:hover {
+  color: #404040 !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.1px;
+  background: none;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.3s ease 0s;
+}
+
+#file_selected, #file_submit {
+   opacity: 0;
+   position: absolute;
+   z-index: -1;
+}
+
+label {
+   cursor: pointer;
+   /* Style as you please, it will become the visible UI component. */
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.after_loading {
+  visibility: hidden;
+}
+
+#processing_kge {
+  display : block;
+}
+
+#extract_btn {
+  display : none;
+}
+
+#input_form {
+  display : none;
+}
+
+#about {
+  display: none;
+}
+
+#download_txt{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#wrapper {
+  width: 100%;
+  height: 50px;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

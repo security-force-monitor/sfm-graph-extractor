@@ -1,0 +1,28 @@
+T1	Organization 17 30	Nigerian Army
+T2	Title_Role 109 142	Acting General Officer Commanding
+T3	Organization 149 159	3 Division
+T4	Organization 161 174	Nigerian Army
+T5	Rank 176 179	Jos
+T6	Person 181 197	Benjamin Ahanotu
+T7	Title_Role 362 399	Chairman of Sardauna Local Government
+T8	Person 401 409	John Yep
+T9	Misclass 580 586	Fulani
+T10	Rank 628 644	Acting President
+T11	Person 645 658	Yemi Osinbajo
+T12	Title_Role 916 933	Brigade Commander
+T13	Organization 937 947	23 Brigade
+T14	Person 955 969	Bello Mohammed
+T15	Person 1362 1370	Mohammed
+T16	Person 1799 1807	Mohammed
+T17	Person 2022 2036	Emmanuel Bello
+T18	Person 2042 2048	Ishaku
+T19	Person 3708 3712	Life
+T20	Person 4290 4295	Bello
+R1	has_title_or_role Arg1:T6 Arg2:T2
+R2	is_posted Arg1:T6 Arg2:T3
+R3	is_posted Arg1:T6 Arg2:T4
+R4	has_rank Arg1:T6 Arg2:T5
+R5	has_title_or_role Arg1:T8 Arg2:T7
+R6	has_rank Arg1:T11 Arg2:T10
+R7	has_title_or_role Arg1:T14 Arg2:T12
+R8	is_posted Arg1:T14 Arg2:T13

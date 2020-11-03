@@ -1,0 +1,34 @@
+T1	Person 0 27	Boko Haram: Rogers Nicholas
+T2	Person 37 45	Attahiru
+T3	Title_Role 49 66	theatre commander
+T4	Organization 75 88	Nigerian Army
+T5	Title_Role 158 175	theatre commander
+T6	Rank 177 190	Major General
+T7	Person 191 207	Ibrahim Attahiru
+T8	Rank 213 226	Major General
+T9	Person 227 242	Rogers Nicholas
+T10	Title_Role 270 279	Commander
+T11	Organization 287 337	special Security Task Force (operation Safe Haven)
+T12	Organization 397 414	Army Headquarters
+T13	Title_Role 435 470	deputy Chief of Policy and Planning
+T14	Organization 675 687	Army General
+T15	Rank 947 960	Major General
+T16	Person 961 971	Leo Irabor
+T17	Title_Role 981 996	Force Commander
+T18	Organization 1004 1034	Multinational Joint Task Force
+T19	Rank 1305 1318	Major General
+T20	Person 1319 1331	Lucky Irabor
+T21	Organization 1419 1433	University don
+T22	Rank 1435 1437	Dr
+T23	Person 1439 1454	Mai Jalo Hassan
+R1	has_title_or_role Arg1:T1 Arg2:T3
+R2	is_posted Arg1:T9 Arg2:T4
+R3	has_title_or_role Arg1:T9 Arg2:T5
+R4	has_rank Arg1:T7 Arg2:T6
+R5	has_rank Arg1:T9 Arg2:T8
+R6	has_rank Arg1:T16 Arg2:T15
+R7	has_title_or_role Arg1:T16 Arg2:T17
+R8	is_posted Arg1:T16 Arg2:T18
+R9	has_rank Arg1:T20 Arg2:T19
+R10	is_posted Arg1:T23 Arg2:T21
+R11	has_rank Arg1:T23 Arg2:T22

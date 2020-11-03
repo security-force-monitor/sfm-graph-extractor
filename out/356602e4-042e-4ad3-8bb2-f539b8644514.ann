@@ -1,0 +1,19 @@
+T1	Organization 0 54	Rid our Forests of Criminals, Abubakar Challenges Army
+T2	Person 78 105	Mohammed Abdullahi Abubakar
+T3	Organization 131 144	Nigerian Army
+T4	Title_Role 467 493	General officer Commanding
+T5	Organization 494 506	3rd Division
+T6	Rank 508 521	Major General
+T7	Person 522 538	Benjamin Ahanotu
+T8	Organization 546 562	Government House
+T9	Rank 685 693	Governor
+T10	Person 694 702	Abubakar
+T11	Rank 1291 1299	Governor
+T12	Person 1300 1308	Abubakar
+R1	is_posted Arg1:T2 Arg2:T3
+R2	has_title_or_role Arg1:T7 Arg2:T4
+R3	is_posted Arg1:T7 Arg2:T5
+R4	has_rank Arg1:T7 Arg2:T6
+R5	is_posted Arg1:T7 Arg2:T8
+R6	has_rank Arg1:T10 Arg2:T9
+R7	has_rank Arg1:T12 Arg2:T11

@@ -1,0 +1,27 @@
+T1	Organization 31 38	Buratai
+T2	Title_Role 44 63	Chief of Army Staff
+T3	Rank 65 71	Lt-Gen
+T4	Person 73 86	Tukur Buratai
+T5	Rank 187 194	General
+T6	Person 195 202	Buratai
+T7	Organization 222 240	Passing Out Parade
+T8	Organization 254 278	Nigerian Military School
+T9	Title_Role 380 406	General Officer Commanding
+T10	Organization 414 435	1 Mechanised Division
+T11	Organization 443 456	Nigerian Army
+T12	Rank 466 473	Maj-Gen
+T13	Person 475 490	Adeniyi Oyebade
+T14	Organization 1086 1090	Army
+T15	Organization 1161 1174	Nigerian Army
+T16	Misclass 1550 1557	British
+T17	Title_Role 2040 2050	Commandant
+T18	Organization 2274 2287	Nigerian Army
+R1	has_title_or_role Arg1:T4 Arg2:T2
+R2	has_rank Arg1:T4 Arg2:T3
+R3	has_rank Arg1:T6 Arg2:T5
+R4	is_posted Arg1:T6 Arg2:T7
+R5	is_posted Arg1:T6 Arg2:T8
+R6	has_title_or_role Arg1:T13 Arg2:T9
+R7	is_posted Arg1:T13 Arg2:T10
+R8	is_posted Arg1:T13 Arg2:T11
+R9	has_rank Arg1:T13 Arg2:T12

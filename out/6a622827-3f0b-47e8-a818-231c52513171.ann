@@ -1,0 +1,62 @@
+T1	Organization 13 35	YOBE MASSACRE: B-Haram
+T2	Misclass 648 671	Maiduguri-Gombe-Adamawa
+T3	Person 700 717	Goodluck Jonathan
+T4	Organization 735 745	Boko Haram
+T5	Organization 1242 1259	Army High Command
+T6	Title_Role 1275 1301	General Officer Commanding
+T7	Organization 1308 1318	7 Division
+T8	Organization 1326 1339	Nigerian Army
+T9	Rank 1352 1365	Major General
+T10	Person 1366 1380	Unsaid Bindawa
+T11	Organization 1389 1418	Training and Doctrine Command
+T12	Title_Role 1438 1448	Commandant
+T13	Title_Role 1467 1477	Commandant
+T14	Rank 1489 1502	Major-General
+T15	Person 1503 1522	Mohammed Abdulkadir
+T16	Title_Role 1538 1541	GOC
+T17	Organization 1549 1559	7 Division
+T18	Organization 1772 1787	Catholic Church
+T19	Organization 1932 1956	Michika Local Government
+T20	Organization 2003 2028	Divisional Police Station
+T21	Organization 2336 2362	Rocket Propelled Launchers
+T22	Title_Role 2887 2916	Army Public Relations Officer
+T23	Organization 2918 2937	23 Armoured Brigade
+T24	Rank 2945 2952	Captain
+T25	Person 2953 2966	Nuhu Jafa’aru
+T26	Person 3087 3101	Illarama Maina
+T27	Organization 3366 3380	Plateau attack
+T28	Person 3432 3460	Barkin Ladi Local Governemnt
+T29	Title_Role 3759 3777	Riyom Constituency
+T30	Person 3822 3832	Daniel Dem
+T31	Rank 4459 4472	Major-General
+T32	Person 4473 4488	Chris Olukolade
+T33	Organization 4945 4965	Defence Headquarters
+T34	Rank 6338 6345	General
+T35	Person 6346 6355	Olukolade
+T36	Organization 7661 7663	EU
+T37	Organization 7687 7701	European Union
+T38	Organization 7740 7762	EU High Representative
+T39	Rank 7829 7839	Commission
+T40	Person 7841 7857	Catherine Ashton
+T41	Organization 8342 8383	Office of the National Security Adviser.”
+R1	is_posted Arg1:T3 Arg2:T4
+R2	is_posted Arg1:T15 Arg2:T5
+R3	has_title_or_role Arg1:T10 Arg2:T6
+R4	is_posted Arg1:T10 Arg2:T7
+R5	is_posted Arg1:T10 Arg2:T8
+R6	has_rank Arg1:T10 Arg2:T9
+R7	is_posted Arg1:T15 Arg2:T11
+R8	has_title_or_role Arg1:T15 Arg2:T12
+R9	has_title_or_role Arg1:T15 Arg2:T13
+R10	has_rank Arg1:T15 Arg2:T14
+R11	has_title_or_role Arg1:T15 Arg2:T16
+R12	is_posted Arg1:T15 Arg2:T17
+R13	has_title_or_role Arg1:T25 Arg2:T22
+R14	is_posted Arg1:T25 Arg2:T23
+R15	has_rank Arg1:T25 Arg2:T24
+R16	has_title_or_role Arg1:T30 Arg2:T29
+R17	has_rank Arg1:T32 Arg2:T31
+R18	has_rank Arg1:T35 Arg2:T34
+R19	is_posted Arg1:T40 Arg2:T37
+R20	is_posted Arg1:T40 Arg2:T38
+R21	has_rank Arg1:T40 Arg2:T39

@@ -1,0 +1,18 @@
+T1	Organization 0 63	Security Challenges: GOC Organises Training for Army Formations
+T2	Title_Role 292 318	General Officer Commanding
+T3	Organization 347 361	Division 3 Jos
+T4	Rank 363 376	Major General
+T5	Person 377 388	Peter Dauke
+T6	Organization 946 966	33 Artillery Brigade
+T7	Organization 968 1000	Headquarters 3 Division Tactical
+T8	Organization 1002 1025	23 Brigade Headquarters
+T9	Organization 1027 1048	27 Task Force Brigade
+T10	Organization 1050 1071	28 Task Force Brigade
+T11	Organization 1073 1094	29 Task Force Brigade
+T12	Organization 1096 1116	43 Division Engineer
+T13	Organization 1118 1136	53 Division Signal
+T14	Organization 1138 1160	301 Artillery Regiment
+T15	Organization 1165 1184	3 Division Garrison
+R1	has_title_or_role Arg1:T5 Arg2:T2
+R2	is_posted Arg1:T5 Arg2:T3
+R3	has_rank Arg1:T5 Arg2:T4

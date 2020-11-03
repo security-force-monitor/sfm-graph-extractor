@@ -1,0 +1,48 @@
+T1	Organization 0 10	Army Wraps
+T2	Organization 14 45	Military Exercise in South-east
+T3	Title_Role 51 77	General Officer Commanding
+T4	Organization 85 96	82 Division
+T5	Organization 104 117	Nigerian Army
+T6	Rank 119 132	Major General
+T7	Person 133 152	Adamu Baba Abubakar
+T8	Title_Role 171 190	Chief of Army Staff
+T9	Rank 191 209	Lieutenant General
+T10	Person 210 220	TY Buratai
+T11	Organization 282 307	Operation Python Dance II
+T12	Organization 360 367	82 Div.
+T13	Rank 369 372	Col
+T14	Person 374 384	Sagir Musa
+T15	Organization 433 463	Sector 1 Tactical Headquarters
+T16	Rank 639 646	General
+T17	Person 647 655	Abubakar
+T18	Location 1144 1151	Nigeria
+T19	Person 1267 1283	Emmanuel Nwabuko
+T20	Organization 1536 1549	Nigerian Army
+T21	Rank 1925 1934	Brigadier
+T22	Person 1935 1950	General Ndalolo
+T23	Rank 2125 2143	Brigadier-Generals
+T24	Person 2144 2154	AK Ibrahim
+T25	Person 2159 2168	IH Bature
+T26	Organization 2201 2220	44 Engineer Brigade
+T27	Organization 2222 2242	82 Division Garrison
+T28	Rank 2269 2287	Brigadier-Generals
+T29	Person 2288 2299	Mark Mamman
+T30	Person 2301 2312	LA Adegboye
+T31	Person 2317 2326	EA Anaryu
+T32	Organization 2651 2664	Nigerian Army
+R1	has_title_or_role Arg1:T7 Arg2:T3
+R2	is_posted Arg1:T7 Arg2:T4
+R3	is_posted Arg1:T7 Arg2:T5
+R4	has_rank Arg1:T7 Arg2:T6
+R5	has_title_or_role Arg1:T10 Arg2:T8
+R6	has_rank Arg1:T10 Arg2:T9
+R7	is_posted Arg1:T10 Arg2:T11
+R8	is_posted Arg1:T14 Arg2:T12
+R9	has_rank Arg1:T14 Arg2:T13
+R10	is_posted Arg1:T14 Arg2:T15
+R11	has_rank Arg1:T17 Arg2:T16
+R12	has_rank Arg1:T22 Arg2:T21
+R13	has_rank Arg1:T24 Arg2:T23
+R14	is_posted Arg1:T29 Arg2:T26
+R15	is_posted Arg1:T30 Arg2:T27
+R16	has_rank Arg1:T31 Arg2:T28

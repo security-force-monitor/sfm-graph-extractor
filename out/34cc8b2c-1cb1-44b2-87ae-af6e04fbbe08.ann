@@ -1,0 +1,24 @@
+T1	Organization 0 56	Army Organises Joint Poll Exercise For Security Agencies
+T2	Organization 164 175	82 Division
+T3	Organization 183 196	Nigerian Army
+T4	Title_Role 615 624	commander
+T5	Organization 626 646	82 Division Garrison
+T6	Rank 648 655	General
+T7	Person 656 667	S. Mohammed
+T8	Title_Role 1016 1042	General Officer Commanding
+T9	Organization 1050 1061	82 Division
+T10	Rank 1177 1190	Major General
+T11	Person 1191 1202	Shehu Yusuf
+T12	Organization 1263 1283	82 Division Garrison
+T13	Title_Role 1494 1508	chief of staff
+T14	Organization 1510 1521	82 Division
+T15	Rank 1523 1532	Brig. Gen
+T16	Person 1534 1546	A. Adefarati
+R1	has_title_or_role Arg1:T7 Arg2:T4
+R2	is_posted Arg1:T7 Arg2:T5
+R3	has_rank Arg1:T7 Arg2:T6
+R4	has_rank Arg1:T11 Arg2:T10
+R5	is_posted Arg1:T11 Arg2:T12
+R6	has_title_or_role Arg1:T16 Arg2:T13
+R7	is_posted Arg1:T16 Arg2:T14
+R8	has_rank Arg1:T16 Arg2:T15

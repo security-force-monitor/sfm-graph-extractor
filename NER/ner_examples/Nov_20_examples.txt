@@ -1,0 +1,2390 @@
+=================================================
+From file with id:  a7105b41-1e5c-4d6b-8920-ebad5d9e068c
+Sentence: 
+('Major General P. J. Isang is now the Chief of Training and Operations at the '
+ 'DHQ, while Major General J.A.H. Ewansia, former Joint Task Force (JTF), '
+ 'Commander in Maiduguri is now the Chief of Standards and Evaluation (CASE) '
+ 'at the Army Headquarters, Abuja, Major General Arende is now in charge of '
+ 'DICON, while Major General Abdulkadir is now the commander TRADOC.')
+
+-------------- Ground truth --------------
+Major General |||| Rank |||| (0, 13)
+P. J. Isang |||| Person |||| (14, 25)
+Chief of Training and Operations |||| Role |||| (37, 69)
+DHQ |||| Organization |||| (77, 80)
+Major General |||| Rank |||| (88, 101)
+J.A.H. Ewansia |||| Person |||| (102, 116)
+Joint Task Force |||| Organization |||| (125, 141)
+Commander |||| Role |||| (149, 158)
+Chief of Standards and Evaluation |||| Title |||| (183, 216)
+Army Headquarters |||| Organization |||| (231, 248)
+Major General |||| Rank |||| (257, 270)
+Arende |||| Person |||| (271, 277)
+DICON |||| Organization |||| (298, 303)
+Major General |||| Rank |||| (311, 324)
+Abdulkadir |||| Person |||| (325, 335)
+TRADOC |||| Organization |||| (357, 363)
+commander |||| Role |||| (347, 356)
+
+-------------- Predicted labels --------------
+Major General |||| Rank |||| (0, 13)
+P. J. Isang |||| Person |||| (14, 25)
+Chief of Training and Operations |||| Title_Role |||| (37, 69)
+Major General |||| Rank |||| (88, 101)
+J.A.H. Ewansia |||| Person |||| (102, 117)
+Joint Task Force |||| Organization |||| (125, 141)
+Commander |||| Title_Role |||| (149, 158)
+Chief of Standards and Evaluation |||| Title_Role |||| (183, 216)
+Army Headquarters |||| Organization |||| (231, 249)
+Major General Arende |||| Person |||| (257, 277)
+Major General |||| Rank |||| (311, 324)
+Abdulkadir |||| Person |||| (325, 335)
+commander TRADOC |||| Title_Role |||| (347, 364)
+
+>>> False-positives:
+	 Major General Arende |||| Person
+	 commander TRADOC |||| Title_Role
+>>> False-negatives:
+	 DHQ |||| Organization
+	 Arende |||| Person
+	 DICON |||| Organization
+	 TRADOC |||| Organization
+	 commander |||| Title_Role
+
+
+
+=================================================
+From file with id:  b533adfe-ec48-4fc7-8491-d4e890188506
+Sentence: 
+('It was a show of gallantry when Nigerian troops, in collaboration with their '
+ 'counterparts in the Multi-National Joint Task Force from Cameroon, descended '
+ 'on some hideouts of the Boko Haram insurgents, arresting three of their '
+ 'commanders and killing 22 others.')
+
+-------------- Ground truth --------------
+Multi National Joint Task Force |||| Organization |||| (97, 128)
+
+-------------- Predicted labels --------------
+Multi National Joint Task Force |||| Organization |||| (97, 128)
+
+>>> False-positives:
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  b533adfe-ec48-4fc7-8491-d4e890188506
+Sentence: 
+('According to statement issued by the spokesman of the Nigeria Army, Col. '
+ 'Sani Usman yesterday in Abuja, the clearance operation carried out in 10 '
+ 'suspected Boko Haram hideouts in six villages and adjoining settlements '
+ 'along the Nigerian and Cameroonian borderled to the rescue of “1,275 persons '
+ 'held hostage by the terrorists.”')
+
+-------------- Ground truth --------------
+Sani Usman |||| Person |||| (73, 83)
+Col |||| Rank |||| (68, 72)
+Nigeria Army |||| Organization |||| (54, 66)
+spokesman |||| Title |||| (37, 46)
+
+-------------- Predicted labels --------------
+spokesman |||| Title_Role |||| (37, 46)
+Nigeria Army |||| Organization |||| (54, 67)
+Col |||| Rank |||| (68, 72)
+Sani Usman |||| Person |||| (73, 83)
+
+>>> False-positives:
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  b533adfe-ec48-4fc7-8491-d4e890188506
+Sentence: 
+('The statement reads in part: “Troops of 152 and 155 Task Force Battalions at '
+ 'Operation Lafiya Dole, in conjunction with troops of Multinational Joint '
+ 'Task Force (MNJTF) from Cameroon, conducted a massive joint clearance '
+ 'operation of suspected Boko Haram terrorist. The unprecedented clearance '
+ 'operation swept through over 10 suspected Boko Haram terrorists hideouts '
+ 'along the border in which they killed 22 terrorists, arrested 3 Ameers '
+ '(Commanders) and rescued abducted persons.”')
+
+-------------- Ground truth --------------
+Operation Lafiya Dole |||| Organization |||| (77, 98)
+Multinational Joint Task Force |||| Organization |||| (130, 160)
+
+-------------- Predicted labels --------------
+155 Task Force Battalions |||| Organization |||| (48, 73)
+Operation Lafiya Dole |||| Organization |||| (77, 99)
+Multinational Joint Task Force |||| Organization |||| (130, 160)
+
+>>> False-positives:
+	 155 Task Force Battalions |||| Organization
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  b533adfe-ec48-4fc7-8491-d4e890188506
+Sentence: 
+('The Chief of Army Staff (COAS), Lt. Gen. Yusuf Tukur Buratai, stated this '
+ 'yesterday when he came to the Maxwell Khobe Cantonment of the 3 Armoured '
+ 'Division Jos, where he commissioned 60 renovated blocks')
+
+-------------- Ground truth --------------
+Yusuf Tukur Buratai |||| Person |||| (41, 61)
+Lt Gen. |||| Rank |||| (32, 40)
+Chief of Army Staff |||| Title |||| (4, 23)
+3 Armoured Division |||| Organization |||| (136, 155)
+
+-------------- Predicted labels --------------
+Chief of Army Staff |||| Title_Role |||| (4, 23)
+Lt Gen. |||| Rank |||| (32, 40)
+Yusuf Tukur Buratai |||| Person |||| (41, 61)
+3 Armoured Division |||| Organization |||| (136, 155)
+
+>>> False-positives:
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  b533adfe-ec48-4fc7-8491-d4e890188506
+Sentence: 
+('General Buratai said that as far as Boko Haram was concerned, “the Nigerian '
+ 'military had done a lot and is still doing more to totally uproot Boko Haram '
+ 'insurgency from Nigeria. “All right, I want to assure you that things will '
+ 'normalise very soon,” he said.')
+
+-------------- Ground truth --------------
+Buratai |||| Person |||| (8, 15)
+General |||| Rank |||| (0, 7)
+
+-------------- Predicted labels --------------
+General |||| Rank |||| (0, 7)
+Buratai |||| Person |||| (8, 15)
+
+>>> False-positives:
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  b533adfe-ec48-4fc7-8491-d4e890188506
+Sentence: 
+('In a related development, the Nigeria Air Force (NAF) fighter jet on Monday, '
+ 'in continuation of the clearance of the remnants of the insurgents, hit a '
+ 'terrorists’ fuel and logistics dump site in the Northeast, close to Sambisa '
+ 'Forest.')
+
+-------------- Ground truth --------------
+Nigeria Air Force |||| Organization |||| (30, 47)
+
+-------------- Predicted labels --------------
+Nigeria Air Force |||| Organization |||| (30, 47)
+
+>>> False-positives:
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  b533adfe-ec48-4fc7-8491-d4e890188506
+Sentence: 
+('A statement issued by the spokesman of the NAF, Group Captain Ayodele '
+ 'Famuyiwa, said the air strike carried out by the NAF F-7 fighter aircraft '
+ 'hit the target at a location called Kangarawa in the Northern part of Borno. '
+ '“The scale of accompanying inferno and multi-explosions, as can be seen from '
+ 'the footage of the air strike, suggests that the location possibly houses a '
+ 'fuel or ammunition dump.”')
+
+-------------- Ground truth --------------
+Group Captain |||| Rank |||| (48, 61)
+Ayodele Famuyiwa |||| Person |||| (62, 79)
+
+-------------- Predicted labels --------------
+NAF Group |||| Organization |||| (43, 53)
+Captain |||| Rank |||| (54, 61)
+Ayodele Famuyiwa |||| Person |||| (62, 79)
+
+>>> False-positives:
+	 NAF Group |||| Organization
+	 Captain |||| Rank
+>>> False-negatives:
+	 Group Captain |||| Rank
+
+
+
+=================================================
+From file with id:  47392e3d-3c5f-4610-b2ec-173a0c29cce8
+Sentence: 
+('The Nigerian Army at the weekend reconciled warring communities in Cross '
+ 'River and Ebonyi States, therefore bringing calm to troubled communities '
+ 'within the states.')
+
+-------------- Ground truth --------------
+Nigerian Army |||| Organization |||| (4, 17)
+
+-------------- Predicted labels --------------
+Nigerian Army |||| Organization |||| (4, 17)
+
+>>> False-positives:
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  47392e3d-3c5f-4610-b2ec-173a0c29cce8
+Sentence: 
+('According to the Deputy Director, Public Relations, 82 Division Nigerian '
+ 'Army, Col. Sagir Musa, the peace initiative was spearheaded by General '
+ 'Officer Commanding (GOC) 82 Division Nigerian Army, Major General Adamu Baba '
+ 'Abubakar, in line with the directive of the Chief of Army Staff (COAS), '
+ 'Lieutenant General Yusufu Buratai.')
+
+-------------- Ground truth --------------
+Sagir Musa |||| Person |||| (84, 94)
+Col |||| Rank |||| (79, 83)
+Nigerian Army |||| Organization |||| (64, 77)
+82 Division |||| Organization |||| (52, 63)
+Deputy Director Public Relations |||| Title |||| (17, 50)
+Adamu Baba Abubakar |||| Person |||| (210, 229)
+Major General |||| Rank |||| (196, 209)
+82 Division |||| Organization |||| (169, 180)
+General Officer Commanding |||| Title |||| (136, 162)
+Yusufu Buratai |||| Person |||| (312, 326)
+Lieutenant General |||| Rank |||| (293, 311)
+Chief of Army Staff |||| Title |||| (265, 284)
+
+-------------- Predicted labels --------------
+Deputy Director Public Relations |||| Title_Role |||| (17, 51)
+82 Division |||| Organization |||| (52, 63)
+Col |||| Rank |||| (79, 83)
+Sagir Musa |||| Person |||| (84, 95)
+General Officer Commanding |||| Title_Role |||| (136, 162)
+82 Division |||| Organization |||| (169, 180)
+Major General |||| Rank |||| (196, 209)
+Adamu Baba Abubakar |||| Person |||| (210, 230)
+Chief of Army Staff |||| Title_Role |||| (265, 284)
+Lieutenant General |||| Rank |||| (293, 311)
+Yusufu Buratai |||| Person |||| (312, 327)
+
+>>> False-positives:
+>>> False-negatives:
+	 Nigerian Army |||| Organization
+
+
+
+=================================================
+From file with id:  d0381937-4a5a-496e-ad2f-c3ee9043a93f
+Sentence: 
+('The leader of the Boko Haram Islamic sect, Sheikh Abubakar Shekau, may have '
+ 'been cornered by operatives of the Joint Task Force in Gwoza hills, Borno '
+ 'State.')
+
+-------------- Ground truth --------------
+Joint Task Force |||| Organization |||| (111, 127)
+
+-------------- Predicted labels --------------
+
+>>> False-positives:
+>>> False-negatives:
+	 Joint Task Force |||| Organization
+
+
+
+=================================================
+From file with id:  d0381937-4a5a-496e-ad2f-c3ee9043a93f
+Sentence: 
+('Fambiya, who was on posting to the 322 Artillery Regiment in Benin City, Edo '
+ 'State, was redeployed to the JTF on June 13, 2013, a few weeks into his '
+ 'deployment to the JTF’s Operation Boyona.')
+
+-------------- Ground truth --------------
+322 Artillery Regiment |||| Organization |||| (35, 57)
+
+-------------- Predicted labels --------------
+322 Artillery Regiment |||| Organization |||| (35, 57)
+Operation Boyona |||| Organization |||| (173, 190)
+
+>>> False-positives:
+	 Operation Boyona |||| Organization
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  d0381937-4a5a-496e-ad2f-c3ee9043a93f
+Sentence: 
+('When our correspondent contacted the Director of Defence Information, Brig. '
+ 'Gen Chris Olukolade, he said that the mandate of the JTF was to look for all '
+ 'insurgents and not just the leader of the Boko Haram sect.')
+
+-------------- Ground truth --------------
+Chris Olukolade |||| Person |||| (80, 95)
+Brig Gen |||| Rank |||| (70, 79)
+Director of Defence Information |||| Title |||| (37, 68)
+
+-------------- Predicted labels --------------
+Director of Defence Information |||| Title_Role |||| (37, 69)
+Brig Gen |||| Rank |||| (70, 79)
+Chris Olukolade |||| Person |||| (80, 96)
+
+>>> False-positives:
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  d0381937-4a5a-496e-ad2f-c3ee9043a93f
+Sentence: 
+('He said that the late major was supposed to be undergoing training at the '
+ 'Nigerian Army School of Artillery, Kantagora, Niger State.')
+
+-------------- Ground truth --------------
+Nigerian Army School of Artillery |||| Organization |||| (74, 107)
+
+-------------- Predicted labels --------------
+Nigerian Army School of Artillery |||| Organization |||| (74, 108)
+
+>>> False-positives:
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  9765187c-ccfc-4ad5-8df2-13dd99a99a6a
+Sentence: 
+('CALABAR – CHIEF of Army Staff, Lt- General Onyeabo Ihejirika, has pledged to '
+ 'transform the Nigerian Army to make it battle-ready to tackle security '
+ 'challenges in the country.')
+
+-------------- Ground truth --------------
+Onyeabo Ihejirika |||| Person |||| (43, 60)
+Lt- General |||| Rank |||| (31, 42)
+CHIEF of Army Staff |||| Title |||| (10, 29)
+Nigerian Army |||| Organization |||| (91, 104)
+
+-------------- Predicted labels --------------
+Army Staff |||| Title_Role |||| (19, 30)
+Lt- General |||| Rank |||| (31, 42)
+Onyeabo Ihejirika |||| Person |||| (43, 61)
+Nigerian Army |||| Organization |||| (91, 104)
+
+>>> False-positives:
+	 Army Staff |||| Title_Role
+>>> False-negatives:
+	 CHIEF of Army Staff |||| Title_Role
+
+
+
+=================================================
+From file with id:  9765187c-ccfc-4ad5-8df2-13dd99a99a6a
+Sentence: 
+('Gen. Ihejirika at the commissioning of the renovated 13 Brigade Garrison '
+ 'Office building in Calabar, Cross River State, said one of the ways this '
+ 'could be achieved was by creating a conducive environment for their '
+ 'operations.')
+
+-------------- Ground truth --------------
+Ihejirika |||| Person |||| (5, 14)
+Gen. |||| Rank |||| (0, 4)
+13 Brigade |||| Organization |||| (53, 63)
+
+-------------- Predicted labels --------------
+Gen. |||| Rank |||| (0, 4)
+Ihejirika |||| Person |||| (5, 14)
+13 Brigade Garrison |||| Organization |||| (53, 72)
+
+>>> False-positives:
+	 13 Brigade Garrison |||| Organization
+>>> False-negatives:
+	 13 Brigade |||| Organization
+
+
+
+=================================================
+From file with id:  9765187c-ccfc-4ad5-8df2-13dd99a99a6a
+Sentence: 
+('Represented by the General Officer Commanding, GOC, 82 Division, Enugu, '
+ 'Major- General Oluwaseun Oshinowo, Ihejirika said the old structures that '
+ 'used as the garrison office built by the colonial masters should be '
+ 'refurbished as it was a heritage of the country’s history.')
+
+-------------- Ground truth --------------
+General Officer Commanding |||| Title |||| (19, 45)
+82 Division |||| Organization |||| (52, 63)
+Major- General |||| Rank |||| (72, 86)
+Oluwaseun Oshinowo |||| Person |||| (87, 105)
+
+-------------- Predicted labels --------------
+General Officer Commanding GOC |||| Title_Role |||| (19, 51)
+82 Division |||| Organization |||| (52, 64)
+Major- General |||| Rank |||| (72, 86)
+Oluwaseun Oshinowo Ihejirika |||| Person |||| (87, 116)
+
+>>> False-positives:
+	 General Officer Commanding GOC |||| Title_Role
+	 Oluwaseun Oshinowo Ihejirika |||| Person
+>>> False-negatives:
+	 General Officer Commanding |||| Title_Role
+	 Oluwaseun Oshinowo |||| Person
+
+
+
+=================================================
+From file with id:  24ad030d-abe7-462d-9fb1-829df7df5c68
+Sentence: 
+('The Acting General Officer Commanding (GOC) 3 Division, Nigerian Army, Jos, '
+ 'Benjamin Ahanotu, has called on politicians in Taraba to be neutral, fair '
+ 'and just over the current crisis on the Mambilla Plateau.')
+
+-------------- Ground truth --------------
+Benjamin Ahanotu |||| Person |||| (76, 92)
+3 Division |||| Organization |||| (44, 54)
+Acting General Officer Commanding |||| Title |||| (4, 37)
+
+-------------- Predicted labels --------------
+Acting General Officer Commanding |||| Title_Role |||| (4, 37)
+3 Division |||| Organization |||| (44, 55)
+Nigerian Army |||| Organization |||| (56, 70)
+Jos |||| Rank |||| (71, 75)
+Benjamin Ahanotu |||| Person |||| (76, 93)
+
+>>> False-positives:
+	 Nigerian Army |||| Organization
+	 Jos |||| Rank
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  24ad030d-abe7-462d-9fb1-829df7df5c68
+Sentence: 
+('On Saturday, Mr. Ahanotu said from the briefs he got from the Brigade '
+ 'Commander of 23 Brigade, Yola, Bello Mohammed, prominent politicians from '
+ 'the area played roles that escalated the situation.')
+
+-------------- Ground truth --------------
+Bello Mohammed |||| Person |||| (101, 115)
+23 Brigade |||| Organization |||| (83, 93)
+Brigade Commander |||| Role |||| (62, 79)
+
+-------------- Predicted labels --------------
+Brigade Commander |||| Title_Role |||| (62, 79)
+23 Brigade |||| Organization |||| (83, 94)
+Bello Mohammed |||| Person |||| (101, 116)
+
+>>> False-positives:
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  24ad030d-abe7-462d-9fb1-829df7df5c68
+Sentence: 
+('Mr. Ahanotu, a brigadier general, said the carnage being perpetrated in the '
+ 'area would not have escalated if the politicians had acted justly in dealing '
+ 'with the situation.')
+
+-------------- Ground truth --------------
+brigadier general |||| Rank |||| (15, 32)
+
+-------------- Predicted labels --------------
+
+>>> False-positives:
+>>> False-negatives:
+	 brigadier general |||| Rank
+
+
+
+=================================================
+From file with id:  a2922c4e-d151-4b62-b0e1-bfe41d1af48c
+Sentence: 
+('The GOCs are Major-General Kamaldeen Role, formerly Commander, Army '
+ 'Headquarters Garrison, Abuja, now General officer Commanding One Division, '
+ 'Kaduna; Major-General Lawrence Ngubane, formerly Deputy Commandant, National '
+ 'Defence College, now General Officer Commanding 2 Division, Ibadan; Major '
+ 'General Saleh Maina, formerly Commandant Armoured Corps and School, Bauchi, '
+ 'now General Officer Commanding 3 Division, Jos.')
+
+-------------- Ground truth --------------
+Kamaldeen Role |||| Person |||| (27, 41)
+Lawrence Ngubane |||| Person |||| (165, 181)
+Saleh Maina |||| Person |||| (302, 313)
+Major General |||| Rank |||| (13, 26)
+Major Genera |||| Rank |||| (151, 163)
+Major General |||| Rank |||| (288, 301)
+Army Headquarters Garrison |||| Organization |||| (63, 89)
+One Division |||| Organization |||| (129, 141)
+National Defence College |||| Organization |||| (211, 235)
+2 Division |||| Organization |||| (268, 278)
+Armoured Corps and School |||| Organization |||| (335, 360)
+3 Division |||| Organization |||| (401, 411)
+Commander |||| Role |||| (52, 61)
+General officer Commanding |||| Title |||| (102, 128)
+Deputy Commandant |||| Role |||| (192, 209)
+General Officer Commanding |||| Title |||| (241, 267)
+Commandant |||| Role |||| (324, 334)
+General Officer Commanding |||| Title |||| (374, 400)
+
+-------------- Predicted labels --------------
+Major General |||| Rank |||| (13, 26)
+Kamaldeen Role |||| Person |||| (27, 42)
+Commander |||| Title_Role |||| (52, 62)
+Army Headquarters Garrison |||| Organization |||| (63, 90)
+General officer Commanding |||| Title_Role |||| (102, 128)
+One Division |||| Organization |||| (129, 142)
+Major General |||| Rank |||| (151, 164)
+Lawrence Ngubane |||| Person |||| (165, 182)
+Deputy Commandant |||| Title_Role |||| (192, 210)
+National Defence College |||| Organization |||| (211, 236)
+General Officer Commanding |||| Title_Role |||| (241, 267)
+2 Division |||| Organization |||| (268, 279)
+Major General |||| Rank |||| (288, 301)
+Saleh Maina |||| Person |||| (302, 314)
+Commandant |||| Title_Role |||| (324, 334)
+Armoured Corps and School |||| Organization |||| (335, 361)
+General Officer Commanding |||| Title_Role |||| (374, 400)
+3 Division |||| Organization |||| (401, 412)
+
+>>> False-positives:
+>>> False-negatives:
+	 Major Genera |||| Rank
+
+
+
+=================================================
+From file with id:  a2922c4e-d151-4b62-b0e1-bfe41d1af48c
+Sentence: 
+('Others are Major General Mohammed Isah, formerly the Military Secretary '
+ "'Army' now General Officer Commanding 82 Division of the Nigerian Army, "
+ 'Enugu and Major General Emeka CG Nwanguna, formerly of the '
+ 'DefenceHeadquarters now General Officer Commanding 81 Division, Lagos .')
+
+-------------- Ground truth --------------
+Mohammed Isah |||| Person |||| (25, 38)
+Emeka CG Nwanguna |||| Person |||| (168, 185)
+Major Genera |||| Rank |||| (11, 23)
+Major General |||| Rank |||| (154, 167)
+82 Division |||| Organization |||| (110, 121)
+Nigerian Army |||| Organization |||| (129, 142)
+DefenceHeadquarters |||| Organization |||| (203, 222)
+81 Division |||| Organization |||| (254, 265)
+Military Secretary Army |||| Title |||| (53, 78)
+General Officer Commanding |||| Title |||| (83, 109)
+General Officer Commanding |||| Title |||| (227, 253)
+
+-------------- Predicted labels --------------
+Major General |||| Rank |||| (11, 24)
+Mohammed Isah |||| Person |||| (25, 39)
+Military Secretary Army |||| Title_Role |||| (53, 78)
+General Officer Commanding |||| Title_Role |||| (83, 109)
+82 Division |||| Organization |||| (110, 121)
+Nigerian Army |||| Organization |||| (129, 143)
+Major General |||| Rank |||| (154, 167)
+Emeka CG Nwanguna |||| Person |||| (168, 186)
+General Officer Commanding |||| Title_Role |||| (227, 253)
+81 Division |||| Organization |||| (254, 266)
+
+>>> False-positives:
+>>> False-negatives:
+	 Major Genera |||| Rank
+	 DefenceHeadquarters |||| Organization
+
+
+
+=================================================
+From file with id:  a2922c4e-d151-4b62-b0e1-bfe41d1af48c
+Sentence: 
+('According to Saturday Vanguard investigations, Major-General Moses Obi, '
+ "formerly GOC 'One' Division, is the new Chief of Operations at Army "
+ 'Headquarters, Brigadier-General AT Umaru, until yesterday Director of '
+ 'Operations at the Defence Intelligence Agency, is the new Director of '
+ 'Military Intelligence, while Brigadier-General AS Mustapha, formerly of Army '
+ 'Headquarters, is the new Commander, Brigade of Guards, Abuja.')
+
+-------------- Ground truth --------------
+Moses Obi |||| Person |||| (61, 70)
+AT Umaru |||| Person |||| (172, 180)
+AS Mustapha |||| Person |||| (327, 338)
+Major General |||| Rank |||| (47, 60)
+Brigadier General |||| Rank |||| (154, 171)
+Brigadier General |||| Rank |||| (309, 326)
+One Division |||| Organization |||| (85, 99)
+Army Headquarters |||| Organization |||| (135, 152)
+Defence Intelligence Agency |||| Organization |||| (228, 255)
+Army Headquarters |||| Organization |||| (352, 369)
+Brigade of Guards |||| Organization |||| (393, 410)
+GOC |||| Title |||| (81, 84)
+Chief of Operations |||| Title |||| (112, 131)
+Director of Operations |||| Title |||| (198, 220)
+Director of Military Intelligence |||| Title |||| (268, 301)
+Commander |||| Role |||| (382, 391)
+
+-------------- Predicted labels --------------
+Major General |||| Rank |||| (47, 60)
+Moses Obi |||| Person |||| (61, 71)
+GOC |||| Rank |||| (81, 84)
+One Division |||| Person |||| (85, 100)
+Chief of Operations |||| Title_Role |||| (112, 131)
+Army Headquarters |||| Organization |||| (135, 153)
+Brigadier General |||| Rank |||| (154, 171)
+AT Umaru |||| Person |||| (172, 181)
+Director of Operations |||| Title_Role |||| (198, 220)
+Defence Intelligence Agency |||| Organization |||| (228, 256)
+Director of Military Intelligence |||| Title_Role |||| (268, 302)
+Brigadier General |||| Rank |||| (309, 326)
+AS Mustapha |||| Person |||| (327, 339)
+Army Headquarters |||| Organization |||| (352, 370)
+Commander |||| Title_Role |||| (382, 392)
+Brigade of Guards |||| Organization |||| (393, 411)
+
+>>> False-positives:
+	 GOC |||| Rank
+	 One Division |||| Person
+>>> False-negatives:
+	 One Division |||| Organization
+	 GOC |||| Title_Role
+
+
+
+=================================================
+From file with id:  a2922c4e-d151-4b62-b0e1-bfe41d1af48c
+Sentence: 
+('Major-General BM Monguno, erstwhile Commander, Brigade of Guards, is the '
+ 'Deputy Commandant at the National Defence College , Abuja ; '
+ "Brigadier-General YD Pyeng, formerly the Commandant 'DEPOT' Zaria , is the "
+ 'new Provost-Marshal, Nigerian Army, Brigadier-General AC Olukolade is the '
+ 'new Director, Army Public Relations, while Brigadier-General AB Marwa moves '
+ 'from Defence College to 22 Brigade, Ilorin as Brigade Commander.')
+
+-------------- Ground truth --------------
+BM Monguno |||| Person |||| (14, 24)
+YD Pyeng |||| Person |||| (151, 159)
+AC Olukolade |||| Person |||| (262, 274)
+AB Marwa |||| Person |||| (343, 351)
+Major General |||| Rank |||| (0, 13)
+Brigadier General |||| Rank |||| (133, 150)
+Brigadier General |||| Rank |||| (244, 261)
+Brigadier General |||| Rank |||| (325, 342)
+Brigade of Guards |||| Organization |||| (47, 64)
+National Defence College |||| Organization |||| (98, 122)
+DEPOT |||| Organization |||| (186, 191)
+Nigerian Army |||| Organization |||| (229, 242)
+22 Brigade |||| Organization |||| (382, 392)
+Commander |||| Role |||| (36, 45)
+Deputy Commandant |||| Role |||| (73, 90)
+Commandant |||| Role |||| (174, 184)
+Provost Marshal |||| Title |||| (212, 227)
+Director Army Public Relations |||| Title |||| (286, 317)
+Defence College |||| Organization |||| (363, 378)
+Brigade Commander |||| Role |||| (404, 421)
+
+-------------- Predicted labels --------------
+Major General |||| Rank |||| (0, 13)
+BM Monguno |||| Person |||| (14, 25)
+Commander |||| Title_Role |||| (36, 46)
+Brigade of Guards |||| Organization |||| (47, 65)
+Deputy Commandant |||| Title_Role |||| (73, 90)
+National Defence College |||| Organization |||| (98, 122)
+Brigadier General |||| Rank |||| (133, 150)
+YD Pyeng |||| Person |||| (151, 160)
+Commandant DEPOT Zaria |||| Title_Role |||| (174, 198)
+Provost Marshal |||| Title_Role |||| (212, 228)
+Nigerian Army |||| Organization |||| (229, 243)
+Brigadier General |||| Rank |||| (244, 261)
+AC Olukolade |||| Person |||| (262, 274)
+Director Army Public Relations |||| Title_Role |||| (286, 318)
+Brigadier General |||| Rank |||| (325, 342)
+AB Marwa |||| Person |||| (343, 351)
+Defence College |||| Organization |||| (363, 378)
+22 Brigade |||| Organization |||| (382, 393)
+Brigade Commander |||| Organization |||| (404, 422)
+
+>>> False-positives:
+	 Commandant DEPOT Zaria |||| Title_Role
+	 Brigade Commander |||| Organization
+>>> False-negatives:
+	 DEPOT |||| Organization
+	 Commandant |||| Title_Role
+	 Brigade Commander |||| Title_Role
+
+
+
+=================================================
+From file with id:  a2922c4e-d151-4b62-b0e1-bfe41d1af48c
+Sentence: 
+('Major-General TI Oliomogbe, formerly Commandant, Nigerian Army Engineers '
+ 'Corps is now Commandant, Army College of Logistics; Major-General UT Usman '
+ 'is the new Chief of Logistics at Army Headquarters, Major General AM Jubrin, '
+ 'formerly the Army Provost Marshal, is the new Chief of Administration, Army '
+ "Headquarters, while Major General SU Abdukadir is Military Secretary 'Army'.")
+
+-------------- Ground truth --------------
+TI Oliomogbe |||| Person |||| (14, 26)
+UT Usman |||| Person |||| (139, 147)
+AM Jubrin |||| Person |||| (214, 223)
+SU Abdukadir |||| Person |||| (335, 347)
+Major General |||| Rank |||| (0, 13)
+Major General |||| Rank |||| (125, 138)
+Major General |||| Rank |||| (200, 213)
+Major General |||| Rank |||| (321, 334)
+Engineers Corps |||| Organization |||| (63, 78)
+Army College of Logistics |||| Organization |||| (98, 123)
+Army Headquarters |||| Organization |||| (181, 199)
+Army Headquarters |||| Organization |||| (296, 313)
+Commandant |||| Role |||| (37, 47)
+Commandant |||| Role |||| (86, 96)
+Chief of Logistics |||| Role |||| (159, 177)
+Army Provost Marshal |||| Role |||| (238, 258)
+Chief of Administration |||| Title |||| (271, 294)
+Military Secretary Army |||| Title |||| (351, 376)
+
+-------------- Predicted labels --------------
+Major General |||| Rank |||| (0, 13)
+TI Oliomogbe |||| Person |||| (14, 27)
+Commandant |||| Title_Role |||| (37, 48)
+Nigerian Army Engineers Corps |||| Organization |||| (49, 78)
+Commandant |||| Title_Role |||| (86, 97)
+Army College of Logistics |||| Organization |||| (98, 124)
+Major General |||| Rank |||| (125, 138)
+UT Usman |||| Person |||| (139, 147)
+Chief of Logistics |||| Title_Role |||| (159, 177)
+Army Headquarters |||| Organization |||| (181, 199)
+Major General |||| Rank |||| (200, 213)
+AM Jubrin |||| Person |||| (214, 224)
+Army Provost Marshal |||| Title_Role |||| (238, 259)
+Chief of Administration |||| Title_Role |||| (271, 295)
+Army Headquarters |||| Organization |||| (296, 314)
+Major General |||| Rank |||| (321, 334)
+SU Abdukadir |||| Person |||| (335, 347)
+Military Secretary Army |||| Title_Role |||| (351, 377)
+
+>>> False-positives:
+	 Nigerian Army Engineers Corps |||| Organization
+>>> False-negatives:
+	 Engineers Corps |||| Organization
+
+
+
+=================================================
+From file with id:  a2922c4e-d151-4b62-b0e1-bfe41d1af48c
+Sentence: 
+('Major-General BC Azurunwa, formerly Director of Policy and Plans Army '
+ 'Headquarters, is the new chief of Army Standards and Evaluation (CASE).')
+
+-------------- Ground truth --------------
+BC Azurunwa |||| Person |||| (14, 25)
+Major General |||| Rank |||| (0, 13)
+Army Headquarters |||| Organization |||| (65, 82)
+Director of Policy and Plans |||| Title |||| (36, 64)
+chief of Army Standards and Evaluation |||| Title |||| (95, 133)
+
+-------------- Predicted labels --------------
+Major General |||| Rank |||| (0, 13)
+BC Azurunwa |||| Person |||| (14, 26)
+Director of Policy and Plans |||| Title_Role |||| (36, 64)
+Army Headquarters |||| Organization |||| (65, 83)
+chief of Army Standards and Evaluation CASE |||| Title_Role |||| (95, 141)
+
+>>> False-positives:
+	 chief of Army Standards and Evaluation CASE |||| Title_Role
+>>> False-negatives:
+	 chief of Army Standards and Evaluation |||| Title_Role
+
+
+
+=================================================
+From file with id:  a2922c4e-d151-4b62-b0e1-bfe41d1af48c
+Sentence: 
+('Major-General EE Bassey, formerly Commander 32 Brigade, moves to Defence '
+ 'Headquarters as Director of Administration; Major-General Bala Usara moves '
+ 'from the Department of Physical Training to DHQ as Director of Sports, '
+ 'Major-General DM Edi, formerly of Defence Headquarters, is the new '
+ 'Commander, Army Headquarters Garrison, Abuja; Major-General JA Okunbor, '
+ 'formerly the Chief of Logistics at Army headquarters is now Director of '
+ 'Policy at Army headquarters.')
+
+-------------- Ground truth --------------
+EE Bassey |||| Person |||| (14, 23)
+Bala Usara |||| Person |||| (131, 141)
+JA Okunbor |||| Person |||| (346, 356)
+Major Genera |||| Rank |||| (0, 12)
+Major General |||| Rank |||| (117, 130)
+Major General |||| Rank |||| (332, 345)
+Defence Headquarters |||| Organization |||| (253, 273)
+Army Headquarters Garrison |||| Organization |||| (297, 323)
+Army headquarters |||| Organization |||| (393, 410)
+Army headquarters |||| Organization |||| (440, 457)
+32 Brigade |||| Organization |||| (44, 54)
+Commander |||| Role |||| (34, 43)
+Defence Headquarters |||| Organization |||| (65, 85)
+Director of Administration |||| Title |||| (89, 115)
+Department of Physical Training |||| Organization |||| (157, 188)
+DHQ |||| Organization |||| (192, 195)
+Director of Sports |||| Title |||| (199, 217)
+Major General |||| Rank |||| (219, 232)
+DM Edi |||| Person |||| (233, 239)
+Commander |||| Role |||| (286, 295)
+Chief of Logistics |||| Role |||| (371, 389)
+Director of Policy |||| Title |||| (418, 436)
+
+-------------- Predicted labels --------------
+Major General |||| Rank |||| (0, 13)
+EE Bassey |||| Person |||| (14, 24)
+Commander |||| Title_Role |||| (34, 43)
+32 Brigade |||| Organization |||| (44, 55)
+Defence Headquarters |||| Organization |||| (65, 85)
+Director of Administration |||| Title_Role |||| (89, 116)
+Major General |||| Rank |||| (117, 130)
+Bala Usara |||| Person |||| (131, 141)
+Department of Physical Training |||| Organization |||| (157, 188)
+Director of Sports |||| Title_Role |||| (199, 218)
+Major General |||| Rank |||| (219, 232)
+DM Edi |||| Person |||| (233, 240)
+Defence Headquarters |||| Organization |||| (253, 274)
+Commander |||| Title_Role |||| (286, 296)
+Army Headquarters Garrison |||| Organization |||| (297, 324)
+Major General |||| Rank |||| (332, 345)
+JA Okunbor |||| Person |||| (346, 357)
+Chief of Logistics |||| Title_Role |||| (371, 389)
+Army headquarters |||| Organization |||| (393, 410)
+Director of Policy |||| Title_Role |||| (418, 436)
+Army |||| Organization |||| (440, 444)
+
+>>> False-positives:
+	 Army |||| Organization
+>>> False-negatives:
+	 Major Genera |||| Rank
+	 DHQ |||| Organization
+
+
+
+=================================================
+From file with id:  a2922c4e-d151-4b62-b0e1-bfe41d1af48c
+Sentence: 
+('Brigadier-General Emeka Onwuamaegbu, formerly the Director of Army Public '
+ 'Relations is now the Commandant, Nigerian Army Peacekeeping Centre, Jaji; '
+ 'Brigadier-General KTJ Minimah, formerly of the Nigerian Army School of '
+ "Infantry, is the new Commander, 'One' Brigade, Nigerian Army, Sokoto, "
+ 'Brigadier-General OM Sho-Silva moves from Defence Headquarters to Army '
+ 'Headquarters as Director of Physical Training, Brigadier-General BM '
+ 'Badewole, formerly, the Academic Registrar at Nigeria Defence Academy, is '
+ 'the new Commandant, Nigerian Army School of Military Police.')
+
+-------------- Ground truth --------------
+Emeka Onwuamaegbu |||| Person |||| (18, 35)
+KTJ Minimah |||| Person |||| (166, 177)
+OM Sho Silva |||| Person |||| (307, 319)
+BM Badewole |||| Person |||| (425, 436)
+Brigadier General |||| Rank |||| (0, 17)
+Brigadier General |||| Rank |||| (148, 165)
+Brigadier General |||| Rank |||| (289, 306)
+Brigadier General |||| Rank |||| (407, 424)
+Nigerian Army Peacekeeping Centre |||| Organization |||| (107, 140)
+Nigerian Army School of Infantry |||| Organization |||| (195, 227)
+One Brigade |||| Organization |||| (251, 264)
+Nigerian Army |||| Organization |||| (266, 279)
+Defence Headquarters |||| Organization |||| (331, 351)
+Army Headquarters |||| Organization |||| (355, 372)
+Nigeria Defence Academy |||| Organization |||| (474, 497)
+Nigerian Army School of Military Police |||| Organization |||| (522, 561)
+Director of Army Public Relations |||| Title |||| (50, 83)
+Commander |||| Role |||| (240, 249)
+Director of Physical Training |||| Title |||| (376, 405)
+Academic Registrar |||| Title |||| (452, 470)
+Commandant |||| Role |||| (510, 520)
+
+-------------- Predicted labels --------------
+Brigadier General |||| Rank |||| (0, 17)
+Emeka Onwuamaegbu |||| Person |||| (18, 36)
+Director of Army Public Relations |||| Title_Role |||| (50, 83)
+Commandant |||| Title_Role |||| (95, 106)
+Nigerian Army Peacekeeping Centre |||| Organization |||| (107, 141)
+Brigadier General |||| Rank |||| (148, 165)
+KTJ Minimah |||| Person |||| (166, 178)
+Nigerian Army School of Infantry |||| Organization |||| (195, 228)
+Commander One Brigade |||| Title_Role |||| (240, 265)
+Nigerian Army |||| Organization |||| (266, 280)
+Brigadier General |||| Rank |||| (289, 306)
+OM Sho Silva |||| Person |||| (307, 319)
+Defence Headquarters |||| Organization |||| (331, 351)
+Army Headquarters |||| Organization |||| (355, 372)
+Director of Physical Training |||| Title_Role |||| (376, 406)
+Brigadier General |||| Rank |||| (407, 424)
+BM Badewole |||| Person |||| (425, 437)
+Academic Registrar |||| Title_Role |||| (452, 470)
+Nigeria Defence Academy |||| Organization |||| (474, 498)
+Commandant |||| Title_Role |||| (510, 521)
+Nigerian Army School of Military Police |||| Organization |||| (522, 562)
+
+>>> False-positives:
+	 Commander One Brigade |||| Title_Role
+>>> False-negatives:
+	 One Brigade |||| Organization
+	 Commander |||| Title_Role
+
+
+
+=================================================
+From file with id:  a2922c4e-d151-4b62-b0e1-bfe41d1af48c
+Sentence: 
+('Other new postings include those of Brigadier-General OO Oshinowo, formerly '
+ 'Commander, 22 Brigade, Ilorin, now Commandant, Nigeria Army Artillery '
+ 'School, Brigadier-General Yusuf Bomoi, formerly D-G NYSC, is now Commandant, '
+ 'Nigeria Army School of Engineering, Brigadier-General G Bauka, formerly '
+ 'Commander I Brigade, Sokoto, moves to the Defence Intelligence Agency as '
+ 'Director, Foreign Liaison, Brigadier-General AK Kwaskebe formerly Commander '
+ '34 Brigade, is now Director of Training at Army Headquarters while Brigadier '
+ 'General JS Kwabe formerly of the Defence Headquarters, is now the Director '
+ 'of Operations at Army Headquarters.')
+
+-------------- Ground truth --------------
+OO Oshinowo |||| Person |||| (54, 65)
+Yusuf Bomoi |||| Person |||| (172, 183)
+G Bauka |||| Person |||| (277, 284)
+AK Kwaskebe |||| Person |||| (413, 424)
+JS Kwabe |||| Person |||| (529, 537)
+Brigadier General |||| Rank |||| (36, 53)
+Brigadier General |||| Rank |||| (154, 171)
+Brigadier General |||| Rank |||| (259, 276)
+Brigadier General |||| Rank |||| (395, 412)
+Brigadier General |||| Rank |||| (511, 528)
+22 Brigade |||| Organization |||| (87, 97)
+Nigeria Army Artillery School |||| Organization |||| (123, 152)
+Nigeria Army School of Engineering |||| Organization |||| (223, 257)
+I Brigade |||| Organization |||| (305, 314)
+Defence Intelligence Agency |||| Organization |||| (337, 364)
+34 Brigade |||| Organization |||| (444, 454)
+Army Headquarters |||| Organization |||| (487, 504)
+Defence Headquarters |||| Organization |||| (554, 574)
+Army Headquarters |||| Organization |||| (613, 630)
+Commander |||| Role |||| (76, 85)
+Commandant |||| Role |||| (111, 121)
+D G NYSC |||| Title |||| (194, 203)
+Commandant |||| Role |||| (211, 221)
+Commander |||| Role |||| (295, 304)
+Director Foreign Liaison |||| Title |||| (368, 393)
+Commander |||| Role |||| (434, 443)
+Director of Training |||| Title |||| (463, 483)
+Director of Operations |||| Title |||| (587, 609)
+
+-------------- Predicted labels --------------
+Brigadier General |||| Rank |||| (36, 53)
+OO Oshinowo |||| Person |||| (54, 66)
+Commander |||| Title_Role |||| (76, 86)
+22 Brigade |||| Organization |||| (87, 98)
+Commandant |||| Title_Role |||| (111, 122)
+Nigeria Army Artillery School |||| Organization |||| (123, 153)
+Brigadier General |||| Rank |||| (154, 171)
+Yusuf Bomoi |||| Person |||| (172, 184)
+D G |||| Rank |||| (194, 197)
+Commandant |||| Title_Role |||| (211, 222)
+Nigeria Army School of Engineering |||| Organization |||| (223, 258)
+Brigadier General |||| Rank |||| (259, 276)
+G Bauka |||| Person |||| (277, 285)
+Commander |||| Rank |||| (295, 304)
+I Brigade |||| Person |||| (305, 315)
+Defence Intelligence Agency |||| Organization |||| (337, 364)
+Director |||| Title_Role |||| (368, 377)
+Foreign Liaison |||| Organization |||| (378, 394)
+Brigadier General |||| Rank |||| (395, 412)
+AK Kwaskebe |||| Person |||| (413, 424)
+Commander |||| Title_Role |||| (434, 443)
+34 Brigade |||| Organization |||| (444, 455)
+Director of Training |||| Title_Role |||| (463, 483)
+Army Headquarters |||| Organization |||| (487, 504)
+Brigadier General |||| Rank |||| (511, 528)
+JS Kwabe |||| Person |||| (529, 537)
+Defence Headquarters |||| Organization |||| (554, 575)
+Director of Operations |||| Title_Role |||| (587, 609)
+Army Headquarters |||| Organization |||| (613, 631)
+
+>>> False-positives:
+	 D G |||| Rank
+	 Commander |||| Rank
+	 I Brigade |||| Person
+	 Director |||| Title_Role
+	 Foreign Liaison |||| Organization
+>>> False-negatives:
+	 I Brigade |||| Organization
+	 D G NYSC |||| Title_Role
+	 Director Foreign Liaison |||| Title_Role
+
+
+
+=================================================
+From file with id:  a2922c4e-d151-4b62-b0e1-bfe41d1af48c
+Sentence: 
+('For the former GOCs, Major-General O Akinyemi, formerly of 3 Division, is '
+ 'the new Director, Peace-keeping at Defence Headquarters, Major-General '
+ 'Ihejirika, formerly the Chief of Army Standards and Evaluation, is the new '
+ 'Director of Engineering at Defence Headquarters, Major General ID Penap '
+ 'formerly Chief of Research and Development, Defence headquarters, moves to '
+ 'operations as Chief of Training and Operations (CTOP), Major General FN '
+ 'Osukogu moves from Department of Peacekeeping DHQ, to Research')
+
+-------------- Ground truth --------------
+O Akinyemi |||| Person |||| (35, 45)
+Ihejirika |||| Person |||| (145, 154)
+FN Osukogu |||| Person |||| (436, 446)
+Major General |||| Rank |||| (21, 34)
+Major Genera |||| Rank |||| (131, 143)
+Major General |||| Rank |||| (422, 435)
+3 Division |||| Organization |||| (59, 69)
+Defence Headquarters |||| Organization |||| (109, 129)
+Defence Headquarters |||| Organization |||| (247, 267)
+Defence headquarters |||| Organization |||| (336, 356)
+Department of Peacekeeping DHQ |||| Organization |||| (458, 488)
+Director Peace keeping |||| Role |||| (82, 105)
+Chief of Army Standards and Evaluation |||| Title |||| (169, 207)
+Director of Engineering |||| Title |||| (220, 243)
+Major General |||| Rank |||| (269, 282)
+ID Penap |||| Person |||| (283, 291)
+Chief of Research and Development |||| Title |||| (301, 334)
+Chief of Training and Operations |||| Title |||| (381, 413)
+Research |||| Organization |||| (493, 501)
+
+-------------- Predicted labels --------------
+Major General |||| Rank |||| (21, 34)
+O Akinyemi |||| Person |||| (35, 46)
+3 Division |||| Organization |||| (59, 70)
+Director Peace keeping |||| Title_Role |||| (82, 105)
+Defence Headquarters |||| Organization |||| (109, 130)
+Major General Ihejirika |||| Person |||| (131, 155)
+Chief of Army Standards and Evaluation |||| Title_Role |||| (169, 208)
+Director of Engineering |||| Title_Role |||| (220, 243)
+Defence Headquarters |||| Organization |||| (247, 268)
+Major General |||| Rank |||| (269, 282)
+ID Penap |||| Person |||| (283, 291)
+Chief of Research and Development |||| Title_Role |||| (301, 335)
+Chief of Training and Operations CTOP |||| Title_Role |||| (381, 421)
+Major General |||| Rank |||| (422, 435)
+FN Osukogu |||| Person |||| (436, 446)
+Department of Peacekeeping DHQ |||| Organization |||| (458, 489)
+
+>>> False-positives:
+	 Major General Ihejirika |||| Person
+	 Chief of Training and Operations CTOP |||| Title_Role
+>>> False-negatives:
+	 Ihejirika |||| Person
+	 Major Genera |||| Rank
+	 Defence headquarters |||| Organization
+	 Chief of Training and Operations |||| Title_Role
+	 Research |||| Organization
+
+
+
+=================================================
+From file with id:  356602e4-042e-4ad3-8bb2-f539b8644514
+Sentence: 
+('Bauchi State Governor Mohammed Abdullahi Abubakar has again challenged the '
+ 'Nigerian Army and other security agencies to intensify efforts and flush out '
+ 'insurgents, kidnappers, cattle rustlers, and all other criminal elements '
+ 'seeking refuge in Bauchi State forests, particularly those fleeing military '
+ 'actions in Sambisa, Falgore and Zamfara forests.')
+
+-------------- Ground truth --------------
+Nigerian Army |||| Organization |||| (75, 88)
+
+-------------- Predicted labels --------------
+Mohammed Abdullahi Abubakar |||| Person |||| (22, 49)
+Nigerian Army |||| Organization |||| (75, 88)
+
+>>> False-positives:
+	 Mohammed Abdullahi Abubakar |||| Person
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  356602e4-042e-4ad3-8bb2-f539b8644514
+Sentence: 
+('The governor, who threw this challenge when he received the General officer '
+ 'Commanding 3rd Division, Major General Benjamin Ahanotu at the Government '
+ 'House, Bauchi Sunday lamented that the forests that surround Bauchi State '
+ 'are gradually being taken advantage of by criminals.')
+
+-------------- Ground truth --------------
+General officer Commanding |||| Title |||| (60, 86)
+3rd Division |||| Organization |||| (87, 99)
+Major General |||| Rank |||| (101, 114)
+Benjamin Ahanotu |||| Person |||| (115, 131)
+
+-------------- Predicted labels --------------
+General officer Commanding |||| Title_Role |||| (60, 86)
+3rd Division |||| Organization |||| (87, 100)
+Major General |||| Rank |||| (101, 114)
+Benjamin Ahanotu |||| Person |||| (115, 131)
+Government House |||| Organization |||| (139, 156)
+
+>>> False-positives:
+	 Government House |||| Organization
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  20964bcf-51b2-4a03-9ea0-c514d4662918
+Sentence: 
+('The Chief of Army Staff ( COAS) Lt. General Tukur Yusuf Buratai has '
+ 'commended the Yobe state governor Alh. Ibrahim Gaidam for his continues '
+ 'support to the military toward enhancing their efficiency in the fight '
+ 'against insurgency in the state.')
+
+-------------- Ground truth --------------
+Tukur Yusuf Buratai |||| Person |||| (44, 63)
+Lt General |||| Rank |||| (32, 43)
+Chief of Army Staff |||| Title |||| (4, 23)
+
+-------------- Predicted labels --------------
+Chief of Army Staff |||| Title_Role |||| (4, 23)
+Lt General |||| Rank |||| (32, 43)
+Tukur Yusuf Buratai |||| Person |||| (44, 63)
+Alh |||| Rank |||| (102, 106)
+Ibrahim Gaidam |||| Person |||| (107, 121)
+
+>>> False-positives:
+	 Alh |||| Rank
+	 Ibrahim Gaidam |||| Person
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  20964bcf-51b2-4a03-9ea0-c514d4662918
+Sentence: 
+('Lt. Gen. Buratai described the gesture to the Nigeria Army as one of the '
+ 'numerous by the Yobe state government which will go a long way for the army '
+ 'and other security agencies to discharge their duties diligently without '
+ 'hindrance “ we are doing very well here in Yobe State and with the support '
+ 'and cooperation of your administration , other security agencies and the '
+ 'good people of Yobe state , we will continue to have an excellent security '
+ 'arrangement in the final push to crush Boko-Haram elements in the state “ he '
+ 'emphasised.')
+
+-------------- Ground truth --------------
+Buratai |||| Person |||| (9, 16)
+Lt Gen |||| Rank |||| (0, 7)
+Nigeria Army |||| Organization |||| (46, 58)
+
+-------------- Predicted labels --------------
+Lt Gen. |||| Rank |||| (0, 8)
+Buratai |||| Person |||| (9, 16)
+Nigeria Army |||| Organization |||| (46, 58)
+
+>>> False-positives:
+	 Lt Gen. |||| Rank
+>>> False-negatives:
+	 Lt Gen |||| Rank
+
+
+
+=================================================
+From file with id:  20964bcf-51b2-4a03-9ea0-c514d4662918
+Sentence: 
+('The COAS was accompanied by some top military brass including the Brigade '
+ 'Commander of the 27 task force Brigade Buni- Yadi , Brigadier General K.N '
+ 'Garba respectively.')
+
+-------------- Ground truth --------------
+27 task force Brigade |||| Organization |||| (91, 112)
+Brigadier General |||| Rank |||| (126, 143)
+K.N Garba |||| Person |||| (144, 153)
+Brigade Commander |||| Role |||| (66, 83)
+
+-------------- Predicted labels --------------
+Brigade Commander |||| Title_Role |||| (66, 83)
+27 task force Brigade Buni- |||| Organization |||| (91, 118)
+Brigadier General |||| Rank |||| (126, 143)
+K.N Garba |||| Person |||| (144, 153)
+
+>>> False-positives:
+	 27 task force Brigade Buni- |||| Organization
+>>> False-negatives:
+	 27 task force Brigade |||| Organization
+
+
+
+=================================================
+From file with id:  96b4be35-d114-4d2e-a6f2-b02f0fa7532f
+Sentence: 
+('As the military on-slaught to dislodge Boko Haram enters a new stage, and '
+ 'the agreement between the Federal Government and Boko Haram sect is breached '
+ 'severally, the Army High Command in Abuja has removed the former General '
+ 'Officer Commanding (GOC) 3 division Jos, Major General Mohammed Zaruwa.')
+
+-------------- Ground truth --------------
+General Officer Commanding |||| Title |||| (216, 242)
+3 division |||| Organization |||| (249, 259)
+Major General |||| Rank |||| (265, 278)
+Mohammed Zaruwa |||| Person |||| (279, 294)
+
+-------------- Predicted labels --------------
+Army High Command |||| Organization |||| (166, 183)
+General Officer Commanding |||| Title_Role |||| (216, 242)
+3 division |||| Organization |||| (249, 259)
+Major General |||| Rank |||| (265, 278)
+Mohammed Zaruwa |||| Person |||| (279, 295)
+
+>>> False-positives:
+	 Army High Command |||| Organization
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  96b4be35-d114-4d2e-a6f2-b02f0fa7532f
+Sentence: 
+('General Zaruwa, according to sources would be posted to the Defence '
+ 'Headquarters where there are vacancies for top army generals following '
+ 'retirements of three generals, two of them after 35 years in service, and '
+ 'one compulsory retirement.')
+
+-------------- Ground truth --------------
+Zaruwa |||| Person |||| (8, 14)
+General |||| Rank |||| (0, 7)
+
+-------------- Predicted labels --------------
+Defence Headquarters |||| Organization |||| (60, 80)
+
+>>> False-positives:
+	 Defence Headquarters |||| Organization
+>>> False-negatives:
+	 Zaruwa |||| Person
+	 General |||| Rank
+
+
+
+=================================================
+From file with id:  96b4be35-d114-4d2e-a6f2-b02f0fa7532f
+Sentence: 
+('Meanwhile, a new GOC,Major General F.O.Alli has been appointed for the 3 '
+ 'armoured division of the Nigerian Army.')
+
+-------------- Ground truth --------------
+F.O.Alli |||| Person |||| (35, 43)
+Major General |||| Rank |||| (21, 34)
+GOC |||| Title |||| (17, 20)
+3 armoured division |||| Organization |||| (71, 90)
+Nigerian Army |||| Organization |||| (98, 111)
+
+-------------- Predicted labels --------------
+General |||| Rank |||| (27, 34)
+F.O.Alli |||| Person |||| (35, 43)
+3 armoured division |||| Organization |||| (71, 90)
+Nigerian Army |||| Organization |||| (98, 112)
+
+>>> False-positives:
+	 General |||| Rank
+>>> False-negatives:
+	 Major General |||| Rank
+	 GOC |||| Title_Role
+
+
+
+=================================================
+From file with id:  96b4be35-d114-4d2e-a6f2-b02f0fa7532f
+Sentence: 
+('General Alli was until his appointment, the Director of Operations at Army '
+ 'Headquarters. He has served as the Brigade Commander in Yola prior to his '
+ 'posting to Army Headquarters and had battled the terrorists previously. He '
+ 'was also at a time, the Principal General Staff Officer to the minister of '
+ 'defence.')
+
+-------------- Ground truth --------------
+Alli |||| Person |||| (8, 12)
+General |||| Rank |||| (0, 7)
+Director of Operations |||| Title |||| (44, 66)
+Army Headquarters |||| Organization |||| (70, 87)
+Brigade Commander |||| Role |||| (110, 127)
+Principal General Staff Officer to the minister of defence |||| Role |||| (248, 306)
+
+-------------- Predicted labels --------------
+General |||| Rank |||| (0, 7)
+Alli |||| Person |||| (8, 12)
+Director of Operations |||| Title_Role |||| (44, 66)
+Army Headquarters |||| Organization |||| (70, 88)
+Brigade Commander |||| Title_Role |||| (110, 127)
+Army Headquarters |||| Organization |||| (160, 177)
+
+>>> False-positives:
+>>> False-negatives:
+	 Principal General Staff Officer to the minister of defence |||| Title_Role
+
+
+
+=================================================
+From file with id:  96b4be35-d114-4d2e-a6f2-b02f0fa7532f
+Sentence: 
+('General Zaruwa who had been in the forefront of the battle to recapture '
+ 'communities taken over by the terrorists in Adamawa and Borno states '
+ 'personally led the onslaught that wiped out hundreds of the terrorists in '
+ 'Vimtim, the home town of the Chief of Defence Staff,and during the advance '
+ 'on some communities in Bazza, Michika, and Gulak last month and early this '
+ 'month.')
+
+-------------- Ground truth --------------
+Zaruwa |||| Person |||| (8, 14)
+General |||| Rank |||| (0, 7)
+
+-------------- Predicted labels --------------
+General |||| Rank |||| (0, 7)
+Zaruwa |||| Person |||| (8, 14)
+
+>>> False-positives:
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  07eb86a9-ddb5-4051-a3c5-b5b0892fabbe
+Sentence: 
+('The Chief of Army Staff, Lt.-Gen. Tukur Buratai made the statement on Friday '
+ 'while addressing troops during operational visit to the Depot of the '
+ 'Nigerian Army and the Nigerian Military School in Zaria.')
+
+-------------- Ground truth --------------
+Tukur Buratai |||| Person |||| (34, 47)
+Lt.-Gen |||| Rank |||| (25, 32)
+Chief of Army Staff |||| Title |||| (4, 23)
+
+-------------- Predicted labels --------------
+Chief of Army Staff |||| Title_Role |||| (4, 24)
+Lt.-Gen |||| Rank |||| (25, 33)
+Tukur Buratai |||| Person |||| (34, 47)
+Nigerian Army |||| Organization |||| (146, 159)
+Nigerian Military School |||| Organization |||| (168, 192)
+
+>>> False-positives:
+	 Nigerian Army |||| Organization
+	 Nigerian Military School |||| Organization
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  c3f65f09-5a83-4bc8-ad01-d23b404f4989
+Sentence: 
+('Three weeks after Boko Haram terrorists have taken Monguno town and sacked '
+ 'everyone therein, credible insider information obtained by Leadership Sunday '
+ 'suggests that troops to be led by top military officers that include the GOC '
+ '7 division, MG Adeosun and BG Udoh, Brigade Commander of 5 brigade, Mungonu, '
+ 'have been mobilized to recapture the town anytime soon.')
+
+-------------- Ground truth --------------
+7 division |||| Organization |||| (229, 239)
+GOC |||| Title |||| (225, 228)
+MG Adeosun |||| Person |||| (241, 251)
+BG Udoh |||| Person |||| (256, 263)
+Brigade Commander |||| Role |||| (265, 282)
+5 brigade |||| Organization |||| (286, 295)
+
+-------------- Predicted labels --------------
+GOC |||| Title_Role |||| (225, 228)
+7 division |||| Organization |||| (229, 240)
+
+>>> False-positives:
+>>> False-negatives:
+	 MG Adeosun |||| Person
+	 BG Udoh |||| Person
+	 Brigade Commander |||| Title_Role
+	 5 brigade |||| Organization
+
+
+
+=================================================
+From file with id:  c3f65f09-5a83-4bc8-ad01-d23b404f4989
+Sentence: 
+('A ranked soldier serving at the 7 Division of the Nigerian Army, Maiduguri '
+ 'yesterday confirmed to Leadership Sunday that Monguno town is about to be '
+ 'liberated following the deployment and mobilization of troops to ensure that '
+ 'the border town is recaptured back under the control of the Nigerian '
+ 'security.')
+
+-------------- Ground truth --------------
+7 D |||| Organization |||| (32, 35)
+Nigerian Army |||| Organization |||| (50, 63)
+
+-------------- Predicted labels --------------
+7 Division |||| Organization |||| (32, 42)
+Nigerian Army |||| Organization |||| (50, 64)
+
+>>> False-positives:
+	 7 Division |||| Organization
+>>> False-negatives:
+	 7 D |||| Organization
+
+
+
+=================================================
+From file with id:  c3f65f09-5a83-4bc8-ad01-d23b404f4989
+Sentence: 
+('Monguno is about 143km northwest of Maiduguri, and the military formation '
+ 'there (Reccee Battalion) became the second largest barrack in the state '
+ 'after the 7 Division headquarters in Maiduguri was established in 2013.')
+
+-------------- Ground truth --------------
+Reccee Battalion |||| Organization |||| (81, 97)
+7 Division |||| Organization |||| (156, 166)
+
+-------------- Predicted labels --------------
+7 Division |||| Organization |||| (156, 166)
+
+>>> False-positives:
+>>> False-negatives:
+	 Reccee Battalion |||| Organization
+
+
+
+=================================================
+From file with id:  b6cf16e7-151c-4b9f-bd1f-6dd3ef055294
+Sentence: 
+('As has been the tradition, the hierarchy of the Nigerian Army is celebrating '
+ 'this year’s yuletide period with troops in the field.')
+
+-------------- Ground truth --------------
+Nigerian Army |||| Organization |||| (48, 61)
+
+-------------- Predicted labels --------------
+Nigerian Army |||| Organization |||| (48, 61)
+
+>>> False-positives:
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  b6cf16e7-151c-4b9f-bd1f-6dd3ef055294
+Sentence: 
+('This time around, the Chief of Army Staff, Lieutenant General TY Buratai, '
+ 'represented by the Chief of Administration (Army), Major General IM Alkali, '
+ 'Chief of Civil-Military Affairs, Major General NE Angbazo, Theatre '
+ 'Commander, Operation LAFIYA DOLE, Major General RI Nicholas, General Officer '
+ 'Commanding 7 Division and Director Army Public Relations, Brigadier General '
+ 'SK Usman, along with some of the Principal Staff Officers at Headquarters 7 '
+ 'Division and field commanders are celebrating the 2017 Christmas with the '
+ 'gallant troops of 26 Task Force Brigade, Operation LAFIYA DOLE.')
+
+-------------- Ground truth --------------
+TY Buratai |||| Person |||| (62, 72)
+Lieutenant Genera |||| Rank |||| (43, 60)
+Chief of Army Staff |||| Role |||| (22, 41)
+Chief of Administration Army |||| Title |||| (93, 123)
+IM Alkali |||| Person |||| (139, 148)
+Major General |||| Rank |||| (125, 138)
+Chief of Civil Military Affairs |||| Title |||| (150, 181)
+Major General |||| Rank |||| (183, 196)
+NE Angbazo |||| Person |||| (197, 207)
+Director Army Public Relations |||| Title |||| (320, 350)
+Brigadier General |||| Rank |||| (352, 369)
+SK Usman |||| Person |||| (370, 378)
+7 Division |||| Organization |||| (444, 454)
+26 Task Force Brigade |||| Organization |||| (538, 559)
+Operation LAFIYA DOLE |||| Organization |||| (561, 582)
+
+-------------- Predicted labels --------------
+Chief of Army Staff |||| Title_Role |||| (22, 42)
+Lieutenant General |||| Rank |||| (43, 61)
+TY Buratai |||| Person |||| (62, 73)
+Chief of Administration Army |||| Title_Role |||| (93, 124)
+Major General |||| Rank |||| (125, 138)
+IM Alkali |||| Person |||| (139, 149)
+Chief of Civil Military Affairs |||| Title_Role |||| (150, 182)
+Major General |||| Rank |||| (183, 196)
+NE Angbazo |||| Person |||| (197, 208)
+Theatre Commander |||| Title_Role |||| (209, 227)
+Operation LAFIYA DOLE |||| Organization |||| (228, 250)
+Major General |||| Rank |||| (251, 264)
+RI Nicholas |||| Person |||| (265, 277)
+General Officer Commanding |||| Title_Role |||| (278, 304)
+7 Division |||| Organization |||| (305, 315)
+Director Army Public Relations |||| Title_Role |||| (320, 351)
+Brigadier General |||| Rank |||| (352, 369)
+SK Usman |||| Person |||| (370, 379)
+Headquarters 7 Division |||| Organization |||| (431, 454)
+26 Task Force Brigade |||| Organization |||| (538, 560)
+Operation LAFIYA DOLE |||| Organization |||| (561, 583)
+
+>>> False-positives:
+	 Lieutenant General |||| Rank
+	 Theatre Commander |||| Title_Role
+	 RI Nicholas |||| Person
+	 General Officer Commanding |||| Title_Role
+	 Headquarters 7 Division |||| Organization
+>>> False-negatives:
+	 Lieutenant Genera |||| Rank
+
+
+
+=================================================
+From file with id:  b6cf16e7-151c-4b9f-bd1f-6dd3ef055294
+Sentence: 
+('The venue for the celebration is the Headquarters complex of 26 Task Force '
+ 'Brigade, Gwoza in Gwoza Local Government Area of Borno State.')
+
+-------------- Ground truth --------------
+26 Task Force Brigade |||| Organization |||| (61, 82)
+
+-------------- Predicted labels --------------
+26 Task Force Brigade |||| Organization |||| (61, 83)
+
+>>> False-positives:
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  b6cf16e7-151c-4b9f-bd1f-6dd3ef055294
+Sentence: 
+('Similarly, the Chief of Training and Operations (Army), Major General DD '
+ 'Ahmadu led another team to Headquarters 27 Task Force Brigade, Buni Yadi, '
+ 'Yobe State, where they celebrated the Christmas with the troops.')
+
+-------------- Ground truth --------------
+Chief of Training and Operations Army |||| Title |||| (15, 54)
+Major General |||| Rank |||| (56, 69)
+DD Ahmadu |||| Person |||| (70, 79)
+27 Task Force Brigade |||| Organization |||| (113, 134)
+
+-------------- Predicted labels --------------
+Chief of Training and Operations Army |||| Title_Role |||| (15, 55)
+Major General |||| Rank |||| (56, 69)
+DD Ahmadu |||| Person |||| (70, 79)
+Headquarters 27 Task Force Brigade |||| Organization |||| (100, 135)
+
+>>> False-positives:
+	 Headquarters 27 Task Force Brigade |||| Organization
+>>> False-negatives:
+	 27 Task Force Brigade |||| Organization
+
+
+
+=================================================
+From file with id:  749e748d-a349-4c45-b524-f174d70909c8
+Sentence: 
+('Major General Fatai Alli, General Officer Commanding (GOC), 3 Division of '
+ 'the Nigerian Army, on Tuesday reiterated the successes recorded by troops in '
+ 'the fight against insurgents in far North eastern state of Adamawa.')
+
+-------------- Ground truth --------------
+Fatai Alli |||| Person |||| (14, 24)
+ajor General |||| Rank |||| (1, 13)
+General Officer Commanding |||| Title |||| (26, 52)
+3 Division |||| Organization |||| (60, 70)
+Nigerian Army |||| Organization |||| (78, 91)
+
+-------------- Predicted labels --------------
+Major General |||| Rank |||| (0, 13)
+Fatai Alli |||| Person |||| (14, 25)
+General Officer Commanding |||| Title_Role |||| (26, 52)
+3 Division |||| Organization |||| (60, 70)
+Nigerian Army |||| Organization |||| (78, 92)
+
+>>> False-positives:
+	 Major General |||| Rank
+>>> False-negatives:
+	 ajor General |||| Rank
+
+
+
+=================================================
+From file with id:  749e748d-a349-4c45-b524-f174d70909c8
+Sentence: 
+('Maj.-Gen. Chris Ogunkolade, the Director, Defence Information, who led the '
+ 'tour, said it was to give the journalists the opportunity to see the '
+ 'situation on ground.')
+
+-------------- Ground truth --------------
+Chris Ogunkolade |||| Person |||| (10, 26)
+Maj.-Gen |||| Rank |||| (0, 9)
+Director Defence Information |||| Title |||| (32, 61)
+
+-------------- Predicted labels --------------
+Maj.-Gen |||| Rank |||| (0, 9)
+Chris Ogunkolade |||| Person |||| (10, 27)
+Director |||| Title_Role |||| (32, 41)
+Defence Information |||| Organization |||| (42, 62)
+
+>>> False-positives:
+	 Director |||| Title_Role
+	 Defence Information |||| Organization
+>>> False-negatives:
+	 Director Defence Information |||| Title_Role
+
+
+
+=================================================
+From file with id:  b367bbc1-0e17-4114-bae3-542eb49c3631
+Sentence: 
+('The outgoing Director, Army Public Relations, Brigadier General Ibrahim '
+ 'Attahiru, has urged the media to sustain its cooperation with the Army this '
+ 'year to ensure the stamping out of terrorism in the country.')
+
+-------------- Ground truth --------------
+Ibrahim Attahiru |||| Person |||| (64, 80)
+Brigadier General |||| Rank |||| (46, 63)
+Director Army Public Relations |||| Title |||| (13, 44)
+
+-------------- Predicted labels --------------
+Director Army Public Relations |||| Title_Role |||| (13, 45)
+Brigadier General |||| Rank |||| (46, 63)
+Ibrahim Attahiru |||| Person |||| (64, 81)
+
+>>> False-positives:
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  b367bbc1-0e17-4114-bae3-542eb49c3631
+Sentence: 
+('Handing over to his successor Brigadier-General Olajide Laleye, General '
+ 'Attahiru stressed that terrorist activities has adversely affected economic '
+ 'and social growth of the nation, hence the need for media’s intensified '
+ 'collaboration.')
+
+-------------- Ground truth --------------
+Olajide Laleye |||| Person |||| (48, 62)
+Brigadier General |||| Rank |||| (30, 47)
+
+-------------- Predicted labels --------------
+Brigadier General |||| Rank |||| (30, 47)
+Olajide Laleye |||| Person |||| (48, 63)
+General |||| Rank |||| (64, 71)
+Attahiru |||| Person |||| (72, 80)
+
+>>> False-positives:
+	 General |||| Rank
+	 Attahiru |||| Person
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  b367bbc1-0e17-4114-bae3-542eb49c3631
+Sentence: 
+('In his remark, the new Director, Army Public Relation, Brigadier General '
+ 'Olajide Laleye, promised to keep the nation constantly informed about the '
+ 'activities of the force.')
+
+-------------- Ground truth --------------
+Olajide Laleye |||| Person |||| (73, 87)
+Brigadier General |||| Organization |||| (55, 72)
+Director Army Public Relation |||| Title |||| (23, 53)
+
+-------------- Predicted labels --------------
+Director Army Public Relation |||| Title_Role |||| (23, 54)
+Brigadier General |||| Rank |||| (55, 72)
+Olajide Laleye |||| Person |||| (73, 88)
+
+>>> False-positives:
+	 Brigadier General |||| Rank
+>>> False-negatives:
+	 Brigadier General |||| Organization
+
+
+
+=================================================
+From file with id:  b367bbc1-0e17-4114-bae3-542eb49c3631
+Sentence: 
+('Radio Nigeria Defence Correspondent reports that before his appointment as '
+ 'Director, Army Public Relations, General Laleye served as Commander, One '
+ 'Division Garrison, Kaduna, while the outgoing Director resumes duty as the '
+ 'Commander of the Thirteenth Brigade.')
+
+-------------- Ground truth --------------
+Laleye |||| Person |||| (116, 122)
+General |||| Rank |||| (108, 115)
+Commander |||| Title |||| (133, 142)
+One Division Garrison |||| Organization |||| (144, 165)
+Thirteenth Brigade |||| Organization |||| (240, 258)
+Commander |||| Title |||| (223, 232)
+Director Army Public Relations |||| Title |||| (75, 106)
+
+-------------- Predicted labels --------------
+Radio Nigeria Defence Correspondent |||| Organization |||| (0, 35)
+Director Army Public Relations |||| Title_Role |||| (75, 107)
+General |||| Rank |||| (108, 115)
+Laleye |||| Person |||| (116, 122)
+Commander |||| Title_Role |||| (133, 143)
+One Division Garrison |||| Organization |||| (144, 166)
+Commander |||| Title_Role |||| (223, 232)
+Thirteenth Brigade |||| Organization |||| (240, 259)
+
+>>> False-positives:
+	 Radio Nigeria Defence Correspondent |||| Organization
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  1269b9a8-4391-4982-9f87-e8946788adfc
+Sentence: 
+('Abuja – Ahead of the commencement of Friday’s Special Military Exercise in '
+ 'the six South East States tagged ‘Operation Python Dance II’, the General '
+ 'Officer Commanding (GOC) 82 Division Nigerian Army, Major General Adamu Baba '
+ 'Abubakar has toured the home town of IPOB leader, Nnamdi Kanu, Umuahis in '
+ 'Abia State.Major General Adamu Baba Abubakar')
+
+-------------- Ground truth --------------
+Operation Python Dance II |||| Organization |||| (109, 134)
+82 Division |||| Organization |||| (174, 185)
+Adamu Baba Abubakar |||| Person |||| (215, 234)
+Major General |||| Rank |||| (201, 214)
+General Officer Commanding GOC |||| Title |||| (141, 173)
+
+-------------- Predicted labels --------------
+General Officer Commanding |||| Title_Role |||| (141, 167)
+82 Division |||| Organization |||| (174, 185)
+Major General |||| Rank |||| (201, 214)
+Adamu Baba Abubakar |||| Person |||| (215, 234)
+General |||| Rank |||| (317, 324)
+Adamu Baba Abubakar |||| Person |||| (325, 344)
+
+>>> False-positives:
+	 General Officer Commanding |||| Title_Role
+	 General |||| Rank
+>>> False-negatives:
+	 Operation Python Dance II |||| Organization
+	 General Officer Commanding GOC |||| Title_Role
+
+
+
+=================================================
+From file with id:  65c4fd99-6206-4009-80c0-d1a8d1519c3c
+Sentence: 
+('The Divisional Police Officer (DPO) at Fegge, CSP Rowland Omatoje, who had '
+ 'confirmed the incident, said that the people are destitutes from Lagos '
+ 'State, who have been evacuated to their various states.')
+
+-------------- Ground truth --------------
+Divisional Police Officer |||| Title |||| (4, 29)
+CSP |||| Rank |||| (46, 49)
+Rowland Omatoje |||| Person |||| (50, 65)
+
+-------------- Predicted labels --------------
+Divisional Police Officer |||| Title_Role |||| (4, 29)
+CSP |||| Rank |||| (46, 49)
+Rowland Omatoje |||| Person |||| (50, 66)
+
+>>> False-positives:
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  65c4fd99-6206-4009-80c0-d1a8d1519c3c
+Sentence: 
+('The police Area Commander for Onitsha, Mr. Benjamin Wordu, an Assistant '
+ 'Commissioner of Police, also told newsmen then in a telephone chat that it '
+ 'was not yet certain whether the people were prison inmates, lunatics or '
+ 'destitutes, adding that he had directed the police authorities at Fegge '
+ 'Police Division to look into the matter properly and find out who actually '
+ 'the evacuees were.')
+
+-------------- Ground truth --------------
+Fegge Police Division |||| Organization |||| (285, 306)
+
+-------------- Predicted labels --------------
+police Area Commander |||| Title_Role |||| (4, 25)
+Benjamin Wordu |||| Person |||| (43, 58)
+Assistant Commissioner of Police |||| Title_Role |||| (62, 95)
+
+>>> False-positives:
+	 police Area Commander |||| Title_Role
+	 Benjamin Wordu |||| Person
+	 Assistant Commissioner of Police |||| Title_Role
+>>> False-negatives:
+	 Fegge Police Division |||| Organization
+
+
+
+=================================================
+From file with id:  e48764f9-b89b-4ac8-b2a4-6b5d37ffb07d
+Sentence: 
+('President Goodluck Jonathan had, on Tuesday, declared a state of emergency '
+ 'in the three states with a mandate to the military to put an end to the '
+ 'menace of the Boko Haram sect once and for all. Barely 24 hours after, the '
+ 'chief of defence staff, Admiral Ola Saa’ad Ibrahim, ordered troops’ '
+ 'movements to the affected states from 1 Mechanized Division, Kaduna, 82 '
+ 'Battalion, Jos, and other brigade commands in the neighbouring states.')
+
+-------------- Ground truth --------------
+Ola Saa’ad Ibrahim |||| Person |||| (254, 272)
+Admiral |||| Rank |||| (246, 253)
+chief of defence staff |||| Title |||| (222, 244)
+
+-------------- Predicted labels --------------
+Admiral |||| Rank |||| (246, 253)
+Ola Saa’ad Ibrahim |||| Person |||| (254, 273)
+1 Mechanized Division |||| Organization |||| (328, 350)
+82 Battalion |||| Organization |||| (359, 372)
+
+>>> False-positives:
+	 1 Mechanized Division |||| Organization
+	 82 Battalion |||| Organization
+>>> False-negatives:
+	 chief of defence staff |||| Title_Role
+
+
+
+=================================================
+From file with id:  ac45a2cb-34af-450b-9497-d1334af0db1b
+Sentence: 
+('Acting G.O.C., 82 Division, Nigerian Army, Brig.-Gen. Ibrahim Attahiru, Igwe '
+ 'of Nike Enugu State, Igwe Julius Nnaji, and Commander, 82 Division, Nigerian '
+ 'Army Medical Services, Brig.-Gen. Austin Ogbe, during the provision of free '
+ 'medicare to the community in Enugu, recently.')
+
+-------------- Ground truth --------------
+Ibrahim Attahiru |||| Person |||| (54, 70)
+Brig.-Gen |||| Rank |||| (43, 53)
+82 Division |||| Organization |||| (15, 26)
+Acting G.O.C. |||| Title |||| (0, 13)
+Austin Ogbe |||| Person |||| (188, 199)
+Brig.-Gen |||| Rank |||| (177, 187)
+82 Division |||| Organization |||| (132, 143)
+Commander |||| Role |||| (121, 130)
+
+-------------- Predicted labels --------------
+Acting G.O.C. |||| Title_Role |||| (0, 14)
+82 Division |||| Organization |||| (15, 27)
+Nigerian Army |||| Organization |||| (28, 42)
+Brig.-Gen |||| Rank |||| (43, 53)
+Ibrahim Attahiru |||| Person |||| (54, 71)
+Julius Nnaji |||| Person |||| (103, 116)
+Commander |||| Title_Role |||| (121, 131)
+82 Division |||| Organization |||| (132, 144)
+Nigerian Army Medical Services |||| Organization |||| (145, 176)
+Brig.-Gen |||| Rank |||| (177, 187)
+Austin Ogbe |||| Person |||| (188, 200)
+
+>>> False-positives:
+	 Nigerian Army |||| Organization
+	 Julius Nnaji |||| Person
+	 Nigerian Army Medical Services |||| Organization
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  0b4ea4e0-fade-4d35-b449-c36e265795d3
+Sentence: 
+('Jos—General Officer Commanding 3 Armoured Division of the Nigerian Army, '
+ 'Major General Jack Nwaogbo, has again re-assured Nigerians that the Boko '
+ 'Haram insurgency would soon be contained.')
+
+-------------- Ground truth --------------
+Jack Nwaogbo |||| Person |||| (87, 99)
+Major General |||| Rank |||| (73, 86)
+3 Armoured Division of the Nigerian Arm |||| Organization |||| (31, 70)
+General Officer Commanding |||| Title |||| (4, 30)
+
+-------------- Predicted labels --------------
+Officer Commanding |||| Title_Role |||| (12, 30)
+3 Armoured Division |||| Organization |||| (31, 50)
+Nigerian Army |||| Organization |||| (58, 72)
+Major General |||| Rank |||| (73, 86)
+Jack Nwaogbo |||| Person |||| (87, 100)
+
+>>> False-positives:
+	 Officer Commanding |||| Title_Role
+	 3 Armoured Division |||| Organization
+	 Nigerian Army |||| Organization
+>>> False-negatives:
+	 3 Armoured Division of the Nigerian Arm |||| Organization
+	 General Officer Commanding |||| Title_Role
+
+
+
+=================================================
+From file with id:  0b4ea4e0-fade-4d35-b449-c36e265795d3
+Sentence: 
+('Nwaogbo, who was represented by Commander, 43 Division Engineers, '
+ 'Brigadier-General Bamidele Ogunkale, said everything was being done to end '
+ 'the Boko Haram menace, which he noted will soon become history.')
+
+-------------- Ground truth --------------
+Bamidele Ogunkale |||| Person |||| (84, 101)
+Brigadier General |||| Rank |||| (66, 83)
+43 Division Engineers |||| Organization |||| (43, 64)
+Commander |||| Role |||| (32, 41)
+
+-------------- Predicted labels --------------
+Commander |||| Title_Role |||| (32, 42)
+43 Division Engineers |||| Organization |||| (43, 65)
+Brigadier General |||| Rank |||| (66, 83)
+Bamidele Ogunkale |||| Person |||| (84, 102)
+
+>>> False-positives:
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  7c4a1206-effb-4695-a475-5b2743fe6922
+Sentence: 
+('The General Officer Commanding 2 Division, Nigerian Army, Major Gen. '
+ 'Mohammed Abubakar, yesterday ordered the soldiers to shoot any troublemaker '
+ 'who resists arrest in tomorrow’s governorship election in Ondo State.')
+
+-------------- Ground truth --------------
+Mohammed Abubakar |||| Person |||| (69, 86)
+Major Gen. |||| Rank |||| (58, 68)
+Nigerian Army |||| Organization |||| (43, 56)
+2 Division |||| Organization |||| (31, 41)
+General Officer Commandin |||| Title |||| (4, 29)
+
+-------------- Predicted labels --------------
+General Officer Commanding |||| Title_Role |||| (4, 30)
+2 Division |||| Organization |||| (31, 42)
+Major Gen. |||| Rank |||| (58, 68)
+Mohammed Abubakar |||| Person |||| (69, 87)
+
+>>> False-positives:
+	 General Officer Commanding |||| Title_Role
+>>> False-negatives:
+	 Nigerian Army |||| Organization
+	 General Officer Commandin |||| Title_Role
+
+
+
+=================================================
+From file with id:  7c4a1206-effb-4695-a475-5b2743fe6922
+Sentence: 
+('The army boss, who arrived the 32 Artillery Brigade, Akure yesterday to '
+ 'address the men and officers to be deployed for the poll, said nobody would '
+ 'be allowed to carry arms to the polling station, while directing them to '
+ 'arrest anybody who violated the order.')
+
+-------------- Ground truth --------------
+32 Artillery Brigade |||| Organization |||| (31, 52)
+
+-------------- Predicted labels --------------
+32 Artillery Brigade |||| Organization |||| (31, 52)
+
+>>> False-positives:
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  7f1d5ba0-9dc6-41fe-ba67-20755f94f191
+Sentence: 
+('Last week will be remembered for a long time as one of the saddest in this '
+ 'nation’s history with respect to road accidents. On Sunday last week '
+ 'Minister of State for Labour Mr. James Ocholi, SAN, as well as his wife and '
+ 'son died in an accident along the Kaduna-Abuja road. A day later, Chief of '
+ 'Training and Operations of the Nigeria Army Major General Yusha’u Mahmood '
+ 'Abubakar died in a crash on the Maiduguri-Damaturu highway.\xa0 Abubakar was '
+ 'the former Theatre Commander of Operation Zaman Lafiya Dole, the military '
+ 'operation to banish insurgents from the North East. Under his command, '
+ 'spectacular successes were recorded in the war against Boko Haram. Acting '
+ 'General Officer Commanding \\[GOC\\] the Army’s 3 Armoured Division '
+ 'Brigadier M.S.A. Aliyu was also injured in the same accident. In the same '
+ 'week, 18 people died in an accident along the Bauchi-Jos highway when their '
+ 'commercial bus crashed.')
+
+-------------- Ground truth --------------
+3 Armoured Division |||| Organization |||| (708, 727)
+M.S.A. Aliyu |||| Person |||| (738, 750)
+Brigadier |||| Rank |||| (728, 737)
+General Officer Commanding |||| Title |||| (662, 688)
+Chief of Training and Operations |||| Title |||| (286, 318)
+Nigeria Army |||| Organization |||| (326, 338)
+Major General |||| Rank |||| (339, 352)
+Yusha’u Mahmood Abubakar |||| Person |||| (353, 377)
+Theatre Commander |||| Role |||| (454, 471)
+Operation Zaman Lafiya Dole |||| Organization |||| (475, 502)
+
+-------------- Predicted labels --------------
+James Ocholi |||| Person |||| (177, 190)
+Chief of Training and Operations |||| Title_Role |||| (286, 318)
+Nigeria Army |||| Organization |||| (326, 338)
+Major General |||| Rank |||| (339, 352)
+Yusha’u Mahmood Abubakar |||| Person |||| (353, 377)
+Theatre Commander |||| Title_Role |||| (454, 471)
+Operation Zaman Lafiya |||| Organization |||| (475, 497)
+Acting General Officer Commanding |||| Title_Role |||| (655, 688)
+3 Armoured Division |||| Organization |||| (708, 727)
+Brigadier |||| Rank |||| (728, 737)
+M.S.A. Aliyu |||| Person |||| (738, 750)
+
+>>> False-positives:
+	 James Ocholi |||| Person
+	 Operation Zaman Lafiya |||| Organization
+	 Acting General Officer Commanding |||| Title_Role
+>>> False-negatives:
+	 General Officer Commanding |||| Title_Role
+	 Operation Zaman Lafiya Dole |||| Organization
+
+
+
+=================================================
+From file with id:  827dc295-f0d2-4c9e-9f78-6006dc87fb70
+Sentence: 
+('Also yesterday, The Nigerian Army revealed that recent attacks on some '
+ 'isolated locations in Borno state by the outlawed Boko Haram sect was out of '
+ 'desperation for food and cash.')
+
+-------------- Ground truth --------------
+Nigerian Army |||| Organization |||| (20, 33)
+
+-------------- Predicted labels --------------
+Nigerian Army |||| Organization |||| (20, 33)
+
+>>> False-positives:
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  f1f26a4f-10e2-4ce4-a00d-bf614c1efefb
+Sentence: 
+('Brig.-Gen. Texas Chukwu, the Director, Army Public Relations, said in a '
+ 'statement in Maiduguri that the troops on Sunday destroyed the insurgents’ '
+ 'camp, killed a number of them and rescued some persons from captivity.')
+
+-------------- Ground truth --------------
+Texas Chukwu |||| Person |||| (11, 23)
+Brig.-Gen |||| Rank |||| (0, 10)
+Director Army Public Relations |||| Title |||| (29, 60)
+
+-------------- Predicted labels --------------
+Brig.-Gen |||| Rank |||| (0, 10)
+Texas Chukwu |||| Person |||| (11, 24)
+Director Army Public Relations |||| Title_Role |||| (29, 61)
+
+>>> False-positives:
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  f1f26a4f-10e2-4ce4-a00d-bf614c1efefb
+Sentence: 
+('Chukwu said: “Troops of 27 Task Force Brigade in conjunction with the '
+ 'Nigerian Air Force and Civilian Joint Task Force (CJTF) in the ongoing '
+ 'clearance operation destroyed another Boko Haram enclave.')
+
+-------------- Ground truth --------------
+27 Task Force Brigade |||| Organization |||| (24, 45)
+Nigerian Air Force |||| Organization |||| (70, 88)
+
+-------------- Predicted labels --------------
+27 Task Force Brigade |||| Organization |||| (24, 45)
+Nigerian Air Force and Civilian Joint Task Force |||| Organization |||| (70, 118)
+
+>>> False-positives:
+	 Nigerian Air Force and Civilian Joint Task Force |||| Organization
+>>> False-negatives:
+	 Nigerian Air Force |||| Organization
+
+
+
+=================================================
+From file with id:  f1f26a4f-10e2-4ce4-a00d-bf614c1efefb
+Sentence: 
+('The Nigerian Army on Tuesday said its troops destroyed a Boko Haram '
+ 'insurgent’s Improvised Explosive Device (IED) at Buk village in Damboa Local '
+ 'Government of Borno in its ongoing clearance operation.')
+
+-------------- Ground truth --------------
+Nigerian Army |||| Organization |||| (4, 17)
+
+-------------- Predicted labels --------------
+Nigerian Army |||| Organization |||| (4, 17)
+
+>>> False-positives:
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  aaaec31f-fda5-46f1-9db8-b399f17310c6
+Sentence: 
+('Before this incident, the Chief of Army Staff, Lt. General KTJ Minimah at '
+ 'the quarterly conference had given reasons why the war against the '
+ 'insurgents was dragging. He also gave reasons why some soldiers were '
+ 'deserting. According to him, in reality desertion, acts of cowardice and '
+ 'indiscipline are some of the greatest setbacks in the fight against Boko '
+ 'Haram insurgency in the country.')
+
+-------------- Ground truth --------------
+KTJ Minimah |||| Person |||| (59, 70)
+Lt General |||| Rank |||| (47, 58)
+Chief of Army Staff |||| Title |||| (26, 45)
+
+-------------- Predicted labels --------------
+Chief of Army Staff |||| Title_Role |||| (26, 46)
+Lt General |||| Rank |||| (47, 58)
+KTJ Minimah |||| Person |||| (59, 70)
+
+>>> False-positives:
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  aaaec31f-fda5-46f1-9db8-b399f17310c6
+Sentence: 
+('It is against this backdrop that the Federal Government’s procurement of 40 '
+ 'modern attack helicopters with capabilities for night operations and sound '
+ 'proof technology was highly welcomed by the troops and pilots of Operation '
+ 'Zaman Lafia. The distance and reach capability of the aircraft has since '
+ 'enhanced the fight against insurgency.')
+
+-------------- Ground truth --------------
+Operation Zaman Lafia |||| Organization |||| (216, 237)
+
+-------------- Predicted labels --------------
+Federal Government ’s |||| Organization |||| (37, 57)
+Operation Zaman Lafia |||| Organization |||| (216, 238)
+
+>>> False-positives:
+	 Federal Government ’s |||| Organization
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  aaaec31f-fda5-46f1-9db8-b399f17310c6
+Sentence: 
+('The high casualty figures inflicted on Boko Haram insurgents in Kawuri, '
+ 'Benishek, Konduga and Vimtim, has signaled a new dawn in the war against the '
+ 'insurgents. VF learnt that dexterity and leadership style of Lt. General '
+ 'Kenneth Minimah have played a major role in the .recent successes recorded '
+ 'by the army.')
+
+-------------- Ground truth --------------
+Kenneth Minimah |||| Person |||| (222, 237)
+Lt General |||| Rank |||| (210, 221)
+
+-------------- Predicted labels --------------
+Lt General |||| Rank |||| (210, 221)
+Kenneth Minimah |||| Person |||| (222, 237)
+
+>>> False-positives:
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  aaaec31f-fda5-46f1-9db8-b399f17310c6
+Sentence: 
+('For those who may have forgotten, General Minimah, as a Major, was the '
+ 'Commander of Operation Sweep, the highly successful Lagos State anti-crime '
+ 'outfit set up by former Lagos Administrator, Brig-General Mohammed Marwa '
+ '(rtd),')
+
+-------------- Ground truth --------------
+Operation Sweep |||| Organization |||| (84, 99)
+
+-------------- Predicted labels --------------
+Commander |||| Title_Role |||| (71, 80)
+Operation Sweep |||| Organization |||| (84, 100)
+Brig General |||| Rank |||| (191, 203)
+Mohammed Marwa |||| Person |||| (204, 218)
+
+>>> False-positives:
+	 Commander |||| Title_Role
+	 Brig General |||| Rank
+	 Mohammed Marwa |||| Person
+>>> False-negatives:
+
+
+
+=================================================
+From file with id:  0d12b749-2640-414a-bda6-7b4c9f46ffaa
+Sentence: 
+('As part of enhancing the proficiency of the officers on operation planning '
+ 'for joint and single service operations, officers of the Three Division of '
+ 'Nigeria Army were engaged in operational and administrative competencies of '
+ 'commanders at all levels particularly those involved in internal security '
+ 'operations.')
+
+-------------- Ground truth --------------
+Three Division of Nigeria Army |||| Organization |||| (132, 162)
+
+-------------- Predicted labels --------------
+Three Division |||| Organization |||| (132, 146)
+Nigeria Army |||| Organization |||| (150, 162)
+
+>>> False-positives:
+	 Three Division |||| Organization
+	 Nigeria Army |||| Organization
+>>> False-negatives:
+	 Three Division of Nigeria Army |||| Organization
+
+
+
+=================================================
+From file with id:  0d12b749-2640-414a-bda6-7b4c9f46ffaa
+Sentence: 
+('General Officer Commanding Three Division, Major General Ebobowei Bona '
+ 'Awala, assured that the division will continue to work hand-in-hand with the '
+ 'various task forces in the areas of operations to ensure that piece is '
+ 'maintained and lives and property are secured in the region.')
+
+-------------- Ground truth --------------
+Ebobowei Bona Awala |||| Person |||| (57, 77)
+Major General |||| Rank |||| (43, 56)
+Three Division |||| Organization |||| (27, 42)
+General Officer Commanding |||| Title |||| (0, 26)
+
+-------------- Predicted labels --------------
+General Officer Commanding |||| Title_Role |||| (0, 26)
+Major General |||| Rank |||| (43, 56)
+Ebobowei Bona Awala |||| Person |||| (57, 77)
+
+>>> False-positives:
+>>> False-negatives:
+	 Three Division |||| Organization
+
+
+
+=================================================
+From file with id:  0d12b749-2640-414a-bda6-7b4c9f46ffaa
+Sentence: 
+('Those who presented papers at the workshop include the Commander of the '
+ 'Special Task Force, Major General Henry Ayoola, Commander of Supply and '
+ 'Transport of the Division, Colonel Charles Idowu amongst others')
+
+-------------- Ground truth --------------
+Henry Ayoola |||| Person |||| (106, 118)
+Major General |||| Rank |||| (92, 105)
+Special Task Force |||| Organization |||| (72, 90)
+Commander |||| Role |||| (55, 64)
+Charles Idowu |||| Person |||| (179, 192)
+Colonel |||| Rank |||| (171, 178)
+Commander of Supply and Transport |||| Title |||| (120, 153)
+
+-------------- Predicted labels --------------
+Commander |||| Title_Role |||| (55, 64)
+Special Task Force |||| Organization |||| (72, 91)
+Major General |||| Rank |||| (92, 105)
+Henry Ayoola |||| Person |||| (106, 119)
+Commander of Supply and Transport |||| Organization |||| (120, 153)
+Colonel |||| Rank |||| (171, 178)
+Charles Idowu |||| Person |||| (179, 192)
+
+>>> False-positives:
+	 Commander of Supply and Transport |||| Organization
+>>> False-negatives:
+	 Commander of Supply and Transport |||| Title_Role
+
+
+
+=================================================
+From file with id:  0d12b749-2640-414a-bda6-7b4c9f46ffaa
+Sentence: 
+('Participants at the workshop are drawn from the brigade formations under the '
+ 'Three Divion comprising 21 Brigade, Maiduguri; 23 Brigade, Yola and 33 '
+ 'Brigade Bauchi.')
+
+-------------- Ground truth --------------
+Three Divion |||| Organization |||| (77, 89)
+21 Brigade |||| Organization |||| (101, 111)
+23 Brigade |||| Organization |||| (124, 134)
+33 Brigade |||| Organization |||| (145, 155)
+
+-------------- Predicted labels --------------
+21 Brigade |||| Organization |||| (101, 112)
+23 Brigade |||| Organization |||| (124, 135)
+33 Brigade Bauchi |||| Organization |||| (145, 163)
+
+>>> False-positives:
+	 33 Brigade Bauchi |||| Organization
+>>> False-negatives:
+	 Three Divion |||| Organization
+	 33 Brigade |||| Organization
+
+
+
+=================================================
+From file with id:  002fcbe4-503c-400d-8cc0-77a395570ade
+Sentence: 
+('A military source who spoke to THISDAY, disclosed that the battle to uproot '
+ 'the insurgents from the town was led by the General Officer Commanding '
+ '(GOC), 7 Division, General Lamidi Adeosun.')
+
+-------------- Ground truth --------------
+Lamidi Adeosun |||| Person |||| (174, 188)
+General |||| Rank |||| (166, 173)
+7 Division |||| Organization |||| (154, 164)
+General Officer Commanding GOC |||| Title |||| (120, 152)
+
+-------------- Predicted labels --------------
+General Officer Commanding |||| Title_Role |||| (120, 146)
+7 Division |||| Organization |||| (154, 165)
+General |||| Rank |||| (166, 173)
+Lamidi Adeosun |||| Person |||| (174, 189)
+
+>>> False-positives:
+	 General Officer Commanding |||| Title_Role
+>>> False-negatives:
+	 General Officer Commanding GOC |||| Title_Role
+
+
+
+=================================================
+From file with id:  002fcbe4-503c-400d-8cc0-77a395570ade
+Sentence: 
+('In another development, the General Officer Commanding (GOC) 3 Division, '
+ 'Major-General Fatai Alli, said yesterday that Nigerian troops have '
+ 'recaptured almost all towns in Adamawa earlier held by the insurgents except '
+ 'Madagali, headquarters of Madagali Local Government Area.')
+
+-------------- Ground truth --------------
+Fatai Alli |||| Person |||| (87, 97)
+Major General |||| Rank |||| (73, 86)
+3 Division |||| Organization |||| (61, 71)
+General Officer Commanding GOC |||| Role |||| (28, 60)
+
+-------------- Predicted labels --------------
+General Officer Commanding |||| Title_Role |||| (28, 54)
+3 Division |||| Organization |||| (61, 72)
+Major General |||| Rank |||| (73, 86)
+Fatai Alli |||| Person |||| (87, 98)
+
+>>> False-positives:
+	 General Officer Commanding |||| Title_Role
+>>> False-negatives:
+	 General Officer Commanding GOC |||| Title_Role
+
+
+
++--------------------------------------------------+
+|               Precision and Recall               |
++--------------------------------------------------+
+
+=============== Class:  Person ===============
+	tp, fp, fn counts:  [87, 13, 6]
+	Precision:  0.87
+	Recall:  0.9354838709677419
+	F1 score:  0.9015544041450777
+
+=============== Class:  Rank ===============
+	tp, fp, fn counts:  [80, 14, 11]
+	Precision:  0.851063829787234
+	Recall:  0.8791208791208791
+	F1 score:  0.8648648648648649
+
+=============== Class:  Organization ===============
+	tp, fp, fn counts:  [103, 33, 31]
+	Precision:  0.7573529411764706
+	Recall:  0.7686567164179104
+	F1 score:  0.762962962962963
+
+=============== Class:  Title_Role ===============
+	tp, fp, fn counts:  [85, 20, 23]
+	Precision:  0.8095238095238095
+	Recall:  0.7870370370370371
+	F1 score:  0.7981220657276995
+
+=============== All classes ===============
+	Precision:  0.8160919540229885
+	Recall:  0.8333333333333334
+	F1 score:  0.8246225319396051

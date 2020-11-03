@@ -1,0 +1,54 @@
+T1	Organization 60 73	Nigerian Army
+T2	Title_Role 256 285	Director, Army Public Rations
+T3	Organization 287 297	7 Division
+T4	Rank 299 306	Colonel
+T5	Person 307 322	Kingsley Samuel
+T6	Organization 455 468	202 Battalion
+T7	Organization 470 480	21 Brigade
+T8	Organization 711 721	21 Brigade
+T9	Organization 896 909	Nigerian Army
+T10	Organization 910 929	Mobile Strike Teams
+T11	Organization 933 954	Operation Lafiya Dole
+T12	Title_Role 1370 1392	Chief of Defence Staff
+T13	Rank 1394 1397	Gen
+T14	Person 1399 1417	Abayomi Olonisakin
+T15	Title_Role 1590 1609	Chief of Army Staff
+T16	Rank 1611 1618	Lt. Gen
+T17	Person 1620 1634	Tukur Buratai;
+T18	Title_Role 1639 1657	Chief of Air Staff
+T19	Rank 1659 1670	Air Marshal
+T20	Person 1671 1688	Sadique Abubakar;
+T21	Title_Role 1697 1717	Chief of Naval Staff
+T22	Rank 1719 1731	Vice Admiral
+T23	Person 1732 1745	Ibok Ete-Ibas
+T24	Organization 1827 1848	Operation Lafiya Dole
+T25	Organization 2147 2170	University of Maiduguri
+T26	Title_Role 2287 2325	Deputy Director, Army Public Relations
+T27	Title_Role 2335 2362	theatre command’s spokesman
+T28	Rank 2364 2371	Colonel
+T29	Person 2372 2388	Onyema Nwachukwu
+T30	Organization 2507 2528	Operation Lafiya Dole
+T31	Organization 2634 2654	Operation Safe Haven
+T32	Organization 3020 3061	Nigerian Security and Civil Defence Corps
+T33	Organization 3089 3117	Nigerian Immigration Service
+T34	Organization 3122 3158	Nigerian Drug Law Enforcement Agency
+T35	Title_Role 3187 3199	spokesperson
+T36	Rank 3213 3220	Captain
+T37	Person 3221 3231	Umar Adams
+R1	has_title_or_role Arg1:T5 Arg2:T2
+R2	is_posted Arg1:T5 Arg2:T3
+R3	has_rank Arg1:T5 Arg2:T4
+R4	has_title_or_role Arg1:T14 Arg2:T12
+R5	has_rank Arg1:T14 Arg2:T13
+R6	has_title_or_role Arg1:T17 Arg2:T15
+R7	has_rank Arg1:T17 Arg2:T16
+R8	has_title_or_role Arg1:T17 Arg2:T18
+R9	has_rank Arg1:T20 Arg2:T19
+R10	has_title_or_role Arg1:T23 Arg2:T21
+R11	has_rank Arg1:T23 Arg2:T22
+R12	is_posted Arg1:T23 Arg2:T24
+R13	has_title_or_role Arg1:T29 Arg2:T26
+R14	has_title_or_role Arg1:T29 Arg2:T27
+R15	has_rank Arg1:T29 Arg2:T28
+R16	has_title_or_role Arg1:T37 Arg2:T35
+R17	has_rank Arg1:T37 Arg2:T36

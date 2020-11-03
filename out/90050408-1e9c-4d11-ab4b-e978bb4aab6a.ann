@@ -1,0 +1,130 @@
+T1	Organization 0 34	Army redeploys 127 senior officers
+T2	Organization 59 72	Nigerian Army
+T3	Title_Role 231 250	Chief of Army Staff
+T4	Rank 252 259	Lt.-Gen
+T5	Person 261 279	Azubuike Ihejirika
+T6	Rank 383 411	Military.Secretary, Maj.-Gen
+T7	Person 413 422	E.B Awala
+T8	Title_Role 435 467	Chief of Training and Operations
+T9	Organization 475 496	Defence Headquarters;
+T10	Rank 497 505	Maj.-Gen
+T11	Person 507 518	F.M Airende
+T12	Title_Role 531 565	Director, Training and Evaluations
+T13	Organization 573 576	DHQ
+T14	Rank 583 591	Maj.-Gen
+T15	Person 593 602	K.C Osuji
+T16	Organization 614 617	DHQ
+T17	Title_Role 632 658	General Officer Commanding
+T18	Organization 659 669	1 Division
+T19	Organization 677 690	Nigerian Army
+T20	Rank 721 729	Maj.-Gen
+T21	Person 731 740	J. Nwaoga
+T22	Title_Role 742 766	Director of Policy, DHQ;
+T23	Rank 767 775	Maj.-Gen
+T24	Person 777 786	A. Chukwu
+T25	Title_Role 788 820	Chief of Civil Military Affairs;
+T26	Rank 821 829	Maj.-Gen
+T27	Person 831 845	J.A.H Ewanshia
+T28	Title_Role 847 878	Chief of Training and Operation
+T29	Organization 880 907	Nigerian Army Headquarters;
+T30	Rank 908 911	Maj
+T31	Person 913 925	M.D Abubakar
+T32	Title_Role 927 936	Commander
+T33	Organization 937 961	Infantry Corp and Centre
+T34	Rank 971 979	Maj.-Gen
+T35	Person 981 991	J.S Zaruwa
+T36	Title_Role 993 996	GOC
+T37	Organization 997 1007	3 Division
+T38	Rank 1014 1022	Maj.-Gen
+T39	Person 1024 1033	R.I.D Isa
+T40	Title_Role 1035 1071	Coordinator, Peacekeeping Operations
+T41	Organization 1073 1092	Ministry of Defence
+T42	Rank 1097 1100	Maj
+T43	Person 1102 1110	T.I Dibi
+T44	Title_Role 1112 1115	GOC
+T45	Organization 1116 1129	81 Div. Lagos
+T46	Rank 1147 1155	Maj.-Gen
+T47	Person 1157 1170	E.F. Abejirin
+T48	Title_Role 1172 1175	GOC
+T49	Organization 1176 1190	2 Div. Ibadan;
+T50	Rank 1191 1199	Maj.-Gen
+T51	Person 1201 1210	S.N Muazu
+T52	Title_Role 1212 1222	Commandant
+T53	Organization 1223 1257	Nigerian Army Peace Keeping Centre
+T54	Rank 1265 1273	Maj.-Gen
+T55	Person 1275 1283	E. Atewe
+T56	Title_Role 1285 1294	Commander
+T57	Organization 1295 1321	JTF Operation Pulo Shield;
+T58	Rank 1322 1330	Maj.-Gen
+T59	Person 1332 1341	O.A Umahi
+T60	Title_Role 1343 1367	Director, Administration
+T61	Rank 1374 1382	Maj.-Gen
+T62	Person 1384 1391	T.C Ude
+T63	Title_Role 1393 1410	Director of Plans
+T64	Organization 1412 1430	Army Headquarters;
+T65	Rank 1431 1434	Maj
+T66	Person 1436 1445	OE Ekanem
+T67	Title_Role 1447 1465	Director of Policy
+T68	Organization 1467 1494	Nigerian Army Headquarters;
+T69	Rank 1495 1504	Brig.-Gen
+T70	Title_Role 1506 1529	A.B. Omozoje, Commander
+T71	Organization 1531 1545	Guards Brigade
+T72	Title_Role 1563 1594	Director, Army Public Relations
+T73	Rank 1596 1605	Brig.-Gen
+T74	Person 1607 1621	Olajide Laleye
+T75	Organization 2013 2017	Army
+T76	Organization 2165 2178	Nigerian Army
+R1	has_title_or_role Arg1:T5 Arg2:T3
+R2	has_rank Arg1:T5 Arg2:T4
+R3	has_rank Arg1:T7 Arg2:T6
+R4	has_title_or_role Arg1:T7 Arg2:T8
+R5	is_posted Arg1:T7 Arg2:T9
+R6	has_rank Arg1:T11 Arg2:T10
+R7	has_title_or_role Arg1:T11 Arg2:T12
+R8	is_posted Arg1:T11 Arg2:T13
+R9	has_rank Arg1:T15 Arg2:T14
+R10	is_posted Arg1:T15 Arg2:T16
+R11	has_title_or_role Arg1:T15 Arg2:T17
+R12	is_posted Arg1:T15 Arg2:T18
+R13	is_posted Arg1:T15 Arg2:T19
+R14	has_rank Arg1:T21 Arg2:T20
+R15	has_title_or_role Arg1:T21 Arg2:T22
+R16	has_rank Arg1:T24 Arg2:T23
+R17	has_title_or_role Arg1:T24 Arg2:T25
+R18	has_rank Arg1:T24 Arg2:T26
+R19	has_title_or_role Arg1:T27 Arg2:T28
+R20	is_posted Arg1:T31 Arg2:T29
+R21	has_rank Arg1:T31 Arg2:T30
+R22	has_title_or_role Arg1:T31 Arg2:T32
+R23	is_posted Arg1:T31 Arg2:T33
+R24	has_rank Arg1:T31 Arg2:T34
+R25	has_title_or_role Arg1:T35 Arg2:T36
+R26	is_posted Arg1:T39 Arg2:T37
+R27	has_rank Arg1:T39 Arg2:T38
+R28	has_title_or_role Arg1:T39 Arg2:T40
+R29	is_posted Arg1:T39 Arg2:T41
+R30	has_rank Arg1:T43 Arg2:T42
+R31	has_title_or_role Arg1:T43 Arg2:T44
+R32	is_posted Arg1:T43 Arg2:T45
+R33	has_rank Arg1:T47 Arg2:T46
+R34	has_title_or_role Arg1:T47 Arg2:T48
+R35	is_posted Arg1:T47 Arg2:T49
+R36	has_rank Arg1:T47 Arg2:T50
+R37	has_title_or_role Arg1:T47 Arg2:T52
+R38	is_posted Arg1:T59 Arg2:T53
+R39	has_rank Arg1:T66 Arg2:T54
+R40	has_title_or_role Arg1:T55 Arg2:T56
+R41	is_posted Arg1:T55 Arg2:T57
+R42	has_rank Arg1:T66 Arg2:T58
+R43	has_title_or_role Arg1:T59 Arg2:T60
+R44	has_rank Arg1:T66 Arg2:T61
+R45	has_title_or_role Arg1:T59 Arg2:T63
+R46	is_posted Arg1:T62 Arg2:T64
+R47	has_rank Arg1:T62 Arg2:T65
+R48	has_title_or_role Arg1:T66 Arg2:T67
+R49	is_posted Arg1:T66 Arg2:T68
+R50	has_rank Arg1:T66 Arg2:T69
+R51	has_title_or_role Arg1:T66 Arg2:T70
+R52	is_posted Arg1:T62 Arg2:T71
+R53	has_title_or_role Arg1:T74 Arg2:T72
+R54	has_rank Arg1:T74 Arg2:T73

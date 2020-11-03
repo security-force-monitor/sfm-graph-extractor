@@ -1,0 +1,30 @@
+T1	Organization 0 53	Troops Kill 50 Insurgents, As Army Chief Visits Borno
+T2	Title_Role 59 78	Chief of Army Staff
+T3	Rank 80 86	Lt-Gen
+T4	Person 88 105	Azubike Ihejirika
+T5	Organization 218 228	7 Division
+T6	Organization 232 245	Nigerian Army
+T7	Organization 333 355	Joint Task Force (JTF)
+T8	Organization 714 734	Agence France Presse
+T9	Location 839 846	Gajiran
+T10	Person 887 897	Sagir Musa
+T11	Organization 1306 1324	Maiduguri, Borno’s
+T12	Misclass 1652 1661	Islamists
+T13	Title_Role 1982 2019	Division’s General Officer Commanding
+T14	Rank 2021 2034	Major General
+T15	Person 2035 2047	Obidah Ethan
+T16	Organization 2375 2385	7 Division
+T17	Organization 2393 2406	Nigerian Army
+T18	Title_Role 2426 2457	Director of Defence Information
+T19	Rank 2459 2467	Brig-Gen
+T20	Person 2468 2483	Chris Olukolade
+T21	Title_Role 2690 2712	Chief of Defence Staff
+T22	Title_Role 2721 2740	Chief of Army Staff
+R1	has_title_or_role Arg1:T4 Arg2:T2
+R2	has_rank Arg1:T4 Arg2:T3
+R3	is_posted Arg1:T4 Arg2:T5
+R4	is_posted Arg1:T4 Arg2:T6
+R5	has_title_or_role Arg1:T15 Arg2:T13
+R6	has_rank Arg1:T15 Arg2:T14
+R7	has_title_or_role Arg1:T20 Arg2:T18
+R8	has_rank Arg1:T20 Arg2:T19

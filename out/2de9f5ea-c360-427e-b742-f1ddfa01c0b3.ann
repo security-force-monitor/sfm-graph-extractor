@@ -1,0 +1,11 @@
+T1	Organization 38 50	Bauchi State
+T2	Organization 56 69	Nigerian Army
+T3	Rank 167 176	Brig.-Gen
+T4	Person 178 190	Texas Chukwu
+T5	Title_Role 196 227	Director, Army Public Relations
+T6	Organization 337 357	33 Artillery Brigade
+T7	Organization 361 384	Operation “Lafiya Dole”
+T8	Organization 846 866	33 Artillery Brigade
+T9	Organization 883 903	operation Lafia Dole
+R1	has_rank Arg1:T4 Arg2:T3
+R2	has_title_or_role Arg1:T4 Arg2:T5

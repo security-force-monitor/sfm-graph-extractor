@@ -1,0 +1,30 @@
+T1	Organization 0 27	Army deploys another 800 to
+T2	Location 28 34	Darfur
+T3	Organization 111 124	Nigerian Army
+T4	Organization 237 292	Africa Union/United Nations Hybrid Operations in Darfur
+T5	Organization 415 428	333 Battalion
+T6	Rank 448 459	Lt. Colonel
+T7	Person 460 474	T. E. Gagariga
+T8	Organization 548 582	Nigerian Army Peace Keeping Centre
+T9	Title_Role 611 637	General Officer Commanding
+T10	Organization 644 663	3 Armoured Division
+T11	Rank 665 678	Major General
+T12	Person 679 690	Jack Nwogbo
+T13	Organization 938 950	3 Division’s
+T14	Title_Role 951 965	Chief of Staff
+T15	Rank 967 984	Brigadier General
+T16	Person 985 1000	James Akomolafe
+T17	Rank 1586 1599	Major General
+T18	Person 1600 1618	John Samuel Zaruwa
+T19	Location 2270 2276	Darfur
+T20	Location 2394 2400	Darfur
+R1	is_posted Arg1:T12 Arg2:T5
+R2	has_rank Arg1:T7 Arg2:T6
+R3	is_posted Arg1:T12 Arg2:T8
+R4	has_title_or_role Arg1:T12 Arg2:T9
+R5	is_posted Arg1:T12 Arg2:T10
+R6	has_rank Arg1:T12 Arg2:T11
+R7	is_posted Arg1:T16 Arg2:T13
+R8	has_title_or_role Arg1:T16 Arg2:T14
+R9	has_rank Arg1:T16 Arg2:T15
+R10	has_rank Arg1:T18 Arg2:T17

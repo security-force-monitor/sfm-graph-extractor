@@ -1,0 +1,116 @@
+T1	Rank 0 14	Major shake-up
+T2	Organization 18 31	Nigerian Army
+T3	Title_Role 66 85	Chief of Army Staff
+T4	Person 87 100	Tukur Buratai
+T5	Organization 455 463	37 Major
+T6	Organization 474 486	57 Brigadier
+T7	Organization 497 509	128 Colonels
+T8	Title_Role 594 621	General Officers Commanding
+T9	Organization 638 674	82 Divisions, Operations Pulo Shield
+T10	Organization 679 704	Safe Haven of Niger Delta
+T11	Location 709 723	Plateau States
+T12	Rank 771 784	Major General
+T13	Person 785 795	MA Koleoso
+T14	Title_Role 810 827	Commander TRADOC;
+T15	Rank 828 841	Major General
+T16	Person 842 850	SN Muazu
+T17	Organization 866 876	2 Division
+T18	Organization 880 908	Headquarters, Infantry Corps
+T19	Title_Role 923 933	Commander;
+T20	Rank 934 947	Major General
+T21	Person 948 958	MT Ibrahim
+T22	Organization 970 1012	Department of Army Standard and Evaluation
+T23	Organization 1016 1040	Nigerian Defence Academy
+T24	Rank 1063 1076	Major General
+T25	Person 1077 1088	LKJ Ogunewe
+T26	Title_Role 1100 1125	Chief of Policy and Plans
+T27	Rank 1127 1140	Major General
+T28	Person 1141 1148	FO Alli
+T29	Title_Role 1157 1189	Chief of Training and Operations
+T30	Rank 1194 1207	Major General
+T31	Person 1208 1217	AA Salihu
+T32	Title_Role 1219 1237	Chief of Logistics
+T33	Rank 1251 1264	Major General
+T34	Person 1265 1275	AG Okunola
+T35	Title_Role 1280 1289	Commander
+T36	Organization 1303 1320	PULO SHIELD (JTF)
+T37	Rank 1392 1405	Major General
+T38	Person 1406 1413	LW Wiwa
+T39	Title_Role 1421 1438	Deputy Commandant
+T40	Organization 1442 1483	Nigerian Armed Forces Resettlement Centre
+T41	Rank 1490 1503	Major General
+T42	Person 1504 1513	A Oyebade
+T43	Title_Role 1525 1551	General Officer Commanding
+T44	Organization 1552 1562	1 Division
+T45	Rank 1565 1578	Major General
+T46	Person 1579 1585	LC Ilo
+T47	Title_Role 1594 1620	General Officer Commanding
+T48	Organization 1621 1632	2 Division;
+T49	Rank 1633 1646	Major General
+T50	Person 1647 1654	H Umaru
+T51	Title_Role 1656 1682	General Officer Commanding
+T52	Organization 1683 1694	3 Division;
+T53	Rank 1695 1708	Major General
+T54	Person 1709 1716	IH Edet
+T55	Title_Role 1718 1744	General Officer Commanding
+T56	Organization 1745 1756	81 Division
+T57	Rank 1761 1778	Brigadier General
+T58	Person 1779 1795	Ibrahim Attahiru
+T59	Title_Role 1803 1836	Acting General Officer Commanding
+T60	Organization 1838 1849	82 Division
+T61	Rank 1852 1869	Brigadier General
+T62	Person 1870 1879	AT Hamman
+T63	Title_Role 1891 1914	Acting Provost Marshal;
+T64	Rank 1915 1932	Brigadier General
+T65	Person 1933 1945	LF Abdullahi
+T66	Title_Role 1947 1963	Acting Commander
+T67	Organization 1965 1994	Nigerian Army Education Corps
+T68	Rank 2001 2008	Colonel
+T69	Person 2009 2019	R Abubakar
+T70	Title_Role 2023 2038	Acting Director
+T71	Organization 2040 2059	Defence Information
+R1	has_title_or_role Arg1:T4 Arg2:T3
+R2	has_rank Arg1:T13 Arg2:T12
+R3	has_title_or_role Arg1:T16 Arg2:T14
+R4	has_rank Arg1:T16 Arg2:T15
+R5	is_posted Arg1:T16 Arg2:T17
+R6	is_posted Arg1:T16 Arg2:T18
+R7	has_title_or_role Arg1:T21 Arg2:T19
+R8	has_rank Arg1:T21 Arg2:T20
+R9	is_posted Arg1:T21 Arg2:T22
+R10	is_posted Arg1:T21 Arg2:T23
+R11	has_rank Arg1:T25 Arg2:T24
+R12	has_title_or_role Arg1:T25 Arg2:T26
+R13	has_rank Arg1:T28 Arg2:T27
+R14	has_title_or_role Arg1:T25 Arg2:T29
+R15	has_rank Arg1:T31 Arg2:T30
+R16	has_title_or_role Arg1:T31 Arg2:T32
+R17	has_rank Arg1:T34 Arg2:T33
+R18	has_title_or_role Arg1:T34 Arg2:T35
+R19	is_posted Arg1:T34 Arg2:T36
+R20	has_rank Arg1:T38 Arg2:T37
+R21	has_title_or_role Arg1:T38 Arg2:T39
+R22	is_posted Arg1:T38 Arg2:T40
+R23	has_rank Arg1:T42 Arg2:T41
+R24	has_title_or_role Arg1:T42 Arg2:T43
+R25	is_posted Arg1:T42 Arg2:T44
+R26	has_rank Arg1:T58 Arg2:T45
+R27	has_title_or_role Arg1:T46 Arg2:T47
+R28	is_posted Arg1:T50 Arg2:T48
+R29	has_rank Arg1:T58 Arg2:T49
+R30	has_title_or_role Arg1:T50 Arg2:T51
+R31	is_posted Arg1:T58 Arg2:T52
+R32	has_rank Arg1:T54 Arg2:T53
+R33	has_title_or_role Arg1:T54 Arg2:T55
+R34	is_posted Arg1:T50 Arg2:T56
+R35	has_rank Arg1:T58 Arg2:T57
+R36	has_title_or_role Arg1:T46 Arg2:T59
+R37	is_posted Arg1:T58 Arg2:T60
+R38	has_rank Arg1:T62 Arg2:T61
+R39	has_title_or_role Arg1:T62 Arg2:T63
+R40	has_rank Arg1:T65 Arg2:T64
+R41	has_title_or_role Arg1:T62 Arg2:T66
+R42	is_posted Arg1:T65 Arg2:T67
+R43	has_rank Arg1:T69 Arg2:T68
+R44	has_title_or_role Arg1:T69 Arg2:T70
+R45	is_posted Arg1:T69 Arg2:T71

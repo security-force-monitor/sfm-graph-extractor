@@ -1,0 +1,18 @@
+T1	Rank 0 8	Nigeria:
+T2	Person 9 31	Driver Beats Policeman
+T3	Organization 35 49	Death in Benin
+T4	Location 51 56	Benin
+T5	Location 127 137	Benin City
+T6	Title_Role 144 168	Public Relations Officer
+T7	Organization 172 196	Edo State Police Command
+T8	Rank 198 201	DSP
+T9	Person 202 212	Noble Uwoh
+T10	Organization 490 517	St. Saviour Police Division
+T11	Location 758 768	Uwa Street
+T12	Organization 772 791	First East Circular
+T13	Location 1507 1539	St. Maria Goretti Grammar School
+R1	has_rank Arg1:T2 Arg2:T1
+R2	is_posted Arg1:T2 Arg2:T3
+R3	has_title_or_role Arg1:T9 Arg2:T6
+R4	is_posted Arg1:T9 Arg2:T7
+R5	has_rank Arg1:T9 Arg2:T8

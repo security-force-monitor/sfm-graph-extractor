@@ -1,0 +1,25 @@
+T1	Organization 0 28	Nigeria deploys 700 soldiers
+T2	Location 32 39	Liberia
+T3	Organization 88 101	Nigerian Army
+T4	Organization 341 354	Nigerian Army
+T5	Title_Role 453 479	General Officer Commanding
+T6	Organization 486 496	1 Division
+T7	Organization 498 511	Nigerian Army
+T8	Rank 513 526	Major General
+T9	Person 527 540	Kenneth Osuji
+T10	Rank 696 703	General
+T11	Person 704 709	Osuji
+T12	Title_Role 721 724	GOC
+T13	Organization 732 741	1 Brigade
+T14	Organization 767 785	Nigerian Battalion
+T15	Organization 804 845	United Nations Mission in Liberia (UNMIL)
+T16	Organization 1022 1035	Nigerian Army
+R1	has_title_or_role Arg1:T9 Arg2:T5
+R2	is_posted Arg1:T9 Arg2:T6
+R3	is_posted Arg1:T9 Arg2:T7
+R4	has_rank Arg1:T9 Arg2:T8
+R5	has_rank Arg1:T11 Arg2:T10
+R6	has_title_or_role Arg1:T11 Arg2:T12
+R7	is_posted Arg1:T11 Arg2:T13
+R8	is_posted Arg1:T11 Arg2:T14
+R9	is_posted Arg1:T11 Arg2:T15

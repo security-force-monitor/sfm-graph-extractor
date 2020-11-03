@@ -1,0 +1,9 @@
+T1	Location 76 81	Lagos
+T2	Title_Role 584 609	Divisional Police Officer
+T3	Rank 611 641	Chief Superintendent of Police
+T4	Person 643 657	Ambrose Agbedo
+T5	Organization 975 1021	Nigerian National Petroleum Corporation.(NNPC)
+T6	Person 1048 1062	Chucks Okonkwo
+T7	Organization 2393 2408	Police Division
+R1	has_title_or_role Arg1:T4 Arg2:T2
+R2	has_rank Arg1:T4 Arg2:T3

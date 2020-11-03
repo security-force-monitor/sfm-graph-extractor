@@ -1,0 +1,28 @@
+T1	Organization 35 76	Peace Keeping Operations in Liberia- Army
+T2	Organization 179 192	Nigerian Army
+T3	Organization 222 256	Peace Support Operation in Liberia
+T4	Title_Role 293 303	Commandant
+T5	Organization 305 337	Nigeria Army Peacekeeping Centre
+T6	Rank 339 352	Major General
+T7	Person 353 363	Salihu Uba
+T8	Organization 445 457	22 Battalion
+T9	Organization 863 876	Nigerian Army
+T10	Person 1051 1054	Uba
+T11	Organization 1173 1187	United Nations
+T12	Organization 1192 1212	Centre of Excellence
+T13	Title_Role 1219 1245	General Officer Commanding
+T14	Organization 1246 1256	2 Division
+T15	Rank 1258 1271	Major General
+T16	Person 1272 1284	Ahmad Jibrin
+T17	Rank 1407 1424	Brigadier General
+T18	Person 1425 1441	Johnson Oladende
+T19	Organization 1650 1663	Nigerian Army
+R1	has_title_or_role Arg1:T7 Arg2:T4
+R2	is_posted Arg1:T7 Arg2:T5
+R3	has_rank Arg1:T7 Arg2:T6
+R4	is_posted Arg1:T10 Arg2:T11
+R5	is_posted Arg1:T10 Arg2:T12
+R6	has_title_or_role Arg1:T16 Arg2:T13
+R7	is_posted Arg1:T16 Arg2:T14
+R8	has_rank Arg1:T16 Arg2:T15
+R9	has_rank Arg1:T18 Arg2:T17

@@ -1,0 +1,29 @@
+T1	Organization 26 29	JTF
+T2	Location 51 59	Damaturu
+T3	Misclass 88 95	Islamic
+T4	Organization 177 198	Joint Task Force, JTF
+T5	Person 317 327	Habib Bama
+T6	Title_Role 851 889	Acting Police Public Relations Officer
+T7	Rank 891 894	ASP
+T8	Person 895 911	Gbadegesin Toyin
+T9	Organization 1244 1247	JTF
+T10	Organization 1534 1579	Army promotes captors of Boko Haram commander
+T11	Title_Role 1596 1615	Chief of Army Staff
+T12	Rank 1617 1628	Lt. General
+T13	Person 1629 1647	Onyeabor Ihejirika
+T14	Organization 2003 2016	Nigerian Army
+T15	Organization 2303 2316	Nigerian Army
+T16	Person 2865 2875	Habib Bama
+T17	Organization 3008 3012	Army
+T18	Organization 3050 3060	—Ihejirika
+T19	Rank 3740 3747	Colonel
+T20	Person 3748 3763	Charles Iroagbu
+T21	Title_Role 3765 3792	Director of Army Chaplaincy
+T22	Organization 3815 3827	Nigeria Army
+R1	has_title_or_role Arg1:T8 Arg2:T6
+R2	has_rank Arg1:T8 Arg2:T7
+R3	has_title_or_role Arg1:T13 Arg2:T11
+R4	has_rank Arg1:T13 Arg2:T12
+R5	has_rank Arg1:T20 Arg2:T19
+R6	has_title_or_role Arg1:T20 Arg2:T21
+R7	is_posted Arg1:T20 Arg2:T22

@@ -1,0 +1,26 @@
+T1	Organization 60 73	Nigerian Army
+T2	Title_Role 221 240	Chief of Army Staff
+T3	Rank 242 249	Lt.-Gen
+T4	Person 251 264	Tukur Buratai
+T5	Organization 363 376	Nigerian Army
+T6	Organization 385 409	Nigerian Military School
+T7	Organization 1092 1104	Armed Forces
+T8	Person 1705 1710	Army;
+T9	Misclass 1753 1757	Army
+T10	Misclass 1863 1867	Army
+T11	Organization 2340 2368	News Agency of Nigeria (NAN)
+T12	Title_Role 2386 2396	Commandant
+T13	Title_Role 2404 2409	Depot
+T14	Organization 2411 2424	Nigerian Army
+T15	Rank 2426 2435	Brig.-Gen
+T16	Person 2437 2453	Christopher Musa
+T17	Organization 2690 2714	Nigerian Military School
+R1	has_title_or_role Arg1:T4 Arg2:T2
+R2	has_rank Arg1:T4 Arg2:T3
+R3	is_posted Arg1:T4 Arg2:T5
+R4	is_posted Arg1:T4 Arg2:T6
+R5	is_posted Arg1:T16 Arg2:T11
+R6	has_title_or_role Arg1:T16 Arg2:T12
+R7	has_title_or_role Arg1:T16 Arg2:T13
+R8	is_posted Arg1:T16 Arg2:T14
+R9	has_rank Arg1:T16 Arg2:T15

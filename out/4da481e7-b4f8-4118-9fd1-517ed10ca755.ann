@@ -1,0 +1,14 @@
+T1	Organization 0 49	Army explains role of new Division in Niger Delta
+T2	Organization 55 68	Nigerian Army
+T3	Organization 92 102	6 Division
+T4	Rank 229 237	Maj.-Gen
+T5	Person 239 256	Kasimu Abdulkarim
+T6	Title_Role 270 296	General Officer Commanding
+T7	Person 378 388	Abdulkarim
+T8	Organization 610 619	2 Brigade
+T9	Organization 631 641	16 Brigade
+T10	Organization 654 664	63 Brigade
+T11	Person 1231 1241	Abdulkarim
+T12	Organization 1721 1731	6 Division
+R1	has_rank Arg1:T5 Arg2:T4
+R2	has_title_or_role Arg1:T5 Arg2:T6

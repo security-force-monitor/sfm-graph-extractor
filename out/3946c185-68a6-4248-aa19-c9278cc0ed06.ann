@@ -1,0 +1,65 @@
+T1	Organization 38 42	COAS
+T2	Title_Role 57 76	Chief of Army Staff
+T3	Rank 78 85	Lt.-Gen
+T4	Person 87 105	Azubuike Ihejirika
+T5	Organization 264 303	Counter Terrorism and Insurgency Centre
+T6	Title_Role 340 349	Commander
+T7	Organization 351 365	Guards Brigade
+T8	Rank 367 376	Brig.-Gen
+T9	Person 378 392	Emmanuel Atewe
+T10	Organization 483 507	Counter Terrorism Centre
+T11	Rank 509 518	Brig.-Gen
+T12	Person 520 532	Tijani Golau
+T13	Title_Role 737 746	Commander
+T14	Organization 747 764	Brigade of Guards
+T15	Rank 766 775	Brig.-Gen
+T16	Person 777 791	Emmanuel Atewe
+T17	Person 1211 1220	Ihejirika
+T18	Title_Role 1439 1461	Director of the Centre
+T19	Rank 1463 1472	Brig.-Gen
+T20	Person 1474 1487	Tijjani Golau
+T21	Organization 1637 1657	Basic Special Forces
+T22	Title_Role 2012 2030	Commandant-General
+T23	Organization 2038 2078	Nigeria Security and Civil Defence Corps
+T24	Person 2083 2095	Olu Abolurin
+T25	Person 2256 2271	Suleiman Akanbi
+T26	Title_Role 2277 2302	Deputy Commandant-General
+T27	Location 2533 2538	Sudan
+T28	Organization 2562 2571	GOC 1 Div
+T29	Rank 2574 2582	Maj.-Gen
+T30	Person 2584 2595	Garba Wahab
+T31	Title_Role 2601 2627	General Officer Commanding
+T32	Organization 2634 2644	1 Division
+T33	Organization 2646 2659	Nigerian Army
+T34	Organization 2819 2831	26 Battalion
+T35	Organization 2872 2905	Nigerian Army Peacekeeping Centre
+T36	Organization 2961 2973	26 Battalion
+T37	Organization 3196 3209	Nigerian Army
+T38	Person 3532 3537	Wahab
+T39	Organization 3634 3642	UNAMID’s
+T40	Location 3851 3856	Sudan
+T41	Title_Role 3936 3946	Commandant
+T42	Rank 3962 3970	Maj.-Gen
+T43	Person 3972 3982	J.S Zaruwa
+R1	has_title_or_role Arg1:T4 Arg2:T2
+R2	has_rank Arg1:T4 Arg2:T3
+R3	has_title_or_role Arg1:T9 Arg2:T6
+R4	is_posted Arg1:T9 Arg2:T7
+R5	has_rank Arg1:T9 Arg2:T8
+R6	is_posted Arg1:T12 Arg2:T10
+R7	has_rank Arg1:T12 Arg2:T11
+R8	has_title_or_role Arg1:T16 Arg2:T13
+R9	is_posted Arg1:T16 Arg2:T14
+R10	has_rank Arg1:T16 Arg2:T15
+R11	has_title_or_role Arg1:T20 Arg2:T18
+R12	has_rank Arg1:T20 Arg2:T19
+R13	has_title_or_role Arg1:T24 Arg2:T22
+R14	is_posted Arg1:T24 Arg2:T23
+R15	has_title_or_role Arg1:T25 Arg2:T26
+R16	has_rank Arg1:T30 Arg2:T29
+R17	has_title_or_role Arg1:T30 Arg2:T31
+R18	is_posted Arg1:T30 Arg2:T32
+R19	is_posted Arg1:T30 Arg2:T33
+R20	is_posted Arg1:T38 Arg2:T39
+R21	has_title_or_role Arg1:T43 Arg2:T41
+R22	has_rank Arg1:T43 Arg2:T42

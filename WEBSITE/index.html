@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <head>
+
+  <title>KGE</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <!-- BRAT Viewer Dependency -->
+  <script type="text/javascript" src="js/head.js"></script>
+  <script type="text/javascript" src="js/brat_loader.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" type="text/css" href="css/style-vis.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+  </head>
+
+  <body>
+
+    <div class="pre-navbar">
+      <p>A tool from <a href="https://securityforcemonitor.org">Security Force Monitor</a></p>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand kge_title" href="#">Knowledge Graph <strong>Extraction</strong></a>
+      <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Examples
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#" id="ex1">Example 1</a>
+              <a class="dropdown-item" href="#" id="ex2">Example 2</a>
+              <a class="dropdown-item" href="#" id="ex3">Example 3</a>
+            </div>
+          </li> -->
+          <li class="nav-item" id="paper_nav">
+            <a class="nav-link" href="#">Paper</a>
+          </li>
+
+          <li class="nav-item" id="package_nav">
+            <a class="nav-link" href="https://pypi.org/project/extract-sfm/">Package</a>
+          </li>
+
+          <!-- <li class="nav-item" id="github_nav">
+            <a class="nav-link" href="#">GitHub</a>
+          </li> -->
+
+          <li class="nav-item" id="about_nav">
+            <a class="nav-link" href="#">About</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+
+    <!-- <div class="kge_title">
+      <a>Knowledge Graph <strong>Extraction</strong></a>
+    </div> -->
+
+    <div id="home">
+      <div class="w3-container input_area">
+        <div id="textarea_explanation">You can copy and paste your own document here. Remove any title or header and then click the 'EXTRACT' button.<br>
+          You can also try some example documents here:
+          <a class="text_generator" id="ex1">Example 1</a>,
+          <a class="text_generator" id="ex2">Example 2</a>,
+          <a class="text_generator" id="ex3">Example 3</a></div>
+        <textarea name="the-textarea" id="input_txtbox" maxlength="1024" placeholder="Input text..."></textarea>
+        <div class="loader" id="processing_kge"></div>
+        <button type="button" id="extract_btn" class="after_loading">Extract</button>
+        <nobr id="the-count" class="after_loading">
+          <span id="current">0</span>
+          <span id="maximum">/ 1000</span>
+        </nobr>
+      </div>
+
+      <hr>
+
+      <div class="w3-container">
+        <form action="upload" method="post" enctype="multipart/form-data" id="input_form" class="after_loading">
+          Or you can upload a text file (.txt):
+          <br>
+          <label for="file_selected" id="file_selection_label">Select a text file...</label>
+          <input name="inputfile" type="file" id="file_selected">
+          <label for="file_submit" id="file_submit_label">Upload</label>
+          <input type="submit" name="submit" id="file_submit">
+        </form>
+      </div>
+
+      <hr>
+
+      <!-- OUTPUT -->
+      <div class="w3-container">
+        <div id="load_warning">It takes several seconds to load the brat visualizers</div>
+      </div>
+
+      <!-- <div id="wrapper">
+
+        <div id="left">
+          <h3> Shortest Dependency Path </h3>
+          <div class = "io_area" id="SDP_graph"></div>
+        </div>
+
+        <div id="right">
+          <h3> Neural Network </h3>
+          <div class = "io_area" id="NN_graph"></div>
+        </div>
+
+      </div> -->
+
+
+      <div style="width: 100%; overflow: hidden;" class="w3-container">
+          <div style="width: 48%; float: left;">
+            <h3> Shortest Dependency Path </h3>
+            <div>Given a name entity, this method relates it to a person such that the length of the dependency path between them is the shortest.</div>
+          </div>
+          <div style="width: 48%; margin-left: 52%;">
+            <h3> Neural Network </h3>
+            <div>This method feeds the dependency path, its length and the category of a name entity to a neural network. Then the neural network decides which person is the best match in the sentence.</div>
+          </div>
+      </div>
+
+      <div style="width: 100%; overflow: hidden; padding-bottom: 50px;" class="w3-container">
+          <div style="width: 48%; float: left;">
+            <div class="loader brat_loading"></div>
+            <div class="io_area" id="SDP_graph"></div>
+            <br>
+            <button type="button" id="download_sdp_ann" class="after_loading">Download Annotation</button>
+          </div>
+          <div style="width: 48%; margin-left: 52%;">
+            <div class="loader brat_loading"></div>
+            <div class="io_area" id="NN_graph"></div>
+            <br>
+            <button type="button" id="download_nn_ann" class="after_loading">Download Annotation</button>
+          </div>
+      </div>
+
+      <div id="wrapper">
+          <button type="button" id="download_txt" class="after_loading">Download Text</button>
+      </div>
+
+      <!-- <div id="wrapper">
+        <button type="button">hello</button>
+      </div> -->
+
+      <!-- <section class="indent-1">
+          <section>
+            <div id="SDP_graph"></div>
+          </section>
+
+          <section>
+            <div id="NN_graph"></div>
+          </section>
+      </section> -->
+
+      <!-- <div class="row">
+        <div class="column">
+          <div id="SDP_graph"></div>
+        </div>
+        <div class="column">
+          <div id="NN_graph"></div>
+        </div>
+      </div> -->
+      <!-- <div class="w3-bar w3-black">
+        <button class="w3-bar-item w3-button" onclick="openCity('London')">Nearest Person</button>
+        <button class="w3-bar-item w3-button" onclick="openCity('Paris')">Shortest Dependency Path</button>
+        <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">Neural Network</button>
+      </div>
+      <div id="London" class="city">
+        <h2>Nearest Person</h2>
+        <button type="button">Download BRAT Files</button>
+        <br><br>
+        <div id="SDP_graph"></div>
+      </div>
+
+      <div id="Paris" class="city" style="display:none">
+        <h2>Shortest Dependency Path</h2>
+        <button type="button">Download BRAT Files</button>
+        <br><br>
+        <div id="NN_graph"></div>
+      </div>
+
+      <div id="Tokyo" class="city" style="display:none">
+        <h2>Neural Network</h2>
+        <button type="button">Download BRAT Files</button>
+        <br><br>
+        <textarea name="paragraph_text" cols="80" rows="30"></textarea>
+      </div> -->
+
+    </div>
+
+
+    <div id="about">
+      <div class="w3-container">
+        About this website
+      </div>
+    </div>
+
+
+  </body>
+</html>

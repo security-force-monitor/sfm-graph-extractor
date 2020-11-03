@@ -1,0 +1,24 @@
+T1	Organization 0 53	Nigerian Army Updates Officers On Operations Planning
+T2	Organization 187 201	Three Division
+T3	Organization 205 217	Nigeria Army
+T4	Title_Role 368 394	General Officer Commanding
+T5	Rank 411 424	Major General
+T6	Person 425 444	Ebobowei Bona Awala
+T7	Person 870 875	Awala
+T8	Title_Role 1496 1505	Commander
+T9	Organization 1513 1531	Special Task Force
+T10	Rank 1533 1546	Major General
+T11	Person 1547 1559	Henry Ayoola
+T12	Organization 1561 1594	Commander of Supply and Transport
+T13	Rank 1612 1619	Colonel
+T14	Person 1620 1633	Charles Idowu
+T15	Organization 1751 1761	21 Brigade
+T16	Organization 1774 1784	23 Brigade
+T17	Organization 1795 1812	33 Brigade Bauchi
+R1	has_title_or_role Arg1:T6 Arg2:T4
+R2	has_rank Arg1:T6 Arg2:T5
+R3	has_title_or_role Arg1:T14 Arg2:T8
+R4	is_posted Arg1:T11 Arg2:T9
+R5	has_rank Arg1:T11 Arg2:T10
+R6	is_posted Arg1:T11 Arg2:T12
+R7	has_rank Arg1:T14 Arg2:T13

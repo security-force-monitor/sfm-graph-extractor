@@ -1,0 +1,24 @@
+T1	Person 210 222	James Ocholi
+T2	Title_Role 319 351	Chief of Training and Operations
+T3	Organization 359 371	Nigeria Army
+T4	Rank 372 385	Major General
+T5	Person 386 410	Yusha’u Mahmood Abubakar
+T6	Title_Role 487 504	Theatre Commander
+T7	Organization 508 530	Operation Zaman Lafiya
+T8	Title_Role 688 721	Acting General Officer Commanding
+T9	Organization 741 760	3 Armoured Division
+T10	Rank 761 770	Brigadier
+T11	Person 771 783	M.S.A. Aliyu
+T12	Location 1411 1417	Europe
+T13	Rank 1508 1515	General
+T14	Person 1516 1526	Abubakar’s
+T15	Organization 1679 1704	Federal Road Safety Corps
+R1	has_title_or_role Arg1:T1 Arg2:T2
+R2	is_posted Arg1:T1 Arg2:T3
+R3	has_rank Arg1:T5 Arg2:T4
+R4	has_title_or_role Arg1:T11 Arg2:T6
+R5	is_posted Arg1:T11 Arg2:T7
+R6	has_title_or_role Arg1:T11 Arg2:T8
+R7	is_posted Arg1:T11 Arg2:T9
+R8	has_rank Arg1:T11 Arg2:T10
+R9	has_rank Arg1:T14 Arg2:T13

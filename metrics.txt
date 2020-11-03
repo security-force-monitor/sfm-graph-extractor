@@ -1,0 +1,68 @@
+NER FINAL MODEL
+  > Nov_20_examples.txt
+  =============== Class:  Person ===============
+    tp, fp, fn counts:  [87, 13, 6]
+    Precision:  0.87
+    Recall:  0.9354838709677419
+    F1 score:  0.9015544041450777
+
+  =============== Class:  Rank ===============
+    tp, fp, fn counts:  [80, 14, 11]
+    Precision:  0.851063829787234
+    Recall:  0.8791208791208791
+    F1 score:  0.8648648648648649
+
+  =============== Class:  Organization ===============
+    tp, fp, fn counts:  [103, 33, 31]
+    Precision:  0.7573529411764706
+    Recall:  0.7686567164179104
+    F1 score:  0.762962962962963
+
+  =============== Class:  Title_Role ===============
+    tp, fp, fn counts:  [85, 20, 23]
+    Precision:  0.8095238095238095
+    Recall:  0.7870370370370371
+    F1 score:  0.7981220657276995
+
+  =============== All classes ===============
+    Precision:  0.8160919540229885
+    Recall:  0.8333333333333334
+    F1 score:  0.8246225319396051
+
+
+
+
+
+RE: nearest person
+  Precision: 0.5667808219178082
+  	 993 / 1752
+  Recall: 0.701271186440678
+  	 993 / 1416
+  F1 score: 0.6268939393939393
+
+RE: shortest path in dep parse tree
+  Precision: 0.6245674740484429
+     1083 / 1734
+  Recall: 0.7648305084745762
+     1083 / 1416
+
+RE: shortest path in dep parse tree w/ constraint
+  Precision: 0.6785508913168488
+  	 1180 / 1739
+  Recall: 0.8333333333333334
+  	 1180 / 1416
+  F1 score: 0.7480190174326466
+
+RE: neural networks
+  Precision: 0.6195094124358242
+  	 1086 / 1753
+  Recall: 0.7669491525423728
+  	 1086 / 1416
+  F1 score: 0.6853897128431682
+
+RE: neural networks w/ constraint
+  Precision: 0.7102382485511912
+     1103 / 1553
+  Recall: 0.778954802259887
+     1103 / 1416
+  F1 score: 0.743011114853486

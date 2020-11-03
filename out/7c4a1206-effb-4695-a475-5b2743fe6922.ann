@@ -1,0 +1,12 @@
+T1	Person 17 27	Shoot Ondo
+T2	Title_Role 52 78	General Officer Commanding
+T3	Organization 79 89	2 Division
+T4	Rank 106 115	Major Gen
+T5	Person 117 134	Mohammed Abubakar
+T6	Organization 485 505	32 Artillery Brigade
+T7	Person 1522 1530	Abubakar
+T8	Location 1803 1810	Dangote
+T9	Organization 1881 1894	Nigerian Army
+R1	has_title_or_role Arg1:T5 Arg2:T2
+R2	is_posted Arg1:T5 Arg2:T3
+R3	has_rank Arg1:T5 Arg2:T4

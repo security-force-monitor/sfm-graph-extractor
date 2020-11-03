@@ -1,0 +1,3 @@
+include extract_sfm/jPTDP-master/.DyNet/include/python2.7
+include extract_sfm/jPTDP-master/.DyNet/lib/python2.7
+include extract_sfm/*

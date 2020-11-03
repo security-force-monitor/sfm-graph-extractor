@@ -1,0 +1,35 @@
+T1	Rank 46 59	Major General
+T2	Person 60 70	Fatai Alli
+T3	Title_Role 72 98	General Officer Commanding
+T4	Organization 106 116	3 Division
+T5	Organization 124 137	Nigerian Army
+T6	Person 266 270	Alli
+T7	Rank 419 432	Major General
+T8	Rank 577 585	Maj.-Gen
+T9	Person 587 603	Chris Ogunkolade
+T10	Title_Role 609 617	Director
+T11	Organization 619 638	Defence Information
+T12	Organization 760 788	News Agency of Nigeria (NAN)
+T13	Person 1075 1079	Alli
+T14	Rank 1487 1495	Brig-Gen
+T15	Person 1496 1510	Victor Ezeugwu
+T16	Title_Role 1516 1534	Commanding Officer
+T17	Organization 1536 1557	28 Task Force Brigade
+T18	Person 1938 1945	Michika
+T19	Title_Role 2080 2104	Divisional Police Office
+T20	Organization 2469 2481	Emir of Mubi
+T21	Rank 2483 2489	Alhaji
+T22	Person 2490 2505	Abubakar Ahmadu
+T23	Person 2612 2618	Ahmadu
+R1	has_rank Arg1:T2 Arg2:T1
+R2	has_title_or_role Arg1:T2 Arg2:T3
+R3	is_posted Arg1:T2 Arg2:T4
+R4	is_posted Arg1:T2 Arg2:T5
+R5	has_rank Arg1:T9 Arg2:T8
+R6	has_title_or_role Arg1:T9 Arg2:T10
+R7	is_posted Arg1:T9 Arg2:T11
+R8	has_rank Arg1:T15 Arg2:T14
+R9	has_title_or_role Arg1:T15 Arg2:T16
+R10	is_posted Arg1:T15 Arg2:T17
+R11	is_posted Arg1:T22 Arg2:T20
+R12	has_rank Arg1:T22 Arg2:T21

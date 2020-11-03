@@ -1,0 +1,36 @@
+T1	Rank 0 17	Brigadier General
+T2	Person 18 24	Laleye
+T3	Organization 39 51	APR Director
+T4	Title_Role 66 97	Director, Army Public Relations
+T5	Rank 99 116	Brigadier General
+T6	Person 117 133	Ibrahim Attahiru
+T7	Rank 293 310	Brigadier-General
+T8	Person 311 325	Olajide Laleye
+T9	Rank 327 334	General
+T10	Person 335 343	Attahiru
+T11	Title_Role 522 552	Director, Army Public Relation
+T12	Rank 554 571	Brigadier General
+T13	Person 572 586	Olajide Laleye
+T14	Organization 672 707	Radio Nigeria Defence Correspondent
+T15	Title_Role 747 778	Director, Army Public Relations
+T16	Rank 780 787	General
+T17	Person 788 794	Laleye
+T18	Title_Role 805 814	Commander
+T19	Organization 816 837	One Division Garrison
+T20	Title_Role 895 904	Commander
+T21	Organization 912 930	Thirteenth Brigade
+R1	has_rank Arg1:T2 Arg2:T1
+R2	is_posted Arg1:T2 Arg2:T3
+R3	has_title_or_role Arg1:T6 Arg2:T4
+R4	has_rank Arg1:T6 Arg2:T5
+R5	has_rank Arg1:T10 Arg2:T7
+R6	has_rank Arg1:T10 Arg2:T9
+R7	has_title_or_role Arg1:T13 Arg2:T11
+R8	has_rank Arg1:T13 Arg2:T12
+R9	is_posted Arg1:T17 Arg2:T14
+R10	has_title_or_role Arg1:T17 Arg2:T15
+R11	has_rank Arg1:T17 Arg2:T16
+R12	has_title_or_role Arg1:T17 Arg2:T18
+R13	is_posted Arg1:T17 Arg2:T19
+R14	has_title_or_role Arg1:T17 Arg2:T20
+R15	is_posted Arg1:T17 Arg2:T21
