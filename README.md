@@ -42,7 +42,8 @@ Under the project root directory, run the python script
 ```shell
 $ python pipeline.py /PATH/TO/DIRECTORY/OF/INPUT/FILES
 ```
-> Note: Use absolute path.
+> Note 1: Use absolute path.<br>
+> Note 2: Using time_pipeline.py instead of pipeline.py will produce an additional "time.txt" file, which includes how much time each component of the pipeline takes to run.
 
 
 ## Website
