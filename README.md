@@ -1,4 +1,14 @@
-# Knowledge Graph Extraction
+# NLP in Human Rights Research - Extracting Knowledge Graphs About Police and Army Units and Their Commanders
+
+This repository hosts the code of an NLP system developed during a research collaboration between Security Force Monitor, a project of the Human Rights Institute at Columbia Law School, and [Dr Daniel Bauer](http://www.cs.columbia.edu/~bauer/) of the Computer Science Department at Columbia University, and Yueen Ma, a post-graduate student at the same.
+
+Our resulting working paper "[NLP in Human Rights Research - Extracting Knowledge Graphs About Police and Army Units and Their Commanders](https://arxiv.org/abs/2201.05230)", published January 2021, discusses the system's purpose, development, outcomes and performance.
+
+## Training data
+
+The training data used to build the model is hosted in the our [nlp_starter_dataset repository](https://github.com/security-force-monitor/nlp_starter_dataset). 
+
+## Knowledge Graph Extraction
 
 We designed a pipeline that can extract a special kind of knowledge graphs where a person's name will be recognized and his/her rank, role, title and organization will be related to him/her. It is not expected to perform perfectly so that all relevant persons will be recognized and all irrelevant persons will be excluded. Rather, it is seen as a first step to reduce the workload that is involved to manually extract such knowledge by combing through a large amount of documents.
 
